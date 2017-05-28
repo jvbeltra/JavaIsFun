@@ -18,7 +18,13 @@
         </activity>
         <activity android:name=".EasyActivity" />
         <activity android:name=".MediumActivity" />
-        <activity android:name=".HardActivity"></activity>
+        <activity android:name=".HardActivity" />
+        <activity android:name=".OQueEJava" />
+        <activity android:name=".Variaveis" />
+        <activity android:name=".Modificadores" />
+        <activity android:name=".Operadores" />
+        <activity android:name=".Classe" />
+        <activity android:name=".Metodos"></activity>
     </application>
 
 </manifest>
