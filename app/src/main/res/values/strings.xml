@@ -1,4 +1,23 @@
 <resources>
     <string name="app_name">JavaIsFun</string>
 
+    <string name="textView1">perguntaperguntapergunta</string>
+    <string name="button5">O que é java?</string>
+    <string name="button6">Variáveis</string>
+    <string name="button7">Modificadores</string>
+    <string name="button8">Operadores</string>
+    <string name="button9">Classe</string>
+    <string name="button10">Métodos</string>
+    <string name="menu">Menu</string>
+    <string name="button1_medium">Scanner</string>
+    <string name="button2_medium">Cálculos</string>
+    <string name="button3_medium">Condição</string>
+    <string name="button4_medium">Laço de repetição</string>
+    <string name="button1_hard">Vetores</string>
+    <string name="button2_hard">Matrizes</string>
+    <string name="button3_hard">Objetos</string>
+    <string name="menu_hard">Menu</string>
+    <string name="menu_medium">Menu</string>
+    <string name="nome">nome;</string>
+
 </resources>
