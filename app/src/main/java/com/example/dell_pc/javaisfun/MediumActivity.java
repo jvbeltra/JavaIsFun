@@ -6,6 +6,12 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class MediumActivity extends AppCompatActivity {
 
@@ -13,7 +19,25 @@ public class MediumActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medium);
+
+        //spinner
+        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+
+        spinner.setOnItemSelectedListener((AdapterView.OnItemSelectedListener) this);
+
+        ArrayList<String> categories = new ArrayList<String>();
+        categories.add("int");
+        categories.add("float");
+        categories.add("String");
+
+        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
+
+        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
+
+        spinner.setAdapter(dataAdapter);
+
     }
+
 
 
     public void TextDialog(View view){
