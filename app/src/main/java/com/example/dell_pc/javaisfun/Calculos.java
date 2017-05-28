@@ -6,31 +6,14 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
-import android.widget.Toast;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import java.util.ArrayList;
-import java.util.List;
-import android.app.Activity;
 
-
-public class MediumActivity extends AppCompatActivity {
+public class Calculos extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_medium);
-
-
-
+        setContentView(R.layout.activity_calculos);
     }
-
-
-
-
     public void TextDialog(View view){
         AlertDialog.Builder builder;
 
@@ -40,7 +23,7 @@ public class MediumActivity extends AppCompatActivity {
                 .setMessage("Você tem certeza que quer voltar ao menu principal?")
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(MediumActivity.this, MainActivity.class);
+                        Intent intent = new Intent(Calculos.this, MainActivity.class);
                         startActivity(intent);
                     }
                 })
@@ -52,21 +35,5 @@ public class MediumActivity extends AppCompatActivity {
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
     }
-    public void Scanner (View view){
-            Intent intent = new Intent(this, Scanner.class);
-            startActivity(intent);
 
-        }
-    public void Calculos (View view){
-        Intent intent = new Intent(this, Calculos.class);
-        startActivity(intent);
-    }
-    public void Condicao (View view){
-        Intent intent = new Intent(this, Condicao.class);
-        startActivity(intent);
-    }
-    public void LacoDeRepeticao (View view){
-        Intent intent = new Intent (this, LacoDeRepeticao.class);
-        startActivity(intent);
-    }
 }

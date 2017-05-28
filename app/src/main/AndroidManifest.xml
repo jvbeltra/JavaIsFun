@@ -24,7 +24,11 @@
         <activity android:name=".Modificadores" />
         <activity android:name=".Operadores" />
         <activity android:name=".Classe" />
-        <activity android:name=".Metodos"></activity>
+        <activity android:name=".Metodos" />
+        <activity android:name=".Scanner" />
+        <activity android:name=".Calculos" />
+        <activity android:name=".Condicao" />
+        <activity android:name=".LacoDeRepeticao"></activity>
     </application>
 
 </manifest>

@@ -41,7 +41,8 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintHorizontal_bias="0.075"
-        app:layout_constraintVertical_bias="0.479" />
+        app:layout_constraintVertical_bias="0.479"
+        android:onClick="Scanner"/>
 
     <Button
         android:id="@+id/button12"
@@ -57,7 +58,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         app:layout_constraintHorizontal_bias="0.9"
-        app:layout_constraintVertical_bias="0.479" />
+        app:layout_constraintVertical_bias="0.479"
+        android:onClick="Calculos"/>
 
     <Button
         android:id="@+id/button13"
@@ -73,7 +75,8 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintHorizontal_bias="0.075"
-        app:layout_constraintVertical_bias="0.662" />
+        app:layout_constraintVertical_bias="0.662"
+        android:onClick="Condicao" />
 
     <Button
         android:id="@+id/button14"
@@ -89,6 +92,7 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintHorizontal_bias="0.961"
-        app:layout_constraintVertical_bias="0.662" />
+        app:layout_constraintVertical_bias="0.662"
+        android:onClick="LacoDeRepeticao"/>
 
 </android.support.constraint.ConstraintLayout>
