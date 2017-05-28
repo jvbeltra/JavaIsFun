@@ -7,12 +7,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class HardActivity extends AppCompatActivity {
+import java.io.ObjectOutputStream;
+
+public class Objetos extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hard);
+        setContentView(R.layout.activity_objetos);
     }
     public void TextDialog(View view){
         AlertDialog.Builder builder;
@@ -23,7 +25,7 @@ public class HardActivity extends AppCompatActivity {
                 .setMessage("Você tem certeza que quer voltar ao menu principal?")
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(HardActivity.this, MainActivity.class);
+                        Intent intent = new Intent(Objetos.this, MainActivity.class);
                         startActivity(intent);
                     }
                 })
@@ -34,17 +36,5 @@ public class HardActivity extends AppCompatActivity {
                 })
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
-    }
-    public void Vetores (View view){
-        Intent intent = new Intent (this, Vetores.class);
-        startActivity(intent);
-    }
-    public void Matrizes (View view){
-        Intent intent = new Intent(this, Matrizes.class);
-        startActivity(intent);
-    }
-    public void Objetos (View view){
-        Intent intent = new Intent(this, Objetos.class);
-        startActivity(intent);
     }
 }

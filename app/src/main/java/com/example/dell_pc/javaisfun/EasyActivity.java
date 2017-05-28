@@ -51,7 +51,6 @@ public class EasyActivity extends AppCompatActivity {
 
     }
 
-
     public void operadores(View view){
         Intent intent = new Intent(this, Operadores.class);
         startActivity(intent);

@@ -28,7 +28,10 @@
         <activity android:name=".Scanner" />
         <activity android:name=".Calculos" />
         <activity android:name=".Condicao" />
-        <activity android:name=".LacoDeRepeticao"></activity>
+        <activity android:name=".LacoDeRepeticao" />
+        <activity android:name=".Vetores" />
+        <activity android:name=".Matrizes" />
+        <activity android:name=".Objetos"></activity>
     </application>
 
 </manifest>
