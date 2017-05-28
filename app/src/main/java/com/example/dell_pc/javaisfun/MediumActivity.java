@@ -10,8 +10,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
-
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import java.util.ArrayList;
+import java.util.List;
+import android.app.Activity;
+
 
 public class MediumActivity extends AppCompatActivity {
 
@@ -20,23 +24,10 @@ public class MediumActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medium);
 
-        //spinner
-        Spinner spinner = (Spinner) findViewById(R.id.spinner);
 
-        spinner.setOnItemSelectedListener((AdapterView.OnItemSelectedListener) this);
-
-        ArrayList<String> categories = new ArrayList<String>();
-        categories.add("int");
-        categories.add("float");
-        categories.add("String");
-
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
-
-        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
-
-        spinner.setAdapter(dataAdapter);
 
     }
+
 
 
 
