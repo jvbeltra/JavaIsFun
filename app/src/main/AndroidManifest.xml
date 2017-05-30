@@ -31,7 +31,9 @@
         <activity android:name=".LacoDeRepeticao" />
         <activity android:name=".Vetores" />
         <activity android:name=".Matrizes" />
-        <activity android:name=".Objetos"></activity>
+        <activity android:name=".Objetos" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".AboutTheApp"></activity>
     </application>
 
 </manifest>
