@@ -15,7 +15,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@android:color/holo_green_light"
         android:onClick="TelaBasica"
         android:text="Básico"
         android:textAppearance="@style/TextAppearance.AppCompat"
