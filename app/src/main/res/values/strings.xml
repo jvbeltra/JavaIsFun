@@ -35,6 +35,10 @@
     -
     <string name="menu_medium">Menu</string>
     -
-    <string name="nome">nome;</string>
+
+    <string name="name">teste</string>
+    <string name="avancado">Avançado</string>
+    <string name="basico">Básico</string>
+    <string name="intermediario">Intermediário</string>
 
 </resources>

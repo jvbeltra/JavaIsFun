@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 
 public class Scanner extends AppCompatActivity {
 
@@ -34,5 +35,11 @@ public class Scanner extends AppCompatActivity {
                 })
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
+    }
+    public void ChecarScanner(){
+        EditText edit_text = (EditText) findViewById(R.id.editText2);
+        if (edit_text.equals("Scanner s = Scanner(System.in )")){
+
+        }
     }
 }
