@@ -37,13 +37,16 @@ public class Scanner extends AppCompatActivity {
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
     }
-    public void ChecarScanner(){
+    public void ChecarScanner(View view){
         EditText edit_text = (EditText) findViewById(R.id.editText2);
         TextView textView = (TextView) findViewById(R.id.textView);
-        if (edit_text.equals("Scanner s = Scanner(System.in )")){
+        if(edit_text.getText().toString().equals("Scanner s = Scanner(System.in);")){
+
             textView.setText("Correto!");
         }else{
-            textView.setText("Scanner s = Scanner(System.in ");
+            textView.setText("Errado! Tente: Scanner s = Scanner(System.in)");
         }
     }
+
+
 }
