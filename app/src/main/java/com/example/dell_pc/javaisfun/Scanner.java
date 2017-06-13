@@ -40,11 +40,11 @@ public class Scanner extends AppCompatActivity {
     public void ChecarScanner(View view){
         EditText edit_text = (EditText) findViewById(R.id.editText2);
         TextView textView = (TextView) findViewById(R.id.textView);
-        if(edit_text.getText().toString().equals("Scanner s = Scanner(System.in);")){
+        if(edit_text.getText().toString().equals("Scanner s = new Scanner(System.in);") || edit_text.getText().toString().equals("Scanner s = new Scanner (System.in);") ){
 
             textView.setText("Correto!");
         }else{
-            textView.setText("Errado! Tente: Scanner s = Scanner(System.in)");
+            textView.setText("Errado! Tente: Scanner s = new Scanner(System.in)");
         }
     }
 
