@@ -35,7 +35,7 @@
     -
     <string name="menu_medium">Menu</string>
 
-<string name="basico">Básico</string>
+    <string name="basico">Básico</string>
 
     <string name="intermediario">Intermediário</string>
     <string name="avancado">Avançado</string>

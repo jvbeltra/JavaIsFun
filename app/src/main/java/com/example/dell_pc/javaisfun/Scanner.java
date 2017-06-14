@@ -15,8 +15,10 @@ public class Scanner extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scanner);
+
     }
-    public void TextDialog(View view){
+
+    public void TextDialog(View view) {
         AlertDialog.Builder builder;
 
         builder = new AlertDialog.Builder(this);
@@ -37,16 +39,36 @@ public class Scanner extends AppCompatActivity {
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
     }
-    public void ChecarScanner(View view){
+
+    public void ChecarScanner(View view) {
         EditText edit_text = (EditText) findViewById(R.id.editText2);
         TextView textView = (TextView) findViewById(R.id.textView);
-        if(edit_text.getText().toString().equals("Scanner s = new Scanner(System.in);") || edit_text.getText().toString().equals("Scanner s = new Scanner (System.in);") ){
-
+        if (edit_text.getText().toString().equals("Scanner s = new Scanner(System.in);") || edit_text.getText().toString().equals("Scanner s= new Scanner(System.in);") || edit_text.getText().toString().equals("Scanner s=new Scanner(System.in);") || edit_text.getText().toString().equals("Scanner s=new Scanner(System.in);")) {
             textView.setText("Correto!");
-        }else{
+        } else if (edit_text.getText().toString().equals("Scanner S = new Scanner(System.in);") || edit_text.getText().toString().equals("Scanner S=new Scanner(System.in);") || edit_text.getText().toString().equals("Scanner S =new Scanner(System.in);")|| edit_text.getText().toString().equals("Scanner S= new Scanner(System.in);")){
+
+            AlertDialog.Builder builder;
+
+            builder = new AlertDialog.Builder(this);
+            builder.setTitle("Aviso!")
+                    .setMessage("Uma variável deve ser sempre declarada com a primeira letra minúscula.\nTente Scanner s = new Scanner(System.in)")
+                    .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            Intent intent2 = new Intent(Scanner.this, Scanner2.class);
+                            startActivity(intent2);
+                        }
+                    })
+                    .setNegativeButton("Tentar novamente", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.cancel();
+                        }
+                    })
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .show();
+        } else {
             textView.setText("Errado! Tente: Scanner s = new Scanner(System.in)");
         }
+
+
     }
-
-
 }

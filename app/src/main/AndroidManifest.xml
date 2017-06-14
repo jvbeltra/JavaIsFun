@@ -33,7 +33,8 @@
         <activity android:name=".Matrizes" />
         <activity android:name=".Objetos" />
         <activity android:name=".AboutUs" />
-        <activity android:name=".AboutTheApp"></activity>
+        <activity android:name=".AboutTheApp" />
+        <activity android:name=".Scanner2"></activity>
     </application>
 
 </manifest>
