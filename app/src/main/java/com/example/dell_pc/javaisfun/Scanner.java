@@ -63,7 +63,7 @@ public class Scanner extends AppCompatActivity {
                             dialog.cancel();
                         }
                     })
-                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .setIcon(R.drawable.alert_ad)
                     .show();
         } else {
             textView.setText("Errado! Tente: Scanner s = new Scanner(System.in)");
