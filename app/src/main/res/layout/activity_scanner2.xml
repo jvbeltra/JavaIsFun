@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.OQueEJava">
+    tools:context="com.example.dell_pc.javaisfun.Scanner2">
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="28dp"
@@ -23,5 +23,4 @@
         app:layout_constraintHorizontal_bias="0.023"
         app:layout_constraintVertical_bias="0.015"
         android:contentDescription="@string/menu" />
-
 </android.support.constraint.ConstraintLayout>

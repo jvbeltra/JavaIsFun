@@ -26,11 +26,71 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="271dp"
+        android:layout_width="347dp"
         android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="text"
+        android:labelFor="@+id/editText2"
         android:text=""
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/holo_blue_dark"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:textColorLink="@android:color/holo_blue_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="273dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="331dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="130dp"
+        android:text='Declase um Scanner "s"'
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="144dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="@string/confirma_scanner_1"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,36 +99,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintVertical_bias="0.329"
-        android:labelFor="@+id/editText2" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="272dp"
-        android:layout_height="94dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginStart="81dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.772"
-        android:layout_marginLeft="81dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="315dp"
-        android:layout_height="27dp"
-        android:fontFamily="monospace"
-        android:text='Declare um Scanner denominado "s".'
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="98dp" />
+        app:layout_constraintVertical_bias="0.746"
+        android:onClick="ChecarScanner" />
 
 </android.support.constraint.ConstraintLayout>
