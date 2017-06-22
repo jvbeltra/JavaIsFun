@@ -22,7 +22,9 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintHorizontal_bias="0.023"
         app:layout_constraintVertical_bias="0.015"
-        android:contentDescription="@string/menu" />
+        android:contentDescription="@string/menu"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <EditText
         android:id="@+id/editText2"
@@ -45,7 +47,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.408" />
+        app:layout_constraintVertical_bias="0.408"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -54,7 +58,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginRight="43dp"
+        android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif"
         android:textAlignment="center"
@@ -65,7 +69,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.573"
-        app:layout_constraintHorizontal_bias="0.5" />
+        android:layout_marginStart="8dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -82,7 +86,9 @@
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <Button
         android:id="@+id/button4"
@@ -101,27 +107,19 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
+        app:layout_constraintVertical_bias="0.746"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <ImageButton
         android:id="@+id/imageButton7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_width="53dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="4dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:srcCompat="@drawable/proximo"
-        tools:layout_editor_absoluteX="306dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="82dp"
-        android:layout_height="24dp"
-        android:layout_marginBottom="16dp"
-        android:text="Próximo"
-        android:textColor="@android:color/background_dark"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="231dp" />
+        android:layout_marginRight="4dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
