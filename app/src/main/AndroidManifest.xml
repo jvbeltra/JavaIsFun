@@ -34,7 +34,8 @@
         <activity android:name=".Objetos" />
         <activity android:name=".AboutUs" />
         <activity android:name=".AboutTheApp" />
-        <activity android:name=".Scanner2"></activity>
+        <activity android:name=".Scanner2" />
+        <activity android:name=".Modelo1"></activity>
     </application>
 
 </manifest>

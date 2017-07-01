@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.dell_pc.javaisfun.Scanner">
+
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="28dp"

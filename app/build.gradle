@@ -28,3 +28,22 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
 }
+android {
+    defaultConfig {
+
+        // Enabling multidex support.
+        multiDexEnabled true
+    }
+
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+}
+dependencies {
+    compile 'com.android.support:multidex:1.0.0'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+
