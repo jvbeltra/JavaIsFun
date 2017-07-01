@@ -35,7 +35,7 @@ public class Variaveis extends AppCompatActivity {
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
     }
-    public void priximo(View view){
+    public void next(View view){
         Intent intent = new Intent(this, Variaveis_2.class);
         startActivity(intent);
     }

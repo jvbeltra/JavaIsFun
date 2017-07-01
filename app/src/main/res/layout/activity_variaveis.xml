@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.dell_pc.javaisfun.Variaveis">
-    ImageButton
+    <ImageButton
     android:id="@+id/imageButton"
     android:layout_width="28dp"
     android:layout_height="31dp"
@@ -68,7 +68,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         app:srcCompat="@drawable/proximo"
-        android:onClick="proximo"
+        android:onClick="next"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
