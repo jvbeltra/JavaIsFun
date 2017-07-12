@@ -7,12 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Variaveis_2 extends AppCompatActivity {
+public class Variaveis2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_variaveis_2);
+        setContentView(R.layout.activity_variaveis2);
     }
     public void TextDialog(View view){
         AlertDialog.Builder builder;
@@ -23,7 +23,7 @@ public class Variaveis_2 extends AppCompatActivity {
                 .setMessage("Você tem certeza que quer voltar ao menu principal?")
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(Variaveis_2.this, MainActivity.class);
+                        Intent intent = new Intent(Variaveis2.this, MainActivity.class);
                         startActivity(intent);
                     }
                 })
@@ -34,5 +34,9 @@ public class Variaveis_2 extends AppCompatActivity {
                 })
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
+    }
+    public void next(View view){
+        Intent intent = new Intent(this, Variaveis3.class);
+        startActivity(intent);
     }
 }
