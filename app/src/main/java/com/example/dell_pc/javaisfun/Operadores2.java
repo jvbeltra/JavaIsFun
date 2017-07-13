@@ -35,8 +35,9 @@ public class Operadores2 extends AppCompatActivity {
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
     }
-    //public void next(View view){
-       // Intent intent = new Intent(this, Operadores3.class);
-        //startActivity(intent);
-    //}
+
+    public void next(View view){
+        Intent intent = new Intent(this, Operadores2.class);
+        startActivity(intent);
+    }
 }

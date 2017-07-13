@@ -59,19 +59,19 @@
         app:layout_constraintHorizontal_bias="0.505" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="281dp"
-        android:layout_height="341dp"
+        android:id="@+id/imageView9"
+        android:layout_width="245dp"
+        android:layout_height="362dp"
         app:srcCompat="@drawable/table"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintVertical_bias="0.929"
-        app:layout_constraintHorizontal_bias="0.505" />
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.91"
+        app:layout_constraintHorizontal_bias="0.504" />
 
 </android.support.constraint.ConstraintLayout>

@@ -44,7 +44,8 @@
         <activity android:name=".Variaveis7" />
         <activity android:name=".Variaveis8" />
         <activity android:name=".Variaveis9" />
-        <activity android:name=".Variaveis10"></activity>
+        <activity android:name=".Variaveis10" />
+        <activity android:name=".Operadores2"></activity>
     </application>
 
 </manifest>
