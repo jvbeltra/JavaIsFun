@@ -45,8 +45,10 @@
     <string name="declare_um_scanner_denominado_s">Declare um Scanner denominado "s"</string>
     <string name="button">teste</string>
     <string name="buttonModelo">ButtonModelo</string>
-    <string name="bchecar">Button</string>
+    <string name="bchecar">OK</string>
     <string name="respostaUser">Digite oi </string>
     <string name="textview">TextView</string>
+    <string name="bprox">Proximo</string>
+
 
 </resources>

@@ -22,23 +22,25 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintHorizontal_bias="0.023"
         app:layout_constraintVertical_bias="0.015" />
+
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        app:srcCompat="@drawable/proximo"
-        android:onClick="next"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="34dp"
+        android:layout_height="30dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="next"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.976"
-        app:layout_constraintVertical_bias="0.984" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963"
+        app:srcCompat="@drawable/proximo" />
     <TextView
         android:id="@+id/textView6"
         android:layout_width="283dp"
@@ -58,8 +60,8 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="281dp"
-        android:layout_height="341dp"
+        android:layout_width="270dp"
+        android:layout_height="336dp"
         app:srcCompat="@drawable/table"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="104dp"
@@ -69,7 +71,6 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintVertical_bias="0.929"
-        app:layout_constraintHorizontal_bias="0.505" />
+        app:layout_constraintVertical_bias="0.932" />
 
 </android.support.constraint.ConstraintLayout>

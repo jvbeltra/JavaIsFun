@@ -40,9 +40,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AboutUs.class);
         startActivity(intent);
     }
-    public void Modelo1(View view){
-        Intent intent = new Intent(this, Modelo1.class);
-        startActivity(intent);
-    }
 
 }
