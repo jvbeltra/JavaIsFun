@@ -35,11 +35,11 @@
         <activity android:name=".AboutUs" />
         <activity android:name=".AboutTheApp" />
         <activity android:name=".Scanner2" />
-        <activity android:name=".Modelo1" />
         <activity android:name=".Variaveis2" />
         <activity android:name=".Variaveis3" />
         <activity android:name=".Variaveis4" />
-        <activity android:name=".Variaveis5"></activity>
+        <activity android:name=".Variaveis5" />
+        <activity android:name=".Operadores2"/>
     </application>
 
 </manifest>
