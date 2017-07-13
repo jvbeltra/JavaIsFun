@@ -51,4 +51,14 @@
     <string name="bprox">Proximo</string>
 
 
+
+    <string name="country_prompt">Escolha a variável</string>
+    <string-array name="country_arrays">
+        <item>int</item>
+        <item>float</item>
+        <item>boolean</item>
+        <item>String</item>
+
+    </string-array>
+
 </resources>

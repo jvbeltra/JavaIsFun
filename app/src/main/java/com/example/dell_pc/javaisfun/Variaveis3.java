@@ -20,6 +20,9 @@ public class Variaveis3 extends AppCompatActivity {
         setContentView(R.layout.activity_variaveis3);
         findViewById(R.id.textView7).setVisibility(View.GONE);
         findViewById(R.id.imageButton2).setVisibility(View.GONE);
+        findViewById(R.id.textView9).setVisibility(View.GONE);
+        findViewById(R.id.imageView3).setVisibility(View.GONE);
+        findViewById(R.id.imageView7).setVisibility(View.GONE);
 
     }
     public void TextDialog(View view){
@@ -55,7 +58,9 @@ public class Variaveis3 extends AppCompatActivity {
             findViewById(R.id.imageButton2).setVisibility(View.VISIBLE);
 
 
-
+        findViewById(R.id.textView9).setVisibility(View.VISIBLE);
+        findViewById(R.id.imageView3).setVisibility(View.VISIBLE);
+        findViewById(R.id.imageView7).setVisibility(View.VISIBLE);
 
 
         return super.onTouchEvent(event);
