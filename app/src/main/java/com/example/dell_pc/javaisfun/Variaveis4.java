@@ -22,6 +22,7 @@ public class Variaveis4 extends AppCompatActivity {
         findViewById(R.id.imageView2).setVisibility(View.GONE);
         findViewById(R.id.textView13).setVisibility(View.GONE);
         findViewById(R.id.textView14).setVisibility(View.GONE);
+        findViewById(R.id.imageButton2).setVisibility(View.GONE);
     }
     public void TextDialog(View view){
         AlertDialog.Builder builder;
@@ -70,10 +71,13 @@ public class Variaveis4 extends AppCompatActivity {
                     findViewById(R.id.imageView2).setVisibility(View.VISIBLE);
                     findViewById(R.id.textView13).setVisibility(View.VISIBLE);
                     findViewById(R.id.textView14).setVisibility(View.GONE);
+                    findViewById(R.id.imageButton2).setVisibility(View.VISIBLE);
+                    findViewById(R.id.button5).setVisibility(View.GONE);
                 }else{
                     findViewById(R.id.textView14).setVisibility(View.VISIBLE);
                     findViewById(R.id.imageView2).setVisibility(View.GONE);
                     findViewById(R.id.textView13).setVisibility(View.GONE);
+                    findViewById(R.id.imageButton2).setVisibility(View.VISIBLE);
                 }
 
             }
