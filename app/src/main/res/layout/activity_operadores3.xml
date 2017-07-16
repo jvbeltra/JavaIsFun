@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell_pc.javaisfun.Operadores3">
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Exemplo:"
+        android:textAlignment="center"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Operadores de igualdade"
+        android:textAlignment="center"
+
+        android:textColor="@color/Avançado"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="347dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="É importante lembrar que quando usamos == é para sinalizar igualdade, enquanto = é utilizado para atribuir um valor"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="347dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="Operadores de igualdade são aqueles que comparam duas variáveis, assim definindo qual parte do código será executada se estas forem iguais ou diferentes"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="323dp"
+        android:layout_height="97dp"
+        android:layout_marginLeft="21dp"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@drawable/operadoresigualdade"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="355dp"
+        android:layout_height="116dp"
+        app:srcCompat="@drawable/exemplooperadoresigualdade"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.098"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginRight="8dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="28dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/menu"
+        android:onClick="TextDialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015"
+        app:srcCompat="@drawable/back" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="next"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/proximo" />
+
+</android.support.constraint.ConstraintLayout>

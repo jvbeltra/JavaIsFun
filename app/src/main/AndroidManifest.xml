@@ -35,7 +35,6 @@
         <activity android:name=".AboutUs" />
         <activity android:name=".AboutTheApp" />
         <activity android:name=".Scanner2" />
-        <activity android:name=".Modelo1" />
         <activity android:name=".Variaveis2" />
         <activity android:name=".Variaveis3" />
         <activity android:name=".Variaveis4" />
@@ -45,7 +44,10 @@
         <activity android:name=".Variaveis8" />
         <activity android:name=".Variaveis9" />
         <activity android:name=".Variaveis10" />
-        <activity android:name=".Operadores2"></activity>
+        <activity android:name=".Operadores2" />
+        <activity android:name=".Operadores3" />
+        <activity android:name=".Operadores4" />
+        <activity android:name=".Operadores5"></activity>
     </application>
 
 </manifest>
