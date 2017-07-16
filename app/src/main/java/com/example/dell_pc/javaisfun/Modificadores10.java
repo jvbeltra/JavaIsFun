@@ -17,7 +17,7 @@ public class Modificadores10 extends AppCompatActivity {
         startActivity(intent);
     }
     public void nextexercise(View view){
-        Intent intent = new Intent(this, Classe.class);
+        Intent intent = new Intent(this, Calculos.class);
         startActivity(intent);
     }
 }
