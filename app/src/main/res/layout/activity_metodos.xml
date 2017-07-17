@@ -6,6 +6,63 @@
     android:layout_height="match_parent"
     tools:context="com.example.dell_pc.javaisfun.Metodos">
 
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="177dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="Introdução"
+        android:textAlignment="center"
+        android:textColor="@color/Avançado"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="287dp"
+        android:layout_height="262dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Na programação java, é comum a divisão do código em partes, para organizar melhor as tarefas de cada parte do programa. Tudo isso tem o objetivo de auxiliar no desempenho e na utilização aprimorada do código-fonte. Uma das divisões utilizadas na Programação Orientada à Objetos são os métodos..."
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="next"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/proximo"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="513dp" />
+
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="28dp"

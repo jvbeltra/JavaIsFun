@@ -5,14 +5,15 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 
-public class Metodos extends AppCompatActivity {
+public class Metodos9 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_metodos);
+        setContentView(R.layout.activity_metodos9);
     }
     public void TextDialog(View view){
         AlertDialog.Builder builder;
@@ -23,7 +24,7 @@ public class Metodos extends AppCompatActivity {
                 .setMessage("Você tem certeza que quer voltar ao menu principal?")
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(Metodos.this, MainActivity.class);
+                        Intent intent = new Intent(Metodos9.this, MainActivity.class);
                         startActivity(intent);
                     }
                 })
@@ -36,7 +37,8 @@ public class Metodos extends AppCompatActivity {
                 .show();
     }
     public void next(View view){
-        Intent intent = new Intent(this, Metodos2.class);
+        Intent intent = new Intent(this, Metodos10.class);
         startActivity(intent);
     }
+
 }
