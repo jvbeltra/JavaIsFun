@@ -60,4 +60,14 @@
 
     </string-array>
 
+    <string-array name="country_arrays2">
+
+        <item> == </item>
+        <item> =! </item>
+        <item> != </item>
+        <item> = </item>
+
+    </string-array>
+
+
 </resources>

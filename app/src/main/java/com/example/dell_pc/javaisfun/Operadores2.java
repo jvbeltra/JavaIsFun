@@ -14,6 +14,7 @@ public class Operadores2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_operadores2);
     }
+
     public void TextDialog(View view){
         AlertDialog.Builder builder;
 
@@ -36,6 +37,8 @@ public class Operadores2 extends AppCompatActivity {
                 .show();
     }
 
-
-
+    public void next(View view){
+        Intent intent = new Intent(this, Operadores.class);
+        startActivity(intent);
+    }
 }

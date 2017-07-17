@@ -5,32 +5,21 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Spinner;
 
-public class Operadores4 extends AppCompatActivity {
+public class Operadores6 extends AppCompatActivity {
     private Spinner spinner3;
     private Button btnSubmit2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_operadores4);
-        findViewById(R.id.textView39).setVisibility(View.GONE);
-    }
-
-    public boolean onTouchEvent(MotionEvent motionEvent){
-        int eventAction = motionEvent.getAction();
-        if(eventAction == motionEvent.ACTION_MOVE){
-            findViewById(R.id.textView39).setVisibility(View.VISIBLE);
-            findViewById(R.id.textView37).setVisibility(View.GONE);
-        }else if(eventAction == motionEvent.ACTION_DOWN){
-            findViewById(R.id.textView39).setVisibility(View.GONE);
-            findViewById(R.id.textView37).setVisibility(View.VISIBLE);
-
-        }
-        return super.onTouchEvent(motionEvent);
+        setContentView(R.layout.activity_operadores6);
+        findViewById(R.id.textView75).setVisibility(View.GONE);
+        findViewById(R.id.textView73).setVisibility(View.GONE);
+        verificarSpinner();
+        addListenerOnSpinnerItemSelection();
 
     }
     public void TextDialog(View view){
@@ -42,7 +31,7 @@ public class Operadores4 extends AppCompatActivity {
                 .setMessage("Você tem certeza que quer voltar ao menu principal?")
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(Operadores4.this, MainActivity.class);
+                        Intent intent = new Intent(Operadores6.this, MainActivity.class);
                         startActivity(intent);
                     }
                 })
@@ -55,8 +44,42 @@ public class Operadores4 extends AppCompatActivity {
                 .show();
     }
 
+
+
     public void next(View view){
-        Intent intent = new Intent(this, Operadores5.class);
+        Intent intent = new Intent(this, Variaveis5.class);
         startActivity(intent);
     }
+
+
+    public void addListenerOnSpinnerItemSelection() {
+        spinner3 = (Spinner) findViewById(R.id.spinner3);
+
+    }
+    public void verificarSpinner() {
+
+
+        spinner3 = (Spinner) findViewById(R.id.spinner3);
+        btnSubmit2 = (Button) findViewById(R.id.button3);
+
+        btnSubmit2.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if(String.valueOf(spinner3.getSelectedItem()).equalsIgnoreCase("!=")){
+                    findViewById(R.id.textView75).setVisibility(View.VISIBLE);
+                    findViewById(R.id.textView73).setVisibility(View.GONE);
+                }else{
+                    findViewById(R.id.textView73).setVisibility(View.VISIBLE);
+                    findViewById(R.id.textView75).setVisibility(View.GONE);
+
+                }
+
+            }
+
+        });
+    }
+
+
+
 }

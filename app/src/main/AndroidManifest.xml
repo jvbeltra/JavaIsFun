@@ -35,7 +35,6 @@
         <activity android:name=".AboutUs" />
         <activity android:name=".AboutTheApp" />
         <activity android:name=".Scanner2" />
-        <activity android:name=".Modelo1" />
         <activity android:name=".Variaveis2" />
         <activity android:name=".Variaveis3" />
         <activity android:name=".Variaveis4" />
@@ -45,7 +44,6 @@
         <activity android:name=".Variaveis8" />
         <activity android:name=".Variaveis9" />
         <activity android:name=".Variaveis10" />
-        <activity android:name=".Operadores2" />
         <activity android:name=".Modificadores2" />
         <activity android:name=".Modificadores3" />
         <activity android:name=".Modificadores4" />
@@ -54,7 +52,9 @@
         <activity android:name=".Modificadores7" />
         <activity android:name=".Modificadores8" />
         <activity android:name=".Modificadores9" />
-        <activity android:name=".Modificadores10"></activity>
+        <activity android:name=".Modificadores10" />
+        <activity android:name=".Operadores2" />
+        <activity android:name=".Operadores6"></activity>
     </application>
 
 </manifest>
