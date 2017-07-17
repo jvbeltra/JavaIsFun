@@ -25,6 +25,15 @@
         <activity android:name=".Operadores" />
         <activity android:name=".Classe" />
         <activity android:name=".Metodos" />
+        <activity android:name=".Metodos2" />
+        <activity android:name=".Metodos3" />
+        <activity android:name=".Metodos4" />
+        <activity android:name=".Metodos5" />
+        <activity android:name=".Metodos6" />
+        <activity android:name=".Metodos7" />
+        <activity android:name=".Metodos8" />
+        <activity android:name=".Metodos9" />
+        <activity android:name=".Metodos10" />
         <activity android:name=".Scanner" />
         <activity android:name=".Calculos" />
         <activity android:name=".Condicao" />
