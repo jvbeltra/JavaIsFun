@@ -17,11 +17,11 @@
         android:background="@color/Basico"
         android:text="Verificar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintHorizontal_bias="0.855"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.697" />
+        app:layout_constraintVertical_bias="0.657" />
 
     <TextView
         android:id="@+id/textView59"
@@ -63,23 +63,43 @@
         app:layout_constraintVertical_bias="0.015"
         app:srcCompat="@drawable/back" />
 
+    <ImageButton
+        android:id="@+id/imageButton37"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="next"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993"
+        app:srcCompat="@drawable/proximo" />
+
     <Spinner
         android:id="@+id/spinner3"
-        android:layout_width="43dp"
+        android:layout_width="40dp"
         android:layout_height="32dp"
         android:layout_marginBottom="0dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/transparent"
+        android:background="@android:color/darker_gray"
         android:entries="@array/country_arrays2"
         android:prompt="@string/country_prompt"
         app:layout_constraintBottom_toBottomOf="@+id/textView62"
-        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintHorizontal_bias="0.712"
         app:layout_constraintLeft_toLeftOf="@+id/textView62"
         app:layout_constraintRight_toRightOf="@+id/textView62"
         app:layout_constraintTop_toTopOf="@+id/textView62"
-        app:layout_constraintVertical_bias="0.666" />
+        app:layout_constraintVertical_bias="0.909"
+        tools:layout_editor_absoluteY="285dp" />
 
     <TextView
         android:id="@+id/textView60"
@@ -87,7 +107,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="Escolha o operador adequado para executar o código caso a variável                  seja diferente de 0 "
+        android:text="Escolha o operador adequado para executar o código caso a variável               seja diferente de 0 "
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
@@ -102,19 +122,19 @@
         android:id="@+id/textView61"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
         android:text="número"
         android:textColor="@color/Avançado"
         android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="@+id/textView60"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView60"
-        android:layout_marginBottom="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="@+id/textView60"
-        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintLeft_toLeftOf="@+id/textView60"
-        app:layout_constraintHorizontal_bias="0.78"
-        app:layout_constraintVertical_bias="0.555" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419" />
 
     <TextView
         android:id="@+id/textView62"
@@ -124,7 +144,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="if(numero       0) {"
+        android:text="if(numero          0) {"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -146,11 +166,11 @@
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintHorizontal_bias="0.348"
         app:layout_constraintLeft_toLeftOf="@+id/textView62"
         app:layout_constraintRight_toRightOf="@+id/textView62"
         app:layout_constraintTop_toBottomOf="@+id/textView62"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
         android:id="@+id/textView65"
@@ -167,7 +187,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView63"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintHorizontal_bias="0.254"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -186,7 +206,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView65"
-        app:layout_constraintVertical_bias="0.177" />
+        app:layout_constraintVertical_bias="0.47" />
 
     <TextView
         android:id="@+id/textView75"
@@ -200,10 +220,10 @@
         android:textColor="@color/Intermediario"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView65"
-        app:layout_constraintVertical_bias="0.214" />
+        app:layout_constraintVertical_bias="0.454" />
 
 </android.support.constraint.ConstraintLayout>

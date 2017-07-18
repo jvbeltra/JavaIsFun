@@ -30,24 +30,25 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="297dp"
-        android:layout_height="180dp"
+        android:layout_width="379dp"
+        android:layout_height="203dp"
         android:layout_marginBottom="7dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="Operadores são símbolos que representam atribuições, cálculos e ordem dos dados. Ou seja, representam uma expressão matemática entre dois operandos (números ou variáveis)."
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.309"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintHorizontal_bias="0.51" />
+        app:layout_constraintVertical_bias="0.308"
+        tools:layout_editor_absoluteY="128dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -79,11 +80,11 @@
         android:textColor="@color/Intermediario"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.517" />
+        app:layout_constraintVertical_bias="0.556" />
 
     <ImageButton
         android:id="@+id/imageButton8"
@@ -106,8 +107,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="245dp"
-        android:layout_height="197dp"
+        android:layout_width="263dp"
+        android:layout_height="216dp"
         android:scaleType="fitXY"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -116,7 +117,6 @@
         android:layout_marginBottom="36dp"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintVertical_bias="0.947"
-        app:layout_constraintHorizontal_bias="0.504" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </android.support.constraint.ConstraintLayout>

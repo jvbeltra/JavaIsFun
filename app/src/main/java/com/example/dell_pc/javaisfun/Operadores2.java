@@ -38,7 +38,7 @@ public class Operadores2 extends AppCompatActivity {
     }
 
     public void next(View view){
-        Intent intent = new Intent(this, Operadores.class);
+        Intent intent = new Intent(this, Operadores3.class);
         startActivity(intent);
     }
 }

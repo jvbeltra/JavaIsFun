@@ -23,6 +23,10 @@
         <activity android:name=".Variaveis" />
         <activity android:name=".Modificadores" />
         <activity android:name=".Operadores" />
+        <activity android:name=".Operadores2" />
+        <activity android:name=".Operadores3" />
+        <activity android:name=".Operadores4" />
+        <activity android:name=".Operadores5" />
         <activity android:name=".Classe" />
         <activity android:name=".Metodos" />
         <activity android:name=".Metodos2" />
@@ -62,8 +66,8 @@
         <activity android:name=".Modificadores8" />
         <activity android:name=".Modificadores9" />
         <activity android:name=".Modificadores10" />
-        <activity android:name=".Operadores2" />
-        <activity android:name=".Operadores6"></activity>
+        <activity android:name=".Operadores6" />
+        <activity android:name=".Operadores7"></activity>
     </application>
 
 </manifest>

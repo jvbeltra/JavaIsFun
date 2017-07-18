@@ -47,7 +47,7 @@ public class Operadores6 extends AppCompatActivity {
 
 
     public void next(View view){
-        Intent intent = new Intent(this, Variaveis5.class);
+        Intent intent = new Intent(this, Operadores7.class);
         startActivity(intent);
     }
 

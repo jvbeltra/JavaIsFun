@@ -13,7 +13,28 @@ public class Operadores3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_operadores3);
+        findViewById(R.id.textView36).setVisibility(View.GONE);
+        findViewById(R.id.imageButton35).setVisibility(View.GONE);
     }
+
+    public void passarDireita(View view) {
+        findViewById(R.id.textView36).setVisibility(View.VISIBLE);
+        findViewById(R.id.textView41).setVisibility(View.GONE);
+        findViewById(R.id.imageButton35).setVisibility(View.VISIBLE);
+        findViewById(R.id.imageButton29).setVisibility(View.GONE);
+
+    }
+
+    public void passarEsquerda(View view) {
+        findViewById(R.id.textView36).setVisibility(View.GONE);
+        findViewById(R.id.textView41).setVisibility(View.VISIBLE);
+        findViewById(R.id.imageButton35).setVisibility(View.GONE);
+        findViewById(R.id.imageButton29).setVisibility(View.VISIBLE);
+
+    }
+
+
+
 
     public void TextDialog(View view){
         AlertDialog.Builder builder;
@@ -36,6 +57,7 @@ public class Operadores3 extends AppCompatActivity {
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
     }
+
 
     public void next(View view){
         Intent intent = new Intent(this, Operadores4.class);

@@ -13,27 +13,34 @@ import android.widget.Spinner;
 public class Operadores4 extends AppCompatActivity {
     private Spinner spinner3;
     private Button btnSubmit2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_operadores4);
         findViewById(R.id.textView39).setVisibility(View.GONE);
+        findViewById(R.id.imageButton34).setVisibility(View.GONE);
     }
 
-    public boolean onTouchEvent(MotionEvent motionEvent){
-        int eventAction = motionEvent.getAction();
-        if(eventAction == motionEvent.ACTION_MOVE){
-            findViewById(R.id.textView39).setVisibility(View.VISIBLE);
-            findViewById(R.id.textView37).setVisibility(View.GONE);
-        }else if(eventAction == motionEvent.ACTION_DOWN){
-            findViewById(R.id.textView39).setVisibility(View.GONE);
-            findViewById(R.id.textView37).setVisibility(View.VISIBLE);
-
-        }
-        return super.onTouchEvent(motionEvent);
+    public void passarDireita(View view) {
+        findViewById(R.id.textView39).setVisibility(View.VISIBLE);
+        findViewById(R.id.textView37).setVisibility(View.GONE);
+        findViewById(R.id.imageButton34).setVisibility(View.VISIBLE);
+        findViewById(R.id.imageButton33).setVisibility(View.GONE);
 
     }
-    public void TextDialog(View view){
+
+    public void passarEsquerda(View view) {
+        findViewById(R.id.textView39).setVisibility(View.GONE);
+        findViewById(R.id.textView37).setVisibility(View.VISIBLE);
+        findViewById(R.id.imageButton34).setVisibility(View.GONE);
+        findViewById(R.id.imageButton33).setVisibility(View.VISIBLE);
+
+    }
+
+
+
+    public void TextDialog(View view) {
         AlertDialog.Builder builder;
 
         builder = new AlertDialog.Builder(this);
@@ -55,8 +62,9 @@ public class Operadores4 extends AppCompatActivity {
                 .show();
     }
 
-    public void next(View view){
+    public void next(View view) {
         Intent intent = new Intent(this, Operadores5.class);
         startActivity(intent);
     }
+
 }
