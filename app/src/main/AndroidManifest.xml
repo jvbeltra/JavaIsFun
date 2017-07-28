@@ -67,7 +67,14 @@
         <activity android:name=".Modificadores9" />
         <activity android:name=".Modificadores10" />
         <activity android:name=".Operadores6" />
-        <activity android:name=".Operadores7"></activity>
+        <activity android:name=".Operadores7" />
+        <activity android:name=".OQueEJava2" />
+        <activity android:name=".OQueEJava3" />
+        <activity android:name=".OQueEJava4" />
+        <activity android:name=".OQueEJava5" />
+        <activity android:name=".OQueEJava6" />
+        <activity android:name=".OQueEJava7" />
+        <activity android:name=".OQueEJava8" />
     </application>
 
 </manifest>

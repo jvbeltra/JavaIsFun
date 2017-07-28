@@ -14,14 +14,33 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="Antes de aprender sobre classes e métodos, você deve entender os MODIFICADORES DE ACESSO. Estes, são padrões de visibilidade que irão definir o tipo de variáveis, métodos ou mesmo classes que será declarada após os mesmos. Tudo ficará mais claro quando explicado detalhadamente..."
+        android:text="Estes, são padrões de visibilidade que irão definir o tipo de variáveis, métodos ou mesmo classes que será declarada após os mesmos. Tudo ficará mais claro quando explicado detalhadamente..."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135" />
+        app:layout_constraintVertical_bias="0.26" />
+
+    <TextView
+        android:id="@+id/textView145"
+        android:layout_width="257dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="Modificadores de Acesso"
+        android:textAlignment="center"
+        android:textColor="@color/Avançado"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086"
+        app:layout_constraintHorizontal_bias="0.504" />
 
     <ImageButton
         android:id="@+id/imageButton"
