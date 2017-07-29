@@ -67,7 +67,10 @@
         <activity android:name=".Modificadores9" />
         <activity android:name=".Modificadores10" />
         <activity android:name=".Operadores6" />
-        <activity android:name=".Operadores7"></activity>
+        <activity android:name=".Operadores7" />
+        <activity android:name=".Operadores8" />
+        <activity android:name=".Classe2" />
+        <activity android:name=".Classe3"></activity>
     </application>
 
 </manifest>

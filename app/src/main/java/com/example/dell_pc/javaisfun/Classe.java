@@ -9,12 +9,61 @@ import android.view.View;
 
 public class Classe extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_classe);
+        findViewById(R.id.texto1).setVisibility(View.VISIBLE);
+        findViewById(R.id.tprox2).setVisibility(View.INVISIBLE);
+        findViewById(R.id.texto2).setVisibility(View.INVISIBLE);
+        findViewById(R.id.texto3).setVisibility(View.INVISIBLE);
+        findViewById(R.id.tanter1).setVisibility(View.INVISIBLE);
+        findViewById(R.id.tanter2).setVisibility(View.INVISIBLE);
+        findViewById(R.id.imageButton46).setVisibility(View.INVISIBLE);
     }
-    public void TextDialog(View view){
+
+
+    public void prox1(View view) {
+        findViewById(R.id.texto1).setVisibility(View.INVISIBLE);
+        findViewById(R.id.texto2).setVisibility(View.VISIBLE);
+        findViewById(R.id.tanter1).setVisibility(View.VISIBLE);
+        findViewById(R.id.tprox2).setVisibility(View.VISIBLE);
+        findViewById(R.id.tanter1).setVisibility(View.INVISIBLE);
+    }
+
+    public void prox2(View view) {
+        findViewById(R.id.texto2).setVisibility(View.INVISIBLE);
+        findViewById(R.id.texto1).setVisibility(View.INVISIBLE);
+        findViewById(R.id.texto3).setVisibility(View.VISIBLE);
+        findViewById(R.id.tprox2).setVisibility(View.INVISIBLE);
+        findViewById(R.id.tprox).setVisibility(View.INVISIBLE);
+        findViewById(R.id.tanter2).setVisibility(View.VISIBLE);
+        findViewById(R.id.tanter1).setVisibility(View.INVISIBLE);
+        findViewById(R.id.imageButton46).setVisibility(View.VISIBLE);
+
+    }
+
+
+    public void ant2(View view) {
+        findViewById(R.id.texto3).setVisibility(View.INVISIBLE);
+        findViewById(R.id.texto2).setVisibility(View.VISIBLE);
+        findViewById(R.id.tanter2).setVisibility(View.INVISIBLE);
+        findViewById(R.id.tanter1).setVisibility(View.VISIBLE);
+    }
+
+    public void ant1(View view) {
+        findViewById(R.id.texto2).setVisibility(View.INVISIBLE);
+        findViewById(R.id.texto1).setVisibility(View.VISIBLE);
+        findViewById(R.id.tanter2).setVisibility(View.INVISIBLE);
+        findViewById(R.id.tanter1).setVisibility(View.INVISIBLE);
+        findViewById(R.id.tprox).setVisibility(View.VISIBLE);
+
+
+    }
+
+
+    public void TextDialog(View view) {
         AlertDialog.Builder builder;
 
         builder = new AlertDialog.Builder(this);
@@ -35,4 +84,16 @@ public class Classe extends AppCompatActivity {
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
     }
+
+    public void next(View view) {
+        Intent intent = new Intent(this, Classe2.class);
+        startActivity(intent);
+    }
+
+
+
+
+
 }
+
+

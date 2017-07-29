@@ -7,13 +7,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Variaveis extends AppCompatActivity {
+public class Operadores8 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_variaveis);
+        setContentView(R.layout.activity_operadores8);
     }
+
     public void TextDialog(View view){
         AlertDialog.Builder builder;
 
@@ -23,7 +24,7 @@ public class Variaveis extends AppCompatActivity {
                 .setMessage("Você tem certeza que quer voltar ao menu principal?")
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(Variaveis.this, MainActivity.class);
+                        Intent intent = new Intent(Operadores8.this, MainActivity.class);
                         startActivity(intent);
                     }
                 })
@@ -34,11 +35,12 @@ public class Variaveis extends AppCompatActivity {
                 })
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
+
     }
     public void next(View view){
-        Intent intent = new Intent(this, Variaveis2.class);
+        Intent intent = new Intent(this, Classe.class);
         startActivity(intent);
-
-
     }
+
+
 }

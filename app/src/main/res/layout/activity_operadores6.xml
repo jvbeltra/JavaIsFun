@@ -47,21 +47,21 @@
         android:id="@+id/imageButton13"
         android:layout_width="28dp"
         android:layout_height="31dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="520dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/menu"
+        android:onClick="TextDialog"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintHorizontal_bias="0.023"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/back"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.015"
-        app:srcCompat="@drawable/back" />
+        android:layout_marginTop="8dp" />
 
     <ImageButton
         android:id="@+id/imageButton37"
@@ -129,12 +129,12 @@
         android:text="número"
         android:textColor="@color/Avançado"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintBottom_toBottomOf="@+id/textView60"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintLeft_toLeftOf="@+id/textView60"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.419" />
+        app:layout_constraintRight_toRightOf="@+id/textView60"
+        app:layout_constraintTop_toTopOf="@+id/textView60"
+        app:layout_constraintVertical_bias="0.481" />
 
     <TextView
         android:id="@+id/textView62"
