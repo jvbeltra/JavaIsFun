@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/microchip"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/microchip"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -68,9 +68,13 @@
         <activity android:name=".Modificadores10" />
         <activity android:name=".Operadores6" />
         <activity android:name=".Operadores7" />
-        <activity android:name=".Operadores8" />
-        <activity android:name=".Classe2" />
-        <activity android:name=".Classe3"></activity>
+        <activity android:name=".OQueEJava2" />
+        <activity android:name=".OQueEJava3" />
+        <activity android:name=".OQueEJava4" />
+        <activity android:name=".OQueEJava5" />
+        <activity android:name=".OQueEJava6" />
+        <activity android:name=".OQueEJava7" />
+        <activity android:name=".OQueEJava8" />
     </application>
 
 </manifest>
