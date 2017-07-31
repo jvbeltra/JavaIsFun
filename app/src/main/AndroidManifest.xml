@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".EasyActivity" />
         <activity android:name=".MediumActivity" />
         <activity android:name=".HardActivity" />
@@ -28,6 +29,9 @@
         <activity android:name=".Operadores4" />
         <activity android:name=".Operadores5" />
         <activity android:name=".Classe" />
+        <activity android:name=".Classe2" />
+        <activity android:name=".Classe3" />
+        <activity android:name=".Classe4" />
         <activity android:name=".Metodos" />
         <activity android:name=".Metodos2" />
         <activity android:name=".Metodos3" />
