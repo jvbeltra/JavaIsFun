@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class Classe extends AppCompatActivity {
 
@@ -15,51 +16,41 @@ public class Classe extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_classe);
         findViewById(R.id.texto1).setVisibility(View.VISIBLE);
-        findViewById(R.id.tprox2).setVisibility(View.INVISIBLE);
+        findViewById(R.id.ant).setVisibility(View.INVISIBLE);
         findViewById(R.id.texto2).setVisibility(View.INVISIBLE);
         findViewById(R.id.texto3).setVisibility(View.INVISIBLE);
-        findViewById(R.id.tanter1).setVisibility(View.INVISIBLE);
-        findViewById(R.id.tanter2).setVisibility(View.INVISIBLE);
         findViewById(R.id.imageButton46).setVisibility(View.INVISIBLE);
     }
 
+    public void prox(View view) {
+        TextView texto1 = (TextView) findViewById(R.id.texto1);
+        TextView texto2 = (TextView) findViewById(R.id.texto2);
+        TextView texto3 = (TextView) findViewById(R.id.texto3);
 
-    public void prox1(View view) {
-        findViewById(R.id.texto1).setVisibility(View.INVISIBLE);
-        findViewById(R.id.texto2).setVisibility(View.VISIBLE);
-        findViewById(R.id.tanter1).setVisibility(View.VISIBLE);
-        findViewById(R.id.tprox2).setVisibility(View.VISIBLE);
-        findViewById(R.id.tanter1).setVisibility(View.INVISIBLE);
+        if (texto1.getVisibility() == View.VISIBLE) {
+            findViewById(R.id.texto1).setVisibility(View.GONE);
+            findViewById(R.id.texto2).setVisibility(View.VISIBLE);
+            findViewById(R.id.ant).setVisibility(View.VISIBLE);
+        } else if (texto2.getVisibility() == View.VISIBLE) {
+            findViewById(R.id.texto2).setVisibility(View.GONE);
+            findViewById(R.id.texto3).setVisibility(View.VISIBLE);
+        }
     }
 
-    public void prox2(View view) {
-        findViewById(R.id.texto2).setVisibility(View.INVISIBLE);
-        findViewById(R.id.texto1).setVisibility(View.INVISIBLE);
-        findViewById(R.id.texto3).setVisibility(View.VISIBLE);
-        findViewById(R.id.tprox2).setVisibility(View.INVISIBLE);
-        findViewById(R.id.tprox).setVisibility(View.INVISIBLE);
-        findViewById(R.id.tanter2).setVisibility(View.VISIBLE);
-        findViewById(R.id.tanter1).setVisibility(View.INVISIBLE);
-        findViewById(R.id.imageButton46).setVisibility(View.VISIBLE);
+    public void ant(View view) {
 
-    }
+        TextView texto1 = (TextView) findViewById(R.id.texto1);
+        TextView texto2 = (TextView) findViewById(R.id.texto2);
+        TextView texto3 = (TextView) findViewById(R.id.texto3);
 
-
-    public void ant2(View view) {
-        findViewById(R.id.texto3).setVisibility(View.INVISIBLE);
-        findViewById(R.id.texto2).setVisibility(View.VISIBLE);
-        findViewById(R.id.tanter2).setVisibility(View.INVISIBLE);
-        findViewById(R.id.tanter1).setVisibility(View.VISIBLE);
-    }
-
-    public void ant1(View view) {
-        findViewById(R.id.texto2).setVisibility(View.INVISIBLE);
-        findViewById(R.id.texto1).setVisibility(View.VISIBLE);
-        findViewById(R.id.tanter2).setVisibility(View.INVISIBLE);
-        findViewById(R.id.tanter1).setVisibility(View.INVISIBLE);
-        findViewById(R.id.tprox).setVisibility(View.VISIBLE);
-
-
+        if (texto3.getVisibility() == View.VISIBLE) {
+            findViewById(R.id.texto3).setVisibility(View.GONE);
+            findViewById(R.id.texto2).setVisibility(View.VISIBLE);
+        } else if (texto2.getVisibility() == View.VISIBLE) {
+            findViewById(R.id.texto2).setVisibility(View.GONE);
+            findViewById(R.id.texto1).setVisibility(View.VISIBLE);
+            findViewById(R.id.ant).setVisibility(View.GONE);
+        }
     }
 
 

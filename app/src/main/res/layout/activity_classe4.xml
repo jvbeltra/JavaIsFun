@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/erradoAbelha"
-        android:layout_width="320dp"
-        android:layout_height="212dp"
+        android:layout_width="263dp"
+        android:layout_height="278dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -22,24 +22,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.669" />
-
-    <Button
-        android:id="@+id/ant"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp"
-        android:onClick="ant"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.084"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.296" />
+        app:layout_constraintVertical_bias="0.669"
+        tools:layout_editor_absoluteY="169dp"
+        tools:layout_editor_absoluteX="89dp" />
 
     <ImageButton
         android:id="@+id/imageButton63"
@@ -53,13 +38,12 @@
         android:onClick="next"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.974"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/proximo"
-        tools:layout_editor_absoluteY="502dp" />
+        app:srcCompat="@drawable/proximo" />
 
     <ImageButton
         android:id="@+id/imageButton64"
@@ -85,7 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginTop="54dp"
+        android:layout_marginTop="72dp"
         android:text="Certo! Agora, vamos verificar se ficou claro: selecione a classe que foi declarada corretamente:"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
@@ -96,23 +80,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.964" />
-
-    <Button
-        android:id="@+id/next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp"
-        android:onClick="prox"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.296" />
 
     <ImageView
         android:id="@+id/classabelha"
@@ -211,8 +178,8 @@
 
     <TextView
         android:id="@+id/erradoGato"
-        android:layout_width="317dp"
-        android:layout_height="158dp"
+        android:layout_width="255dp"
+        android:layout_height="227dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -222,17 +189,18 @@
         android:textColor="@color/Avancado"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.578"
-        tools:layout_editor_absoluteY="214dp" />
+        app:layout_constraintVertical_bias="0.577"
+        tools:layout_editor_absoluteY="166dp"
+        tools:layout_editor_absoluteX="93dp" />
 
     <TextView
         android:id="@+id/erradoCachorro"
-        android:layout_width="320dp"
-        android:layout_height="212dp"
+        android:layout_width="250dp"
+        android:layout_height="261dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -245,5 +213,44 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.669" />
+        app:layout_constraintVertical_bias="0.669"
+        tools:layout_editor_absoluteY="186dp"
+        tools:layout_editor_absoluteX="102dp" />
+
+    <ImageButton
+        android:id="@+id/proxP"
+        android:layout_width="33dp"
+        android:layout_height="322dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/classcachorro"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toRightOf="@+id/erradoAbelha"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView157"
+        app:layout_constraintVertical_bias="0.8"
+        app:srcCompat="@drawable/forwardddd" />
+
+    <ImageButton
+        android:id="@+id/antP"
+        android:layout_width="32dp"
+        android:layout_height="324dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/classcachorro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/erradoAbelha"
+        app:layout_constraintTop_toBottomOf="@+id/textView157"
+        app:layout_constraintVertical_bias="0.789"
+        app:srcCompat="@drawable/backkk" />
+
 </android.support.constraint.ConstraintLayout>

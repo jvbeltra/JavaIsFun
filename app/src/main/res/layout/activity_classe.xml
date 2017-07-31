@@ -65,8 +65,8 @@
 
     <TextView
         android:id="@+id/afinal"
-        android:layout_width="389dp"
-        android:layout_height="131dp"
+        android:layout_width="368dp"
+        android:layout_height="120dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="-106dp"
@@ -77,11 +77,11 @@
         android:textSize="38sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.435" />
+        app:layout_constraintVertical_bias="0.419" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -141,72 +141,38 @@
         app:layout_constraintVertical_bias="1.0"
         tools:layout_editor_absoluteY="502dp" />
 
-    <Button
-        android:id="@+id/tanter1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:id="@+id/prox"
+        android:layout_width="64dp"
+        android:layout_height="59dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:onClick="ant1"
-        android:text="Button"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="@+id/afinal"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="@+id/afinal"
-        app:layout_constraintVertical_bias="0.743"
-        app:layout_constraintTop_toTopOf="@+id/afinal" />
-
-    <Button
-        android:id="@+id/tanter2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:onClick="ant2"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="@+id/afinal"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="@+id/afinal"
-        app:layout_constraintVertical_bias="0.746"
-        app:layout_constraintTop_toTopOf="@+id/afinal" />
-
-    <Button
-        android:id="@+id/tprox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/afinal"
+        app:layout_constraintVertical_bias="0.875"
+        app:srcCompat="@drawable/avancar"
         android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:onClick="prox1"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="@+id/afinal"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintLeft_toRightOf="@+id/tanter1"
-        app:layout_constraintRight_toRightOf="@+id/afinal"
-        app:layout_constraintTop_toTopOf="@+id/afinal"
-        app:layout_constraintVertical_bias="0.746"
-        app:layout_constraintLeft_toLeftOf="@+id/afinal" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
 
-    <Button
-        android:id="@+id/tprox2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="147dp"
+    <ImageButton
+        android:id="@+id/ant"
+        android:layout_width="64dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:onClick="prox2"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="@+id/afinal"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintLeft_toRightOf="@+id/tanter1"
-        app:layout_constraintRight_toRightOf="@+id/afinal"
-        app:layout_constraintTop_toTopOf="@+id/afinal"
-        app:layout_constraintVertical_bias="0.746" />
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/prox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467"
+        app:srcCompat="@drawable/avancaresquerda" />
+
 </android.support.constraint.ConstraintLayout>

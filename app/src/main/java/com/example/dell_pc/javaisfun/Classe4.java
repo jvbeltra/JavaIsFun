@@ -12,7 +12,7 @@ public class Classe4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_classe4);
-        findViewById(R.id.ant).setVisibility(View.INVISIBLE);
+        findViewById(R.id.antP).setVisibility(View.INVISIBLE);
         findViewById(R.id.imageButton63).setVisibility(View.INVISIBLE);
         findViewById(R.id.imageButton63).setVisibility(View.INVISIBLE);
         findViewById(R.id.erradoAbelha).setVisibility(View.INVISIBLE);
@@ -35,18 +35,18 @@ public class Classe4 extends AppCompatActivity {
         if (classabelha.getVisibility() == View.VISIBLE || erradoabelha.getVisibility() == View.VISIBLE) {
             findViewById(R.id.classabelha).setVisibility(View.GONE);
             findViewById(R.id.classgato).setVisibility(View.VISIBLE);
-            findViewById(R.id.ant).setVisibility(View.VISIBLE);
+            findViewById(R.id.antP).setVisibility(View.VISIBLE);
             findViewById(R.id.erradoAbelha).setVisibility(View.GONE);
         } else if (classgato.getVisibility() == View.VISIBLE || erradogato.getVisibility() == View.VISIBLE) {
             findViewById(R.id.classgato).setVisibility(View.GONE);
             findViewById(R.id.classcachorro).setVisibility(View.VISIBLE);
-            findViewById(R.id.ant).setVisibility(View.VISIBLE);
+            findViewById(R.id.antP).setVisibility(View.VISIBLE);
             findViewById(R.id.erradoGato).setVisibility(View.GONE);
         } else if (classcachorro.getVisibility() == View.VISIBLE || erradocachorro.getVisibility() == View.VISIBLE) {
             findViewById(R.id.classcachorro).setVisibility(View.GONE);
             findViewById(R.id.classpeixe).setVisibility(View.VISIBLE);
-            findViewById(R.id.next).setVisibility(View.GONE);
-            findViewById(R.id.ant).setVisibility(View.VISIBLE);
+            findViewById(R.id.proxP).setVisibility(View.GONE);
+            findViewById(R.id.antP).setVisibility(View.VISIBLE);
             findViewById(R.id.erradoCachorro).setVisibility(View.GONE);
         }
     }
@@ -64,8 +64,8 @@ public class Classe4 extends AppCompatActivity {
         if (classgato.getVisibility() == View.VISIBLE || erradogato.getVisibility() == View.VISIBLE ) {
             findViewById(R.id.classgato).setVisibility(View.GONE);
             findViewById(R.id.classabelha).setVisibility(View.VISIBLE);
-            findViewById(R.id.ant).setVisibility(View.GONE);
-            findViewById(R.id.next).setVisibility(View.VISIBLE);
+            findViewById(R.id.antP).setVisibility(View.GONE);
+            findViewById(R.id.proxP).setVisibility(View.VISIBLE);
             findViewById(R.id.erradoGato).setVisibility(View.GONE);
             findViewById(R.id.erradoCachorro).setVisibility(View.GONE);
             findViewById(R.id.textCorreto).setVisibility(View.GONE);
@@ -74,7 +74,7 @@ public class Classe4 extends AppCompatActivity {
         } else if (classcachorro.getVisibility() == View.VISIBLE || erradocachorro.getVisibility() == View.VISIBLE) {
             findViewById(R.id.classcachorro).setVisibility(View.GONE);
             findViewById(R.id.classgato).setVisibility(View.VISIBLE);
-            findViewById(R.id.next).setVisibility(View.VISIBLE);
+            findViewById(R.id.proxP).setVisibility(View.VISIBLE);
             findViewById(R.id.erradoGato).setVisibility(View.GONE);
             findViewById(R.id.erradoCachorro).setVisibility(View.GONE);
             findViewById(R.id.textCorreto).setVisibility(View.GONE);
@@ -82,7 +82,7 @@ public class Classe4 extends AppCompatActivity {
         } else if (classpeixe.getVisibility() == View.VISIBLE || textocorreto.getVisibility() == View.VISIBLE ) {
             findViewById(R.id.classpeixe).setVisibility(View.GONE);
             findViewById(R.id.classcachorro).setVisibility(View.VISIBLE);
-            findViewById(R.id.next).setVisibility(View.VISIBLE);
+            findViewById(R.id.proxP).setVisibility(View.VISIBLE);
             findViewById(R.id.erradoGato).setVisibility(View.GONE);
             findViewById(R.id.erradoCachorro).setVisibility(View.GONE);
             findViewById(R.id.textCorreto).setVisibility(View.GONE);
