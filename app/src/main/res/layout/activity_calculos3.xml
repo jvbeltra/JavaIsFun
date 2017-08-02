@@ -90,7 +90,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/transparent"
-        android:onClick="next"
+        android:onClick="proximo"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.973"
