@@ -36,7 +36,7 @@ public class Calculos2 extends AppCompatActivity {
                 .show();
     }
     public void proximo(View view){
-        Intent intent = new Intent(this, Calculos3.class);
+         Intent intent = new Intent(this, Calculos3.class);
         startActivity(intent);
     }
 }
