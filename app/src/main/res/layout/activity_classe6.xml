@@ -380,25 +380,25 @@
 
     <EditText
         android:id="@+id/edText6"
-        android:layout_width="27dp"
-        android:layout_height="31dp"
+        android:layout_width="39dp"
+        android:layout_height="30dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="textFilter"
         android:textColor="@color/Avancado"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintHorizontal_bias="0.86"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView195"
-        app:layout_constraintVertical_bias="0.166" />
+        app:layout_constraintVertical_bias="0.201" />
 
     <EditText
-
         android:id="@+id/edText5"
         android:layout_width="57dp"
         android:layout_height="33dp"
@@ -406,8 +406,9 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="textFilter"
         android:textColor="@color/Avancado"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"

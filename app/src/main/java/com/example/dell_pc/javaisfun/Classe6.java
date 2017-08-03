@@ -21,12 +21,6 @@ public class Classe6 extends AppCompatActivity {
 
     public void checar(View view) {
         EditText edText1 = (EditText) findViewById(R.id.edText1);
-        InputMethodManager inputManager =
-                (InputMethodManager)
-                        context.getSystemService(Context.INPUT_METHOD_SERVICE);
-        inputManager.hideSoftInputFromWindow(
-                this.getCurrentFocus().getWindowToken(),
-                InputMethodManager.HIDE_NOT_ALWAYS);
         if (edText1.getText().toString().equals("Class")) {
             cont++;
         }
