@@ -170,6 +170,7 @@ public class Calculos6 extends AppCompatActivity {
         translateAnimation.setFillAfter(true);
         btn_int.startAnimation(translateAnimation);
 
+
         findViewById(R.id.button26).setVisibility(View.GONE);
         findViewById(R.id.button25).setVisibility(View.GONE);
     }
