@@ -84,7 +84,10 @@
             <activity android:name=".OQueEJava7" />
             <activity android:name=".OQueEJava8" />
         </activity>
-        <activity android:name=".Calculos2"></activity>
+        <activity android:name=".Calculos2" />
+        <activity android:name=".Classe5" />
+        <activity android:name=".Classe4" />
+        <activity android:name=".Classe6"></activity>
     </application>
 
 </manifest>

@@ -34,6 +34,8 @@ public class Classe extends AppCompatActivity {
         } else if (texto2.getVisibility() == View.VISIBLE) {
             findViewById(R.id.texto2).setVisibility(View.GONE);
             findViewById(R.id.texto3).setVisibility(View.VISIBLE);
+            findViewById(R.id.imageButton46).setVisibility(View.VISIBLE);
+            findViewById(R.id.prox).setVisibility(View.GONE);
         }
     }
 
@@ -50,6 +52,8 @@ public class Classe extends AppCompatActivity {
             findViewById(R.id.texto2).setVisibility(View.GONE);
             findViewById(R.id.texto1).setVisibility(View.VISIBLE);
             findViewById(R.id.ant).setVisibility(View.GONE);
+            findViewById(R.id.prox).setVisibility(View.VISIBLE);
+
         }
     }
 

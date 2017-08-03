@@ -1,5 +1,8 @@
 package com.example.dell_pc.javaisfun;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -61,7 +64,7 @@ public class Classe4 extends AppCompatActivity {
         ImageView classgato = (ImageView) findViewById(R.id.classgato);
         ImageView classabelha = (ImageView) findViewById(R.id.classabelha);
 
-        if (classgato.getVisibility() == View.VISIBLE || erradogato.getVisibility() == View.VISIBLE ) {
+        if (classgato.getVisibility() == View.VISIBLE || erradogato.getVisibility() == View.VISIBLE) {
             findViewById(R.id.classgato).setVisibility(View.GONE);
             findViewById(R.id.classabelha).setVisibility(View.VISIBLE);
             findViewById(R.id.antP).setVisibility(View.GONE);
@@ -79,7 +82,7 @@ public class Classe4 extends AppCompatActivity {
             findViewById(R.id.erradoCachorro).setVisibility(View.GONE);
             findViewById(R.id.textCorreto).setVisibility(View.GONE);
             findViewById(R.id.erradoAbelha).setVisibility(View.GONE);
-        } else if (classpeixe.getVisibility() == View.VISIBLE || textocorreto.getVisibility() == View.VISIBLE ) {
+        } else if (classpeixe.getVisibility() == View.VISIBLE || textocorreto.getVisibility() == View.VISIBLE) {
             findViewById(R.id.classpeixe).setVisibility(View.GONE);
             findViewById(R.id.classcachorro).setVisibility(View.VISIBLE);
             findViewById(R.id.proxP).setVisibility(View.VISIBLE);
@@ -130,6 +133,34 @@ public class Classe4 extends AppCompatActivity {
             findViewById(R.id.erradoCachorro).setVisibility(View.GONE);
             findViewById(R.id.classabelha).setVisibility(View.GONE);
         }
-
     }
+
+    public void TextDialog(View view) {
+        AlertDialog.Builder builder;
+
+        builder = new AlertDialog.Builder(this);
+
+        builder.setTitle("Home")
+                .setMessage("Você tem certeza que quer voltar ao menu principal?")
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent intent = new Intent(Classe4.this, MainActivity.class);
+                        startActivity(intent);
+                    }
+                })
+                .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                })
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .show();
+    }
+
+    public void next(View view) {
+        Intent intent = new Intent(this, Classe5.class);
+        startActivity(intent);
+    }
+
 }
+

@@ -146,18 +146,19 @@
         android:layout_width="64dp"
         android:layout_height="59dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/transparent"
+        android:onClick="prox"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="@+id/afinal"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/afinal"
         app:layout_constraintVertical_bias="0.875"
-        app:srcCompat="@drawable/avancar"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="1.0" />
+        app:srcCompat="@drawable/avancar" />
 
     <ImageButton
         android:id="@+id/ant"
@@ -166,6 +167,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="8dp"
         android:background="@android:color/transparent"
+        android:onClick="ant"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

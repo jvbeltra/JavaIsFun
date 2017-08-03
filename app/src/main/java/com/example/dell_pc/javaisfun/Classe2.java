@@ -70,6 +70,7 @@ public class Classe2 extends AppCompatActivity {
             findViewById(R.id.texto2).setVisibility(View.GONE);
             findViewById(R.id.texto1).setVisibility(View.VISIBLE);
             findViewById(R.id.ant).setVisibility(View.GONE);
+            findViewById(R.id.prox).setVisibility(View.VISIBLE);
         } else if (texto3.getVisibility() == View.VISIBLE) {
             findViewById(R.id.texto3).setVisibility(View.GONE);
             findViewById(R.id.texto2).setVisibility(View.VISIBLE);
