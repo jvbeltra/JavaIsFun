@@ -20,7 +20,7 @@ public class Classe6 extends AppCompatActivity {
     }
 
     public void checar(View view) {
-        EditText edText1 = (EditText) findViewById(R.id.edText1);
+        EditText edText1 = (EditText)  findViewById(R.id.edText1);
         if (edText1.getText().toString().equals("Class")) {
             cont++;
         }
