@@ -8,8 +8,8 @@
 
     <EditText
         android:id="@+id/edText2"
-        android:layout_width="69dp"
-        android:layout_height="42dp"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -17,14 +17,15 @@
         android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
         android:ems="10"
         android:inputType="textFilter"
+        android:textAlignment="viewStart"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintHorizontal_bias="0.154"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.373" />
+        app:layout_constraintVertical_bias="0.364" />
 
     <TextView
         android:id="@+id/textView200"
@@ -99,7 +100,7 @@
         app:layout_constraintVertical_bias="0.321" />
 
     <ImageButton
-        android:id="@+id/imageButton78"
+        android:id="@+id/prox"
         android:layout_width="46dp"
         android:layout_height="41dp"
         android:layout_marginBottom="17dp"
@@ -184,7 +185,7 @@
         android:textColor="@android:color/black"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintHorizontal_bias="0.375"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -219,10 +220,11 @@
         android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
         android:ems="10"
         android:inputType="textFilter"
+        android:textAlignment="center"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintHorizontal_bias="0.198"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -311,6 +313,7 @@
         android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
         android:ems="10"
         android:inputType="textFilter"
+        android:textAlignment="viewStart"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -331,6 +334,7 @@
         android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
         android:ems="10"
         android:inputType="textFilter"
+        android:textAlignment="viewStart"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -371,7 +375,7 @@
         android:textColor="@android:color/black"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintHorizontal_bias="0.274"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -388,6 +392,7 @@
         android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+"
         android:ems="10"
         android:inputType="textFilter"
+        android:textAlignment="center"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -408,6 +413,7 @@
         android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
         android:ems="10"
         android:inputType="textFilter"
+        android:textAlignment="center"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -415,9 +421,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.582"
-        tools:layout_editor_absoluteY="313dp"
-        tools:layout_editor_absoluteX="89dp" />
+        app:layout_constraintVertical_bias="0.582" />
 
     <Button
         android:id="@+id/button29"

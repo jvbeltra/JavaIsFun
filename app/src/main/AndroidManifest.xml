@@ -90,7 +90,8 @@
         <activity android:name=".Classe6" />
         <activity android:name=".Calculos9" />
         <activity android:name=".Calculos10" />
-        <activity android:name=".LacoDeRepeticao2"></activity>
+        <activity android:name=".LacoDeRepeticao2" />
+        <activity android:name=".Condicao2"></activity>
     </application>
 
 </manifest>
