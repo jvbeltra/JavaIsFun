@@ -89,7 +89,8 @@
         <activity android:name=".Classe4" />
         <activity android:name=".Classe6" />
         <activity android:name=".Calculos9" />
-        <activity android:name=".Calculos10"></activity>
+        <activity android:name=".Calculos10" />
+        <activity android:name=".LacoDeRepeticao2"></activity>
     </application>
 
 </manifest>

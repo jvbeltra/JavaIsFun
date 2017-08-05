@@ -35,4 +35,8 @@ public class LacoDeRepeticao extends AppCompatActivity {
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
     }
+    public void proximo(View view){
+        Intent intent = new Intent(this, LacoDeRepeticao2.class);
+        startActivity(intent);
+    }
 }
