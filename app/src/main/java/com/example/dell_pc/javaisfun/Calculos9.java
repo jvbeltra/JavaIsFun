@@ -32,33 +32,31 @@ import android.widget.TableRow;
 
 import com.google.android.flexbox.FlexboxLayout;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
-public class Calculos6 extends AppCompatActivity {
-public int cont=0;
-
+public class Calculos9 extends AppCompatActivity {
+    public int cont=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculos6);
-        findViewById(R.id.textView189).setVisibility(View.GONE);
-        findViewById(R.id.textView186).setVisibility(View.GONE);
-        findViewById(R.id.imageButton71).setVisibility(View.GONE);
-        findViewById(R.id.button28).setOnLongClickListener(new MyOnLongClickListener());
-        findViewById(R.id.button19).setOnLongClickListener(new MyOnLongClickListener());
-        findViewById(R.id.button23).setOnLongClickListener(new MyOnLongClickListener());
-        findViewById(R.id.button24).setOnLongClickListener(new MyOnLongClickListener());
-        findViewById(R.id.button25).setOnLongClickListener(new MyOnLongClickListener());
-        findViewById(R.id.button26).setOnLongClickListener(new MyOnLongClickListener());
-        findViewById(R.id.button27).setOnLongClickListener(new MyOnLongClickListener());
-        findViewById(R.id.button21).setOnLongClickListener(new MyOnLongClickListener());
-        findViewById(R.id.button22).setOnLongClickListener(new MyOnLongClickListener());
+        setContentView(R.layout.activity_calculos9);
+        findViewById(R.id.textView214).setVisibility(View.GONE);
+        findViewById(R.id.textView215).setVisibility(View.GONE);
+        findViewById(R.id.imageButton83).setVisibility(View.GONE);
+        findViewById(R.id.button28).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
+        findViewById(R.id.button19).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
+        findViewById(R.id.button23).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
+        findViewById(R.id.button24).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
+        findViewById(R.id.button25).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
+        findViewById(R.id.button26).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
+        findViewById(R.id.button27).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
+        findViewById(R.id.button21).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
+        findViewById(R.id.button22).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
+        findViewById(R.id.button33).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
+        findViewById(R.id.button29).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
 
 
 
-        findViewById(R.id.flexTop).setOnDragListener(new MyOnDragListener(1));
-        findViewById(R.id.flexDown).setOnDragListener(new MyOnDragListener(2));
+        findViewById(R.id.flexTop).setOnDragListener(new Calculos9.MyOnDragListener(1));
+        findViewById(R.id.flexDown).setOnDragListener(new Calculos9.MyOnDragListener(2));
     }
     public void TextDialog(View view){
         AlertDialog.Builder builder;
@@ -69,7 +67,7 @@ public int cont=0;
                 .setMessage("Você tem certeza que quer voltar ao menu principal?")
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(Calculos6.this, MainActivity.class);
+                        Intent intent = new Intent(Calculos9.this, MainActivity.class);
                         startActivity(intent);
                     }
                 })
@@ -82,7 +80,7 @@ public int cont=0;
                 .show();
     }
     public void proximo(View view){
-        Intent intent = new Intent(this, Calculos7.class);
+        Intent intent = new Intent(this, Calculos10.class);
         startActivity(intent);
     }
 
@@ -160,8 +158,8 @@ public int cont=0;
 
     public void verif(View view){
 
-        findViewById(R.id.imageButton71).setVisibility(View.VISIBLE);
-        findViewById(R.id.button20).setVisibility(View.GONE);
+        findViewById(R.id.imageButton83).setVisibility(View.VISIBLE);
+        findViewById(R.id.button32).setVisibility(View.GONE);
 
         FlexboxLayout flexboxLayout = (FlexboxLayout) findViewById(R.id.flexTop);
         int count = flexboxLayout.getChildCount();
@@ -197,14 +195,30 @@ public int cont=0;
                 if(v==findViewById(R.id.button24)){
                     cont++;
                 }
+            }else if(laco==8){
+                if(v==findViewById(R.id.button26)){
+                    cont++;
+                }
+            }else if(laco==9){
+                if(v==findViewById(R.id.button27)){
+                    cont++;
+                }
+            }else if (laco==10){
+                if(v==findViewById(R.id.button33)){
+                    cont++;
+                }
+            }else if(laco==11){
+                if(v==findViewById(R.id.button29)){
+                    cont++;
+                }
             }
 
 
         }
 
-        if(cont>=7){
-            findViewById(R.id.textView189).setVisibility(View.VISIBLE);
-            findViewById(R.id.textView186).setVisibility(View.GONE);
+        if(cont>=11){
+            findViewById(R.id.textView214).setVisibility(View.VISIBLE);
+            findViewById(R.id.textView215).setVisibility(View.GONE);
             findViewById(R.id.flexDown).setVisibility(View.GONE);
 
 
@@ -213,10 +227,9 @@ public int cont=0;
 
 
         }else{
-            findViewById(R.id.textView189).setVisibility(View.GONE);
-            findViewById(R.id.textView186).setVisibility(View.VISIBLE);
+            findViewById(R.id.textView214).setVisibility(View.GONE);
+            findViewById(R.id.textView215).setVisibility(View.VISIBLE);
             findViewById(R.id.flexDown).setVisibility(View.GONE);
         }
     }
-
 }

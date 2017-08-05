@@ -40,10 +40,10 @@ android {
         javaMaxHeapSize "4g"
     }
 }
-dependencies{
+dependencies {
     compile 'com.google.android:flexbox:0.3.0'
 }
-dependencies{
+dependencies {
     compile 'com.android.support:recyclerview-v7:25.3.1'
 }
 
@@ -53,6 +53,18 @@ dependencies {
 }
 dependencies {
     compile 'com.android.support:multidex:1.0.0'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
 }
 dependencies {
     compile 'com.android.support.constraint:constraint-layout:+'
