@@ -59,6 +59,7 @@ public int cont=0;
 
         findViewById(R.id.flexTop).setOnDragListener(new MyOnDragListener(1));
         findViewById(R.id.flexDown).setOnDragListener(new MyOnDragListener(2));
+
     }
     public void TextDialog(View view){
         AlertDialog.Builder builder;
@@ -118,6 +119,7 @@ public int cont=0;
         @Override
         public boolean onDrag(View v, DragEvent event){
             int action = event.getAction();
+            View view = (View) event.getLocalState();
 
             switch (action){
                 case DragEvent.ACTION_DRAG_STARTED:
@@ -135,25 +137,55 @@ public int cont=0;
                 case DragEvent.ACTION_DRAG_EXITED:
                     Log.i("Script", num+" - ACTION_DRAG_EXITED");
                     break;
+
                 case DragEvent.ACTION_DROP:
                     Log.i("Script", num+" - ACTION_DROP");
 
-                    View view = (View) event.getLocalState();
-                    ViewGroup owner = (ViewGroup) view.getParent();
-                    owner.removeView(view);
-                    FlexboxLayout container = (FlexboxLayout) v;
-                    container.addView(view);
-                    view.setVisibility(View.VISIBLE);
+
+
+
+                        ViewGroup owner = (ViewGroup) view.getParent();
+                        owner.removeView(view);
+                        FlexboxLayout container = (FlexboxLayout) v;
+                        container.addView(view);
+
+
+                        view.setVisibility(View.VISIBLE);
+
+
+
+
+
+
+
+
 
                     break;
                 case DragEvent.ACTION_DRAG_ENDED:
                     Log.i("Script", num+" - ACTION_DRAG_ENDED");
 
+
+                    if (dropEventNotHandled(event)) {
+
+                        view.setVisibility(View.VISIBLE);
+
+                    }
+
+
+
                     break;
             }
 
+
             return (true);
         }
+
+    private boolean dropEventNotHandled(DragEvent dragEvent) {
+
+        return !dragEvent.getResult();
+
+    }
+
     }
 
 
@@ -198,6 +230,8 @@ public int cont=0;
                     cont++;
                 }
             }
+
+
 
 
         }

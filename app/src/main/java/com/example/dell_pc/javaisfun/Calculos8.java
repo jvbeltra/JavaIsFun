@@ -114,7 +114,7 @@ public class Calculos8 extends AppCompatActivity {
         @Override
         public boolean onDrag(View v, DragEvent event){
             int action = event.getAction();
-
+            View view = (View) event.getLocalState();
             switch (action){
                 case DragEvent.ACTION_DRAG_STARTED:
                     Log.i("Script", num+" - ACTION_DRAG_STARTED");
@@ -134,7 +134,7 @@ public class Calculos8 extends AppCompatActivity {
                 case DragEvent.ACTION_DROP:
                     Log.i("Script", num+" - ACTION_DROP");
 
-                    View view = (View) event.getLocalState();
+
                     ViewGroup owner = (ViewGroup) view.getParent();
                     owner.removeView(view);
                     FlexboxLayout container = (FlexboxLayout) v;
@@ -144,11 +144,20 @@ public class Calculos8 extends AppCompatActivity {
                     break;
                 case DragEvent.ACTION_DRAG_ENDED:
                     Log.i("Script", num+" - ACTION_DRAG_ENDED");
+                    if (dropEventNotHandled(event)) {
 
+                        view.setVisibility(View.VISIBLE);
+
+                    }
                     break;
             }
 
             return (true);
+        }
+        private boolean dropEventNotHandled(DragEvent dragEvent) {
+
+            return !dragEvent.getResult();
+
         }
     }
 
