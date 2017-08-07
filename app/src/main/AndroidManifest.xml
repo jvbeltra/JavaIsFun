@@ -9,7 +9,7 @@
         android:roundIcon="@drawable/microchip"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -92,7 +92,8 @@
         <activity android:name=".Calculos9" />
         <activity android:name=".Calculos10" />
         <activity android:name=".LacoDeRepeticao2" />
-        <activity android:name=".Condicao2"></activity>
+        <activity android:name=".Condicao2" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
