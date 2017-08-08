@@ -35,6 +35,10 @@ public class Condicao extends AppCompatActivity {
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
     }
+
+    public static void main(String[] args) {
+        
+    }
     public void next(View view){
         Intent intent = new Intent(this, Condicao2.class);
         startActivity(intent);

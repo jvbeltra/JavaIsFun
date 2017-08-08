@@ -8,22 +8,24 @@
 
     <TextView
         android:id="@+id/textView229"
-        android:layout_width="325dp"
-        android:layout_height="186dp"
+        android:layout_width="310dp"
+        android:layout_height="151dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="Então, nesta seção nós revisaremos alguns dos conceitos já abordados nas atividades de operações, porém o enfoque será nas estruturas"
+        android:text="Antes de tudo, vamos entender o que significa cada uma dessas estruturas citadas na página anterior:"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.194" />
+        app:layout_constraintVertical_bias="0.194"
+        tools:layout_editor_absoluteY="120dp"
+        tools:layout_editor_absoluteX="52dp" />
 
     <ImageButton
         android:id="@+id/imageButton88"
@@ -62,4 +64,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.015"
         app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="368dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704"
+        app:srcCompat="@drawable/tablecondition"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.681" />
 </android.support.constraint.ConstraintLayout>
