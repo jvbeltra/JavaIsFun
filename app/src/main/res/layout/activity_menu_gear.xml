@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell_pc.javaisfun.AboutTheApp"
+    android:background="@drawable/gradient_menu">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton89"
+            android:layout_width="73dp"
+            android:layout_height="72dp"
+            android:background="@android:color/transparent"
+            android:onClick="back"
+            app:srcCompat="@drawable/delete" />
+
+        <TextView
+            android:id="@+id/textView232"
+            android:layout_width="417dp"
+            android:layout_height="42dp"
+            android:fontFamily="sans-serif"
+            android:text="Política de privacidade"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/sub" />
+
+        <TextView
+            android:id="@+id/textView233"
+            android:layout_width="405dp"
+            android:layout_height="46dp"
+            android:fontFamily="sans-serif"
+            android:text="Notificações"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+</ScrollView>
