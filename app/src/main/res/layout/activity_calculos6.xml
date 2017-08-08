@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Calculos6">
+    tools:context="com.example.dell_pc.javaisfun.Calculos6"
+    android:background="@android:color/white"
+    >
 
 
     <ImageButton
