@@ -93,7 +93,10 @@
         <activity android:name=".Calculos10" />
         <activity android:name=".LacoDeRepeticao2" />
         <activity android:name=".Condicao2" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MenuGear" />
+        <activity android:name=".PoliticaDePrivacidade" />
+        <activity android:name=".Notificacoes"></activity>
     </application>
 
 </manifest>

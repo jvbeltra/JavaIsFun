@@ -5,7 +5,12 @@ import android.content.Intent;
 import android.support.multidex.MultiDex;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuInflater;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.PopupMenu;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,12 +18,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
     @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
         MultiDex.install(this);
     }
+
+    public void menu(View view){
+        Intent intent = new Intent(this, MenuGear.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
+    }
+
+
 
     public void TelaBasica(View view){
         Intent intent = new Intent(this, EasyActivity.class);
