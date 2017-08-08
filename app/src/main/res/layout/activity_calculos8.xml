@@ -60,7 +60,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Escolhas as opções abaixo na ordem correta para criar uma variável que receba como valor o resto de uma divisão entre N5 e 2:"
+        android:text="Escolha as opções abaixo na ordem correta para criar uma variável que receba como valor o resto de uma divisão entre N5 e 2:"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="18sp"

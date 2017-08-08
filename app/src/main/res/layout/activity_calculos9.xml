@@ -60,7 +60,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Escolhas as opções abaixo na ordem correta para criar uma variável que receba como valor o resultado da média entre N6 e N7:"
+        android:text="Escolha as opções abaixo na ordem correta para criar uma variável que receba como valor o resultado da média entre N6 e N7:"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
