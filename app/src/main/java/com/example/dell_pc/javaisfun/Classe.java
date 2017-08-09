@@ -21,6 +21,12 @@ public class Classe extends AppCompatActivity {
         findViewById(R.id.texto3).setVisibility(View.INVISIBLE);
         findViewById(R.id.imageButton46).setVisibility(View.INVISIBLE);
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+
+    }
 
     public void prox(View view) {
         TextView texto1 = (TextView) findViewById(R.id.texto1);
@@ -69,6 +75,7 @@ public class Classe extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(Classe.this, MainActivity.class);
                         startActivity(intent);
+                        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -76,13 +83,14 @@ public class Classe extends AppCompatActivity {
                         dialog.cancel();
                     }
                 })
-                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setIcon(R.drawable.warning)
                 .show();
     }
 
     public void next(View view) {
         Intent intent = new Intent(this, Classe2.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 
 

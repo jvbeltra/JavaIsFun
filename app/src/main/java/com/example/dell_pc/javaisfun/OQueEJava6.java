@@ -9,7 +9,12 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class OQueEJava6 extends AppCompatActivity {
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +31,7 @@ public class OQueEJava6 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(OQueEJava6.this, MainActivity.class);
                         startActivity(intent);
+                        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -33,12 +39,13 @@ public class OQueEJava6 extends AppCompatActivity {
                         dialog.cancel();
                     }
                 })
-                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setIcon(R.drawable.warning)
                 .show();
     }
     public void next(View view){
         Intent intent = new Intent(this, OQueEJava7.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
     public void imageDialog1(View view){
         AlertDialog.Builder builder;
@@ -82,7 +89,8 @@ public class OQueEJava6 extends AppCompatActivity {
         ImageView imageView = new ImageView(this);
 
         imageView.setImageResource(R.drawable.step3);
-        builder.setMessage("Não se assuste, esta são as opções do projeto, como queremos programar em Java, clique em 'Próximo'...")
+        builder.setMessage("\n Não se assuste, esta são as opções do projeto, como queremos programar em Java, clique em 'Próximo'...\n" +
+                "\n")
                 .setView(imageView)
                 .setNegativeButton("Voltar", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
@@ -99,7 +107,8 @@ public class OQueEJava6 extends AppCompatActivity {
         ImageView imageView = new ImageView(this);
 
         imageView.setImageResource(R.drawable.step4);
-        builder.setMessage("Coloque o nome do projeto de acordo com o que pretende fazer nele, e depois clique em 'Finalizar'...")
+        builder.setMessage("\n Coloque o nome do projeto de acordo com o que pretende fazer nele, e depois clique em 'Finalizar'...\n"+
+                "\n")
                 .setView(imageView)
                 .setNegativeButton("Voltar", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
@@ -161,7 +170,8 @@ public class OQueEJava6 extends AppCompatActivity {
         ImageView imageView = new ImageView(this);
 
         imageView.setImageResource(R.drawable.step7);
-        builder.setMessage("Aqui é onde você poderá escrever seu código livremente. O java já cria um projeto com uma geralmente.")
+        builder.setMessage("\n Aqui é onde você poderá escrever seu código livremente. O java já cria um projeto com uma geralmente.\n"+
+                "\n")
                 .setView(imageView)
                 .setNegativeButton("Voltar", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {

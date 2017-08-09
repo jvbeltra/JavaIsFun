@@ -56,6 +56,12 @@ public class Calculos8 extends AppCompatActivity {
         findViewById(R.id.flexTop).setOnDragListener(new Calculos8.MyOnDragListener(1));
         findViewById(R.id.flexDown).setOnDragListener(new Calculos8.MyOnDragListener(2));
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+
+    }
     public void TextDialog(View view){
         AlertDialog.Builder builder;
 
@@ -67,6 +73,7 @@ public class Calculos8 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(Calculos8.this, MainActivity.class);
                         startActivity(intent);
+                        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -74,12 +81,13 @@ public class Calculos8 extends AppCompatActivity {
                         dialog.cancel();
                     }
                 })
-                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setIcon(R.drawable.warning)
                 .show();
     }
     public void proximo(View view){
         Intent intent = new Intent(this, Calculos9.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 
 

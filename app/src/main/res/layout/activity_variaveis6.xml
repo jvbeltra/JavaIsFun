@@ -34,14 +34,14 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="Seguinte, agora vamos praticar um pouco. Vai se seguir um exemplo e você terá que atribuir um valor à variável dada."
+        android:text="Seguinte, agora vamos praticar um pouco. abaixo segue um exemplo e você terá que atribuir um valor à variável dada."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.116"
-        app:layout_constraintHorizontal_bias="0.51" />
+        app:layout_constraintVertical_bias="0.116" />
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="42dp"

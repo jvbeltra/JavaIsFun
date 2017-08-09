@@ -27,6 +27,12 @@ public class MediumActivity extends AppCompatActivity {
 
 
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+
+    }
 
 
 
@@ -42,6 +48,7 @@ public class MediumActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(MediumActivity.this, MainActivity.class);
                         startActivity(intent);
+                        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -49,24 +56,28 @@ public class MediumActivity extends AppCompatActivity {
                         dialog.cancel();
                     }
                 })
-                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setIcon(R.drawable.warning)
                 .show();
     }
     public void Scanner (View view){
             Intent intent = new Intent(this, Scanner.class);
             startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
 
         }
     public void Calculos (View view){
         Intent intent = new Intent(this, Calculos.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
     public void Condicao (View view){
         Intent intent = new Intent(this, Condicao.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
     public void LacoDeRepeticao (View view){
         Intent intent = new Intent (this, LacoDeRepeticao.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 }

@@ -23,6 +23,12 @@ public class Classe2 extends AppCompatActivity {
         findViewById(R.id.texto7).setVisibility(View.INVISIBLE);
         findViewById(R.id.ant).setVisibility(View.INVISIBLE);
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+
+    }
 
     public void prox(View view) {
         TextView texto1 = (TextView) findViewById(R.id.texto1);
@@ -93,6 +99,7 @@ public class Classe2 extends AppCompatActivity {
     public void next(View view) {
         Intent intent = new Intent(this, Classe3.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 
     public void TextDialog(View view) {
@@ -106,6 +113,7 @@ public class Classe2 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(Classe2.this, MainActivity.class);
                         startActivity(intent);
+                        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -113,7 +121,7 @@ public class Classe2 extends AppCompatActivity {
                         dialog.cancel();
                     }
                 })
-                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setIcon(R.drawable.warning)
                 .show();
     }
 

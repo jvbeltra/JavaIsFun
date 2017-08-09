@@ -26,6 +26,12 @@ public class Classe4 extends AppCompatActivity {
         findViewById(R.id.classcachorro).setVisibility(View.INVISIBLE);
         findViewById(R.id.classpeixe).setVisibility(View.INVISIBLE);
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+
+    }
 
     public void prox(View view) {
         ImageView classpeixe = (ImageView) findViewById(R.id.classpeixe);
@@ -146,6 +152,7 @@ public class Classe4 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(Classe4.this, MainActivity.class);
                         startActivity(intent);
+                        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -153,13 +160,14 @@ public class Classe4 extends AppCompatActivity {
                         dialog.cancel();
                     }
                 })
-                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setIcon(R.drawable.warning)
                 .show();
     }
 
     public void next(View view) {
         Intent intent = new Intent(this, Classe5.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 
 }

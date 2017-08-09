@@ -20,7 +20,7 @@ public class Splash extends AppCompatActivity {
                 Intent i = new Intent(Splash.this, MainActivity.class);
                 startActivity(i);
 
-
+                overridePendingTransition(R.anim.left_in, R.anim.left_out);
                 finish();
             }
         }, SPLASH_TIME_OUT);

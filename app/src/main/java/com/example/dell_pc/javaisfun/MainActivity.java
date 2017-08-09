@@ -37,22 +37,27 @@ public class MainActivity extends AppCompatActivity {
     public void TelaBasica(View view){
         Intent intent = new Intent(this, EasyActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
     public void TelaIntermediaria(View view){
         Intent intent = new Intent(this, MediumActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
     public void TelaAvancada(View view){
         Intent intent = new Intent(this, HardActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
     public void AboutTheApp(View view){
         Intent intent = new Intent(this, AboutTheApp.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
     public void AboutUs(View view){
         Intent intent = new Intent(this, AboutUs.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
     }
 
 }

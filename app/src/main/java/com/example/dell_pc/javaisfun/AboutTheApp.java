@@ -26,26 +26,12 @@ public class AboutTheApp extends AppCompatActivity {
         link2.setText(Html.fromHtml(linkText2));
         link2.setMovementMethod(LinkMovementMethod.getInstance());
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
-    public void TextDialog(View view) {
-        AlertDialog.Builder builder;
-
-        builder = new AlertDialog.Builder(this);
-
-        builder.setTitle("Home")
-                .setMessage("Você tem certeza que quer voltar ao menu principal?")
-                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(AboutTheApp.this, MainActivity.class);
-                        startActivity(intent);
-                    }
-                })
-                .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                })
-                .setIcon(android.R.drawable.ic_dialog_alert)
-                .show();
     }
+
+
 }
