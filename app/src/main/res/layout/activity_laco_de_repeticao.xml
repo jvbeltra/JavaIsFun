@@ -55,6 +55,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:text="E se eu quiser repetir um código? Pra não ter que reescrever ele o tempo todo? Tudo pode ser resolvido com os famosos Laços de Repetição. No primeiro ano você aprendeu o REPITA-ATÉ em Portugol, agora, terá que lidar com estruturas um pouco diferentes e até mais simples na minha opinião. Let's get it started?"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="18sp"

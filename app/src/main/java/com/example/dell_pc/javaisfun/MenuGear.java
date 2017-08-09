@@ -11,7 +11,7 @@ public class MenuGear extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_gear);
-        findViewById(R.id.textView232).setOnClickListener(onClickPdP);
+
         findViewById(R.id.textView233).setOnClickListener(onClickNotify);
 
     }
@@ -26,13 +26,7 @@ public class MenuGear extends AppCompatActivity {
 
     }
 
-    View.OnClickListener onClickPdP = new View.OnClickListener() {
-        public void onClick(View v) {
-            Intent intent = new Intent(MenuGear.this, PoliticaDePrivacidade.class);
-            startActivity(intent);
-            overridePendingTransition(R.anim.left_in, R.anim.left_out);
-        }
-    };
+
     View.OnClickListener onClickNotify = new View.OnClickListener() {
         public void onClick(View v) {
             Intent intent = new Intent(MenuGear.this, Notificacoes.class);
