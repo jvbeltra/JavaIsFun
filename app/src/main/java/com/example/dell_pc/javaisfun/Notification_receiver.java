@@ -1,5 +1,6 @@
 package com.example.dell_pc.javaisfun;
 
+import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -21,13 +22,20 @@ public class Notification_receiver extends BroadcastReceiver {
         repeating_intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(context,100,repeating_intent,PendingIntent.FLAG_UPDATE_CURRENT);
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
+                .setVisibility(Notification.VISIBILITY_PUBLIC)
+                .setPriority(1)
+                .setVibrate(new long[] {1000, 1000})
                 .setContentIntent(pendingIntent)
                 .setSmallIcon(R.drawable.microchip)
                 .setContentTitle("Não esqueça de praticar!")
-                .setContentText("Ei, que tal dar uma praticada no bom e velho Java hoje?")
+                .setContentText("Que tal dar uma praticada no bom e velho Java?")
                 .setAutoCancel(true);
         notificationManager.notify(100,builder.build());
 
 
     }
+
+
 }
+
+//NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
