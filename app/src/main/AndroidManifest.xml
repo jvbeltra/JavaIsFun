@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dell_pc.javaisfun">
 
+    <uses-permission android:name="android.alarm.permission.SET_ALARM" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/microchip"
@@ -95,6 +98,9 @@
         <activity android:name=".Condicao2" />
         <activity android:name=".MainActivity" />
         <activity android:name=".MenuGear" />
+        <activity android:name=".Repeating_activity"/>
+        <receiver android:name=".Notification_receiver"/>
+
         <activity android:name=".PoliticaDePrivacidade" />
         <activity android:name=".Notificacoes"></activity>
     </application>

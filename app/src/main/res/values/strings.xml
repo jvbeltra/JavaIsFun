@@ -16,7 +16,7 @@
     <string name="button10">Métodos</string>
     -
     <string name="menu">Menu</string>
-    <color name="white">#FFFFFF</color>
+    <color name="white">#ffffff</color>
 
     -
     <string name="button1_medium">Scanner</string>
