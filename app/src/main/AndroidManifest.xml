@@ -5,7 +5,6 @@
     <uses-permission android:name="android.alarm.permission.SET_ALARM" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/microchip"
@@ -99,11 +98,19 @@
         <activity android:name=".Condicao2" />
         <activity android:name=".MainActivity" />
         <activity android:name=".MenuGear" />
-        <activity android:name=".Repeating_activity"/>
-        <receiver android:name=".Notification_receiver"/>
+        <activity android:name=".Repeating_activity" />
 
-        <activity android:name=".PoliticaDePrivacidade" />
-        <activity android:name=".Notificacoes"></activity>
+        <receiver android:name=".Notification_receiver" />
+
+        <activity android:name=".Notificacoes" />
+        <activity android:name=".LacoDeRepeticao3" />
+        <activity android:name=".LacoDeRepeticao4" />
+        <activity android:name=".LacoDeRepeticao5" />
+        <activity android:name=".LacoDeRepeticao6" />
+        <activity android:name=".LacoDeRepeticao7" />
+        <activity android:name=".LacoDeRepeticao8" />
+        <activity android:name=".LacoDeRepeticao9" />
+        <activity android:name=".LacoDeRepeticao10"></activity>
     </application>
 
 </manifest>

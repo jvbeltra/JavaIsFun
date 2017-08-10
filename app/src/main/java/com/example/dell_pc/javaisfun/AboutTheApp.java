@@ -1,5 +1,9 @@
 package com.example.dell_pc.javaisfun;
-
+import android.app.Activity;
+import android.content.Intent;
+import android.util.Log;
+import android.view.MotionEvent;
+import android.view.View;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -7,9 +11,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.text.util.Linkify;
+import android.widget.Toast;
 
 public class AboutTheApp extends AppCompatActivity {
 
@@ -25,6 +33,8 @@ public class AboutTheApp extends AppCompatActivity {
         String linkText2 = "<a href='http://ibirama.ifc.edu.br/'>IFC - Ibirama</a>";
         link2.setText(Html.fromHtml(linkText2));
         link2.setMovementMethod(LinkMovementMethod.getInstance());
+
+
     }
     @Override
     public void onBackPressed() {
@@ -32,6 +42,8 @@ public class AboutTheApp extends AppCompatActivity {
         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
     }
+
+
 
 
 }
