@@ -41,4 +41,9 @@ public class Vetores extends AppCompatActivity {
                 .setIcon(R.drawable.warning)
                 .show();
     }
+    public void next(View view){
+        Intent intent = new Intent(this, Vetores2.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
+    }
 }

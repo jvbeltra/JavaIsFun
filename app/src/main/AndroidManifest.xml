@@ -111,7 +111,7 @@
         <activity android:name=".LacoDeRepeticao8" />
         <activity android:name=".LacoDeRepeticao9" />
         <activity android:name=".LacoDeRepeticao10" />
-        <activity android:name=".Condicao4"></activity>
+        <activity android:name=".Vetores2"></activity>
     </application>
 
 </manifest>

@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public void TelaBasica(View view){
         Intent intent = new Intent(this, EasyActivity.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.left_in, R.anim.left_out);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
     }
     public void TelaIntermediaria(View view){
         Intent intent = new Intent(this, MediumActivity.class);
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     public void TelaAvancada(View view){
         Intent intent = new Intent(this, HardActivity.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.left_in, R.anim.left_out);
+        overridePendingTransition(R.anim.up_in, R.anim.up_out);
     }
     public void AboutTheApp(View view){
         Intent intent = new Intent(this, AboutTheApp.class);

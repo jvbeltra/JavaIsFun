@@ -17,8 +17,9 @@ public class EasyActivity extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        overridePendingTransition( R.anim.left_in, R.anim.left_out);
 
     }
     public void TextDialog(View view){
