@@ -62,7 +62,7 @@
         android:layout_marginTop="8dp"
         android:text="Escolha as opções abaixo na ordem correta para criar uma variável que receba como valor o resultado de uma multiplicação entre N4 e 0,15:"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.506"

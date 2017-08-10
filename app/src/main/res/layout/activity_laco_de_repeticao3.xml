@@ -17,7 +17,7 @@
         android:layout_marginTop="8dp"
         android:text="While"
         android:textAlignment="center"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@color/aaaa"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -35,14 +35,14 @@
         android:layout_marginTop="8dp"
         android:text="Deslise para ver um exemplo..."
         android:textAlignment="center"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.841"
-        app:layout_constraintHorizontal_bias="0.504" />
+        app:layout_constraintVertical_bias="0.841" />
 
     <TextView
         android:id="@+id/textView239"
@@ -54,16 +54,13 @@
         android:layout_marginTop="8dp"
         android:text="Eis sua estrutura:"
         android:textAlignment="center"
-        android:textColor="@android:color/black"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.442" />
-
-
-
 
 
     <TextView
@@ -76,7 +73,7 @@
         android:layout_marginTop="8dp"
         android:text="Como o nome já diz, o While(enquanto), vai executar um bloco de código, se a condição que você passou estiver correta."
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
@@ -101,7 +98,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.015"
-        app:srcCompat="@drawable/back" />
+        app:srcCompat="@drawable/backgreen" />
 
     <ImageButton
         android:id="@+id/imageButton106"
@@ -120,7 +117,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/proximo" />
+        app:srcCompat="@drawable/proximoverde" />
 
     <ImageView
         android:id="@+id/imageView30"

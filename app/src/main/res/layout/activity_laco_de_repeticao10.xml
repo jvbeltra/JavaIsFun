@@ -17,6 +17,7 @@
         android:layout_marginTop="8dp"
         android:text="PARABÉNS!!!"
         android:textAlignment="center"
+        android:textColor="@color/aaaa"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -35,6 +36,7 @@
         android:layout_marginTop="8dp"
         android:text="Você completou a seção LAÇOS DE REPETIÇÃO! Agora, com seu conhecimento você pode passar para o próximo nível!"
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -67,6 +69,7 @@
         android:layout_marginTop="8dp"
         android:text="Deseja ir para a próxima seção ou voltar ao Menu Intermediário?"
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -90,7 +93,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.816"
-        app:srcCompat="@drawable/proximo" />
+        app:srcCompat="@drawable/proximoverde" />
 
     <ImageButton
         android:id="@+id/imageButton120"

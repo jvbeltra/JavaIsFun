@@ -27,7 +27,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.015"
-        app:srcCompat="@drawable/back" />
+        app:srcCompat="@drawable/backgreen" />
 
     <ImageButton
         android:id="@+id/imageButton114"
@@ -48,7 +48,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/proximo" />
+        app:srcCompat="@drawable/proximoverde" />
 
     <TextView
         android:id="@+id/textView247"
@@ -62,7 +62,7 @@
         android:layout_marginTop="8dp"
         android:text="Monte uma estrutura de laço, que repita o código até que a condição (cont &lt;= 10) se torne falsa:"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
@@ -83,7 +83,7 @@
         android:layout_marginTop="8dp"
         android:text="Correto!"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@android:color/holo_green_light"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -104,7 +104,7 @@
         android:layout_marginTop="8dp"
         android:text="Errado!"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -125,7 +125,7 @@
         android:layout_marginTop="8dp"
         android:text="Exercícios"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/aaaa"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

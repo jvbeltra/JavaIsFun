@@ -19,7 +19,7 @@
         android:fontFamily="sans-serif"
         android:text="Sejam bem-vindos!"
         android:textAlignment="center"
-        android:textColor="@color/Avançado"
+        android:textColor="@color/aaaa"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -45,7 +45,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/proximo" />
+        app:srcCompat="@drawable/proximoverde" />
 
     <TextView
         android:id="@+id/textView221"
@@ -57,7 +57,7 @@
         android:layout_marginTop="8dp"
         android:text="E se eu quiser repetir um código? Pra não ter que reescrever ele o tempo todo? Tudo pode ser resolvido com os famosos Laços de Repetição. No primeiro ano você aprendeu o REPITA-ATÉ em Portugol, agora, terá que lidar com estruturas um pouco diferentes e até mais simples na minha opinião. Let's get it started?"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
@@ -71,7 +71,7 @@
         android:layout_width="28dp"
         android:layout_height="31dp"
         android:background="@android:color/transparent"
-        app:srcCompat="@drawable/back"
+        app:srcCompat="@drawable/backgreen"
         android:onClick="TextDialog"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"

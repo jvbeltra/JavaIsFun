@@ -57,7 +57,7 @@
         android:layout_marginTop="8dp"
         android:text="Por todo seu esforço em chegar até aqui, você terá um descanso... Brincadeira kkk Se quer aprender a programar, tem que treinar o máximo possível! E para começar o nível médio, que tal juntar os valores que aprenderam e brincar um pouco com a matemática?"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
