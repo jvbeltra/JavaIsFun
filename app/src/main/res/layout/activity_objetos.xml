@@ -12,7 +12,7 @@
         android:layout_width="28dp"
         android:layout_height="31dp"
         android:background="@android:color/transparent"
-        app:srcCompat="@drawable/back"
+        app:srcCompat="@drawable/backred"
         android:onClick="TextDialog"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"

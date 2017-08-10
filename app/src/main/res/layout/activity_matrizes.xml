@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     tools:context="com.example.dell_pc.javaisfun.Matrizes"
     android:background="@android:color/white"
+
     >
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="28dp"
         android:layout_height="31dp"
         android:background="@android:color/transparent"
-        app:srcCompat="@drawable/back"
+        app:srcCompat="@drawable/backred"
         android:onClick="TextDialog"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
