@@ -10,8 +10,8 @@
 
     <ImageButton
         android:id="@+id/imageButton94"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="103dp"
+        android:layout_height="91dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -20,17 +20,17 @@
         android:onClick="variaveis"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.259"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498"
+        app:layout_constraintVertical_bias="0.497"
         app:srcCompat="@drawable/variaveis" />
 
     <ImageButton
         android:id="@+id/imageButton99"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="103dp"
+        android:layout_height="91dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -39,17 +39,16 @@
         android:onClick="operadores"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498"
         app:srcCompat="@drawable/operadores" />
 
     <ImageButton
         android:id="@+id/imageButton100"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="103dp"
+        android:layout_height="91dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -58,17 +57,17 @@
         android:onClick="classe"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.748"
-        app:srcCompat="@drawable/classes"
-        app:layout_constraintHorizontal_bias="0.259" />
+        app:layout_constraintVertical_bias="0.747"
+        app:srcCompat="@drawable/classes" />
 
     <ImageButton
         android:id="@+id/imageButton101"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="103dp"
+        android:layout_height="91dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -77,17 +76,17 @@
         android:onClick="metodos"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.748"
+        app:layout_constraintVertical_bias="0.747"
         app:srcCompat="@drawable/metodos" />
 
     <ImageButton
         android:id="@+id/imageButton103"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="103dp"
+        android:layout_height="91dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -104,8 +103,8 @@
 
     <ImageButton
         android:id="@+id/imageButton98"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="103dp"
+        android:layout_height="91dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"

@@ -21,13 +21,10 @@
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.194"
-        tools:layout_editor_absoluteY="120dp"
-        tools:layout_editor_absoluteX="52dp" />
+        app:layout_constraintVertical_bias="0.172" />
 
     <ImageButton
         android:id="@+id/imageButton88"
@@ -69,8 +66,8 @@
 
     <ImageView
         android:id="@+id/imageView22"
-        android:layout_width="368dp"
-        android:layout_height="175dp"
+        android:layout_width="363dp"
+        android:layout_height="200dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="8dp"
@@ -78,9 +75,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.704"
+        app:layout_constraintVertical_bias="0.732"
         app:srcCompat="@drawable/tablecondition"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.681" />
+        app:layout_constraintHorizontal_bias="0.846" />
 </android.support.constraint.ConstraintLayout>
