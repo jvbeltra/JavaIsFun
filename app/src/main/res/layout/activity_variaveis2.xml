@@ -42,6 +42,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/proximo" />
+
     <TextView
         android:id="@+id/textView6"
         android:layout_width="283dp"
@@ -52,12 +53,13 @@
         android:layout_marginTop="8dp"
         android:text="Existem predefinições de variáveis que já estão prontas há muito. Algumas guardam números, algumas guardam palavras, outras simplesmente verdadeiro/falso. Bom, infelizmente não tem outra maneira de aprende-las a não ser decorar, entretanto apostamos que vocês irão gravar logo logo! Aqui está a lista que irá facilitar a compreensão da utilidade de cada uma:"
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135"
-        app:layout_constraintHorizontal_bias="0.505" />
+        app:layout_constraintVertical_bias="0.135" />
 
     <ImageView
         android:id="@+id/imageView9"

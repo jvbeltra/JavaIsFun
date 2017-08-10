@@ -17,7 +17,7 @@
         android:layout_marginTop="8dp"
         android:text="Você deve PARAR de pensar como ser humano! Agora, você deve se colocar no lugar da MÁQUINA! Esqueça também a programação estruturada que você aprendeu no 1º ano, essa é a hora de EVOLUIR! Ansioso pelo seu primeiro Hello World?! Se você estiver preparado, clique em COMEÇAR!!!!"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.513"

@@ -18,6 +18,7 @@
         android:layout_marginTop="8dp"
         android:text="Como já dito, métodos poderão ser utilizados, ou como a linguagem popular define, “chamados”, por alguma classe ou objeto do sistema, isso requer que o método repasse algo para quem o chamou, algum valor ou mensagem. Então, ai que entram os tipos de retorno."
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -72,12 +73,13 @@
         android:layout_marginTop="8dp"
         android:text='Neste caso você poderá usar "int", "boolean", "String", "Double", etc... E obrigatóriamente dentro do método deverá haver uma linha chamada "return" e logo após um valor do mesmo tipo que fora declaradona assinatura do método.'
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.845"
-        app:layout_constraintHorizontal_bias="0.516" />
+        app:layout_constraintVertical_bias="0.845" />
 
     <TextView
         android:id="@+id/textView95"
@@ -89,6 +91,7 @@
         android:layout_marginTop="8dp"
         android:text='O void torna o retorno do método nulo, ou seja você não precisará obrigatóriamente usar o termo "return". Geralmente usado quando o método deve apenas imprimir uma mensagem.'
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -105,6 +108,7 @@
         android:layout_marginTop="8dp"
         android:text="Os Tipos de retorno são básicamente os tipos de variáveis, mas com a adição do VOID:"
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -120,6 +124,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:text="Retorno de valores"
+        android:textColor="@android:color/holo_blue_dark"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.165"
@@ -137,6 +142,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:text="VOID"
+        android:textColor="@android:color/holo_blue_dark"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.109"

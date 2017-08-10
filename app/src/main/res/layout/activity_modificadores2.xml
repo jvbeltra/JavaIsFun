@@ -18,6 +18,7 @@
         android:layout_marginTop="8dp"
         android:text="Estes, são padrões de visibilidade que irão definir o tipo de variáveis, métodos ou mesmo classes que será declarada após os mesmos. Tudo ficará mais claro quando explicado detalhadamente..."
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -35,14 +36,14 @@
         android:fontFamily="sans-serif"
         android:text="Modificadores de Acesso"
         android:textAlignment="center"
-        android:textColor="@color/Avançado"
+        android:textColor="@android:color/holo_blue_dark"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.086"
-        app:layout_constraintHorizontal_bias="0.504" />
+        app:layout_constraintVertical_bias="0.086" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -89,11 +90,12 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:text="Como exemplo de modificador: "
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintVertical_bias="0.397" />
 
     <TextView

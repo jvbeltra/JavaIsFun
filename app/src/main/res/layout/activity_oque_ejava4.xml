@@ -17,14 +17,14 @@
         android:layout_marginTop="8dp"
         android:text="Uma IDE(integrated development environment), estes programas permitirão que você programe perfeitamente em um ambiente organizado e confortável."
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
-        app:layout_constraintHorizontal_bias="0.503" />
+        app:layout_constraintVertical_bias="0.976" />
 
     <TextView
         android:id="@+id/textView142"
@@ -36,7 +36,7 @@
         android:layout_marginTop="8dp"
         android:text="Você vai precisar de:"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -54,7 +54,7 @@
         android:layout_marginTop="8dp"
         android:text="Calma, Calma kkkkkk Aprender a programar, só vai exigir duas coisas de você, treino e pesquisa. E pra começar precisamos falar sobre as ferramentas necessárias para começar a programar. "
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.506"

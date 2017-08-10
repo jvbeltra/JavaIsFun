@@ -42,6 +42,7 @@
         app:srcCompat="@drawable/proximo"
         tools:layout_editor_absoluteY="513dp"
         tools:layout_editor_absoluteX="326dp" />
+
     <TextView
         android:id="@+id/textView24"
         android:layout_width="331dp"
@@ -52,12 +53,13 @@
         android:layout_marginTop="8dp"
         android:text='4) Escolha dentre as opções abaixo, qual é o melhor tipo para o caso da utilização de apenas UM alfanumérico como o "a":'
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141"
-        app:layout_constraintHorizontal_bias="0.513" />
+        app:layout_constraintVertical_bias="0.141" />
     <Button
         android:id="@+id/button2"
         android:layout_width="90dp"
@@ -105,6 +107,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/right" />
+
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
@@ -115,12 +118,13 @@
         android:layout_marginTop="8dp"
         android:text="Correto!!!"
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintVertical_bias="0.65" />
 
     <TextView
@@ -133,11 +137,13 @@
         android:layout_marginTop="8dp"
         android:text="Lembre-se do porquê: O tipo Char utiliza sistema UNICODE o que permite quardar uma letra. Isso se torna útil pois o String tem o objetivo de guardar textos maiores."
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.826" />
+
     <TextView
         android:id="@+id/textView26"
         android:layout_width="316dp"
@@ -148,6 +154,7 @@
         android:layout_marginTop="8dp"
         android:text="Algo de errado não está certo... kkk brincadeira, a questão é que o tipo Char utiliza sistema UNICODE o que permite quardar uma letra. Isso se torna útil pois o String tem o objetivo de guardar textos maiores."
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

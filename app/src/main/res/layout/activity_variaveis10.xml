@@ -17,6 +17,7 @@
         android:layout_marginTop="8dp"
         android:text="PARABÉNS!!!"
         android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.503"

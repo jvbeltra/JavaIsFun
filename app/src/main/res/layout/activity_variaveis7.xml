@@ -41,6 +41,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.526"
         android:onClick="verificar"/>
+
     <TextView
         android:id="@+id/textView24"
         android:layout_width="331dp"
@@ -51,12 +52,13 @@
         android:layout_marginTop="8dp"
         android:text='2) Declare uma variável boolean, chamada "condicao" e passe o valor verdadeiro para a mesma:'
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141"
-        app:layout_constraintHorizontal_bias="0.513" />
+        app:layout_constraintVertical_bias="0.141" />
     <EditText
         android:id="@+id/editText3"
         android:layout_width="316dp"
@@ -74,6 +76,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.311"
         tools:layout_editor_absoluteY="153dp" />
+
     <TextView
         android:id="@+id/textView26"
         android:layout_width="322dp"
@@ -84,6 +87,7 @@
         android:layout_marginTop="8dp"
         android:text="Algo de errado não está certo... kkk brincadeira, a questão é que você esqueceu do “;”, escreveu nome da variável errado, ou mesmo não digitou o “boolean”, lembre-se que eu pedi para DECLARAR, não modificar. Corrija seu erro e vamos embora!"
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -104,6 +108,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.713"
         app:srcCompat="@drawable/right" />
+
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
@@ -114,12 +119,13 @@
         android:layout_marginTop="8dp"
         android:text="Correto!!!"
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintVertical_bias="0.871" />
     <ImageButton
         android:id="@+id/imageButton2"

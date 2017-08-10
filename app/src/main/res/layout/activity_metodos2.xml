@@ -54,12 +54,13 @@
         android:layout_marginTop="8dp"
         android:text="Os métodos são partes do código que executam alguma função especifica, também chamadas de funções, eles possuem uma estrutura específica e característica, podem ser utilizados inúmeras vezes no código."
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.125"
-        app:layout_constraintHorizontal_bias="0.506" />
+        app:layout_constraintVertical_bias="0.125" />
 
     <TextView
         android:id="@+id/textView62"
@@ -71,6 +72,7 @@
         android:layout_marginTop="8dp"
         android:text="Sabendo todos elementos das lições anteriores você pode agora entender a estrutura de um método."
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -141,10 +143,11 @@
         android:layout_marginTop="8dp"
         android:text="Estes estão situados dentro das Classes e nelas, operam funções padrões ou variadas."
         android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.752"
-        app:layout_constraintHorizontal_bias="0.506" />
+        app:layout_constraintVertical_bias="0.752" />
 </android.support.constraint.ConstraintLayout>
