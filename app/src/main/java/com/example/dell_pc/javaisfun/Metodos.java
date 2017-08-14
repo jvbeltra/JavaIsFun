@@ -16,7 +16,8 @@ public class Metodos extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Intent intent = new Intent(this, EasyActivity.class);
+        startActivity(intent);
         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
     }
@@ -46,5 +47,6 @@ public class Metodos extends AppCompatActivity {
         Intent intent = new Intent(this, Metodos2.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+
     }
 }

@@ -16,7 +16,8 @@ public class Calculos extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Intent intent = new Intent(this, MediumActivity.class);
+        startActivity(intent);
         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
     }

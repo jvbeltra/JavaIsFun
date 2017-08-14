@@ -48,16 +48,19 @@ public class Metodos10 extends AppCompatActivity {
         super.onBackPressed();
         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
+
     }
     public void homeBasic(View view){
         Intent intent = new Intent(this, EasyActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
+        finishAffinity();
     }
     public void nextexercise(View view){
         Intent intent = new Intent(this, Modificadores.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+        finishAffinity();
     }
 
 

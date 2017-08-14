@@ -47,6 +47,7 @@ public class Operadores8 extends AppCompatActivity {
         Intent intent = new Intent(this, Classe.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+        finishAffinity();
     }
 
 

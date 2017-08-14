@@ -45,5 +45,6 @@ public class OQueEJava8 extends AppCompatActivity {
         Intent intent = new Intent(this, Variaveis.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+        finishAffinity();
     }
 }

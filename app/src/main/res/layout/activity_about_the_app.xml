@@ -17,134 +17,85 @@
             android:id="@+id/imageView27"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.03"
+           android:padding="10dp"
+            android:layout_marginTop="10dp"
             app:srcCompat="@drawable/about" />
 
         <TextView
             android:id="@+id/textView330"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_weight="0.14"
+           android:layout_margin="10dp"
             android:text="java.isFun() foi o resultado de diversos meses de pesquisa e estudos, sendo assim um complemento ao ensino padrão dado em sala de aula ou até mesmo o pontapé inicial para quem deseja se tornar um programador Java."
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.47"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.165" />
+            />
 
         <TextView
             android:id="@+id/textView331"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp"
+
             android:text="Para dúvidas, sugestões ou comentários, segue abaixo o contato dos desenvolvedores e demais fontes de dados do projeto:"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.613" />
+          android:layout_margin="10dp" />
 
         <TextView
             android:id="@+id/textView336"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_weight="0.04"
+           android:layout_margin="10dp"
             android:text="Contato:"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.869" />
+             />
 
         <TextView
             android:id="@+id/textView334"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_weight="0.03"
+            android:layout_margin="10dp"
             android:text="alfredo.vieira.neto90@gmail.com"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="18sp"
             android:autoLink="email"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.945" />
+             />
 
         <TextView
             android:id="@+id/textView335"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_weight="0.03"
+            android:layout_margin="10dp"
             android:text="jvbeltra2011@gmail.com"
             android:autoLink="email"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.398"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.914" />
+             />
 
         <TextView
             android:id="@+id/textView338"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_margin="10dp"
             android:text="Por ser de código-aberto, este aplicativo pode ter seu código utilizado para modificações assim como para estudo"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.613" />
+            />
 
         <Button
             android:id="@+id/linkGithub"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.08"
+            android:layout_margin="10dp"
             android:text="https://github.com/jvbeltra/JavaIsFun"
             android:textColor="@android:color/holo_orange_dark"
             android:textSize="18sp" />
@@ -154,7 +105,7 @@
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.08"
+            android:layout_margin="10dp"
             android:text="http://ibirama.ifc.edu.br/"
             android:textAlignment="center"
             android:textColor="@android:color/holo_green_dark"

@@ -18,7 +18,8 @@ public class Objetos extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Intent intent = new Intent(this, Objetos.class);
+        startActivity(intent);
         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
     }

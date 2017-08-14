@@ -10,7 +10,8 @@ import android.view.View;
 public class Vetores extends AppCompatActivity {
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Intent intent = new Intent(this, HardActivity.class);
+        startActivity(intent);
         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
     }

@@ -47,6 +47,7 @@ public class Metodos7 extends AppCompatActivity {
         Intent intent = new Intent(this, Metodos8.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+
     }
 
 }

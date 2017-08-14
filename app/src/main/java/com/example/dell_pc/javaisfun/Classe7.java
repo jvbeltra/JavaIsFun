@@ -43,8 +43,9 @@ public class Classe7 extends AppCompatActivity {
 
     }
     public void next(View view) {
-        Intent intent = new Intent(this, Calculos.class);
+        Intent intent = new Intent(this, Metodos.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+        finishAffinity();
     }
 }

@@ -53,6 +53,7 @@ public class Metodos2 extends AppCompatActivity {
         Intent intent = new Intent(this, Metodos3.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+
     }
     @Override
     public boolean onTouchEvent(MotionEvent event) {
