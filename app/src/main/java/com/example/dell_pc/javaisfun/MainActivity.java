@@ -14,6 +14,7 @@ import android.widget.PopupMenu;
 
 public class MainActivity extends AppCompatActivity {
 
+    int progresso=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,16 +38,19 @@ public class MainActivity extends AppCompatActivity {
     public void TelaBasica(View view){
         Intent intent = new Intent(this, EasyActivity.class);
         startActivity(intent);
+        intent.putExtra("Progresso", progresso);
         overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
     }
     public void TelaIntermediaria(View view){
         Intent intent = new Intent(this, MediumActivity.class);
         startActivity(intent);
+        intent.putExtra("Progresso", progresso);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
     public void TelaAvancada(View view){
         Intent intent = new Intent(this, HardActivity.class);
         startActivity(intent);
+        intent.putExtra("Progresso", progresso);
         overridePendingTransition(R.anim.up_in, R.anim.up_out);
     }
     public void AboutTheApp(View view){

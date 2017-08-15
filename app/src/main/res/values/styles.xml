@@ -20,10 +20,10 @@
     </style>
 
     <style name="RedActionBar" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@android:color/holo_red_dark</item>
-        <item name="colorPrimaryDark">@android:color/holo_red_dark</item>
+        <item name="colorPrimary">@color/Avancado</item>
+        <item name="colorPrimaryDark">@color/Avancado</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:navigationBarColor">@android:color/holo_red_dark</item>
+        <item name="android:navigationBarColor">@color/Avancado</item>
     </style>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

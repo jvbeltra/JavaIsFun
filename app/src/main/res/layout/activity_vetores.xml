@@ -19,7 +19,7 @@
         android:fontFamily="sans-serif"
         android:text="Sejam bem-vindos!"
         android:textAlignment="center"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@color/Avancado"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.502"

@@ -9,6 +9,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 public class OQueEJava5 extends AppCompatActivity {
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();
@@ -47,6 +48,8 @@ public class OQueEJava5 extends AppCompatActivity {
     public void next(View view){
         Intent intent = new Intent(this, OQueEJava6.class);
         startActivity(intent);
+
+
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
     public boolean onTouchEvent(MotionEvent event){
