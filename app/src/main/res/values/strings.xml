@@ -63,6 +63,14 @@
 
     </string-array>
 
+    <string-array name="country_arrays3">
+
+        <item> if else</item>
+        <item> else if</item>
+        <item> else </item>
+        <item> if </item>
+
+    </string-array>
     <string-array name="country_arrays2">
 
         <item> == </item>

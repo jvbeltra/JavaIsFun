@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Condicao4"
+    tools:context="com.example.dell_pc.javaisfun.Condicao6"
     android:background="@color/white">
 
     <TextView
-        android:id="@+id/textView267"
-        android:layout_width="339dp"
-        android:layout_height="75dp"
+        android:id="@+id/textView270"
+        android:layout_width="337dp"
+        android:layout_height="49dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -20,14 +20,34 @@
         android:textColor="@color/cinzinha"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.119" />
+        app:layout_constraintVertical_bias="0.095" />
+
+    <TextView
+        android:id="@+id/textView271"
+        android:layout_width="359dp"
+        android:layout_height="173dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text='Nesse exemplo, a estrutura "else" imprime outra mensagem caso a condição não for correspondida (variável numero ser menor do que 0)'
+        android:textAlignment="center"
+        android:textColor="@color/cinzinha"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
 
     <ImageButton
-        android:id="@+id/imageButton127"
+        android:id="@+id/imageButton129"
         android:layout_width="42dp"
         android:layout_height="38dp"
         android:layout_marginBottom="16dp"
@@ -46,7 +66,7 @@
         app:srcCompat="@drawable/proximoverde" />
 
     <ImageButton
-        android:id="@+id/imageButton128"
+        android:id="@+id/imageButton130"
         android:layout_width="28dp"
         android:layout_height="31dp"
         android:layout_marginBottom="8dp"
@@ -63,40 +83,18 @@
         app:layout_constraintVertical_bias="0.015"
         app:srcCompat="@drawable/backgreen" />
 
-    <TextView
-        android:id="@+id/textView268"
-        android:layout_width="355dp"
-        android:layout_height="205dp"
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="374dp"
+        android:layout_height="220dp"
+        app:srcCompat="@drawable/exemploifelse"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
-        android:text="Ou seja, interpretando o código é possível perceber que se o número informado for maior que 0, o sistema imprime uma mensagem informando que o número é positivo"
-        android:textAlignment="center"
-        android:textColor="@color/cinzinha"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.754"
-        app:layout_constraintHorizontal_bias="0.538" />
-
-    <ImageView
-        android:id="@+id/imageView42"
-        android:layout_width="375dp"
-        android:layout_height="117dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="-101dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304"
-        app:srcCompat="@drawable/exemploif" />
+        app:layout_constraintVertical_bias="0.293" />
 </android.support.constraint.ConstraintLayout>

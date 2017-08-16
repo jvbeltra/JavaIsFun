@@ -4,30 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Condicao4"
+    tools:context="com.example.dell_pc.javaisfun.Condicao10"
     android:background="@color/white">
 
-    <TextView
-        android:id="@+id/textView267"
-        android:layout_width="339dp"
-        android:layout_height="75dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Por exemplo:"
-        android:textAlignment="center"
-        android:textColor="@color/cinzinha"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.119" />
-
     <ImageButton
-        android:id="@+id/imageButton127"
+        android:id="@+id/imageButton136"
         android:layout_width="42dp"
         android:layout_height="38dp"
         android:layout_marginBottom="16dp"
@@ -38,7 +19,7 @@
         android:onClick="proximo"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintHorizontal_bias="0.975"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -46,7 +27,7 @@
         app:srcCompat="@drawable/proximoverde" />
 
     <ImageButton
-        android:id="@+id/imageButton128"
+        android:id="@+id/imageButton124"
         android:layout_width="28dp"
         android:layout_height="31dp"
         android:layout_marginBottom="8dp"
@@ -64,39 +45,54 @@
         app:srcCompat="@drawable/backgreen" />
 
     <TextView
-        android:id="@+id/textView268"
-        android:layout_width="355dp"
-        android:layout_height="205dp"
+        android:id="@+id/explicacao"
+        android:layout_width="343dp"
+        android:layout_height="175dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginLeft="-58dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
-        android:text="Ou seja, interpretando o código é possível perceber que se o número informado for maior que 0, o sistema imprime uma mensagem informando que o número é positivo"
+        android:text="Esta é outra estrutura bastante útil para nós. Vamos supor que você quer verificar duas coisas, mas uma depende da outra como no caso abaixo:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.754"
-        app:layout_constraintHorizontal_bias="0.538" />
+        app:layout_constraintVertical_bias="0.226" />
 
     <ImageView
-        android:id="@+id/imageView42"
-        android:layout_width="375dp"
-        android:layout_height="117dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="-101dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/imageView23"
+        android:layout_width="366dp"
+        android:layout_height="245dp"
+        app:srcCompat="@drawable/eedois"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304"
-        app:srcCompat="@drawable/exemploif" />
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="-54dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.784"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.015" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="90dp"
+        android:layout_height="57dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/subtst"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
 </android.support.constraint.ConstraintLayout>
