@@ -157,6 +157,9 @@
         <activity
             android:name=".Condicao10"
             android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Condicao11"
+            android:theme="@style/GreenActionBar" />
 
         <receiver android:name=".Notification_receiver" />
 
@@ -188,7 +191,10 @@
         <activity
             android:name=".Vetores2"
             android:theme="@style/RedActionBar" />
-
+        <activity
+            android:name=".Condicao12"
+            android:theme="@style/GreenActionBar" />
+        <activity android:name=".Condicao13"></activity>
     </application>
 
 </manifest>

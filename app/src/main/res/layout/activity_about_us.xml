@@ -15,12 +15,11 @@
         android:weightSum="1">
 
         <ImageView
-            android:id="@+id/imageView28"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            app:srcCompat="@drawable/aboutus"
-            android:layout_marginTop="10dp"/>
+            android:id="@+id/imageView46"
+            android:layout_width="396dp"
+            android:layout_height="48dp"
+            android:elevation="5dp"
+            app:srcCompat="@drawable/sobrenoss" />
 
         <TextView
             android:id="@+id/textView216"
@@ -30,10 +29,7 @@
             android:text="O aplicativo foi desenvolvido inteiramente por Alfredo Vieira Neto e João Vitor Beltramini, ambos estudantes do Curso Técnico em Informática Integrado ao Ensino Médio no Instituto Federal Catarinense - Câmpus Ibirama. O projeto foi concluído com apoio de um vasto material disponível na internet e com apoio do Professor Msc. Daniel dos Santos Jr. e do Professor Eduardo Stahnke,  respectivamente orientador e coorientador do projeto."
             android:textAlignment="center"
             android:textColor="@android:color/black"
-            android:textSize="24sp"
-           />
-
-
+            android:textSize="24sp" />
 
 
     </LinearLayout>

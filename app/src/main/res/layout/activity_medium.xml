@@ -28,22 +28,6 @@
         android:contentDescription="@string/menu" />
 
 
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="80dp"
-        android:layout_height="75dp"
-        android:scaleType="fitXY"
-        app:srcCompat="@drawable/intermediario"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.035" />
-
     <ImageButton
         android:id="@+id/imageButton90"
         android:layout_width="141dp"
@@ -121,5 +105,20 @@
         android:onClick="Calculos"
         tools:layout_editor_absoluteY="178dp"
         tools:layout_editor_absoluteX="39dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="88dp"
+        android:layout_height="82dp"
+        app:srcCompat="@drawable/mediumug"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.066" />
 
 </android.support.constraint.ConstraintLayout>
