@@ -4,18 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Vetores2"
+    tools:context="com.example.dell_pc.javaisfun.Vetores3"
     android:background="@android:color/white">
 
     <TextView
-        android:id="@+id/textView268"
-        android:layout_width="264dp"
-        android:layout_height="252dp"
+        android:id="@+id/textView212"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="Imagine que você precisa guardar uma lista de algo em específico, como uma lista de números, seria mais performático criar um zilhão de variáveis, ou possivelmente criar uma variável que possui o poder de armazenar uma lista de valores do mesmo tipo sem ocupar tanta memória do computador? "
+        android:text="Um exemplo:"
+        android:textAlignment="center"
+        android:textColor="@color/Avancado"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.497" />
+
+    <TextView
+        android:id="@+id/textView274"
+        android:layout_width="348dp"
+        android:layout_height="89dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Como pode-se observar no exemplo acima, um vetor tem várias posições predefinidas em sua declaração, e cada uma guarda um valor!"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
@@ -23,10 +42,30 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.363" />
+        app:layout_constraintVertical_bias="0.863"
+        app:layout_constraintHorizontal_bias="0.489" />
+
+    <TextView
+        android:id="@+id/textView277"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="VETORES! Sim, eles cumprem exatamente o que foi citado, ocupam na memória um espaço de uma só variável mas guardam uma série de valores do mesmo tipo."
+        android:textAlignment="center"
+        android:textColor="@color/cinzinha"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303"
+        app:layout_constraintHorizontal_bias="0.497" />
 
     <ImageButton
-        android:id="@+id/imageButton122"
+        android:id="@+id/imageButton135"
         android:layout_width="28dp"
         android:layout_height="31dp"
         android:layout_marginBottom="8dp"
@@ -45,7 +84,7 @@
         app:srcCompat="@drawable/backred" />
 
     <ImageButton
-        android:id="@+id/imageButton123"
+        android:id="@+id/imageButton137"
         android:layout_width="42dp"
         android:layout_height="38dp"
         android:layout_marginBottom="16dp"
@@ -63,32 +102,27 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/proximored" />
 
-    <TextView
-        android:id="@+id/textView265"
+    <ImageView
+        android:id="@+id/imageView47"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
-        android:text="Conceito"
-        android:textAlignment="center"
-        android:textColor="@color/Avancado"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/brain"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101" />
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
 
     <ImageView
-        android:id="@+id/imageView46"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageView48"
+        android:layout_width="324dp"
+        android:layout_height="47dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/doubt"
+        app:srcCompat="@drawable/vetor"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -97,5 +131,6 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintVertical_bias="0.796" />
+        app:layout_constraintVertical_bias="0.667"
+        app:layout_constraintHorizontal_bias="0.492" />
 </android.support.constraint.ConstraintLayout>

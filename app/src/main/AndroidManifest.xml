@@ -12,7 +12,9 @@
         android:roundIcon="@drawable/microchip"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash">
+        <activity
+            android:name=".Splash"
+            android:theme="@style/InicialActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -122,8 +124,12 @@
         <activity android:name=".Classe4" />
         <activity android:name=".Classe6" />
         <activity android:name=".Classe7" />
-        <activity android:name=".Calculos9" />
-        <activity android:name=".Calculos10" />
+        <activity
+            android:name=".Calculos9"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Calculos10"
+            android:theme="@style/GreenActionBar" />
         <activity
             android:name=".LacoDeRepeticao2"
             android:theme="@style/GreenActionBar" />
@@ -157,9 +163,6 @@
         <activity
             android:name=".Condicao10"
             android:theme="@style/GreenActionBar" />
-        <activity
-            android:name=".Condicao11"
-            android:theme="@style/GreenActionBar" />
 
         <receiver android:name=".Notification_receiver" />
 
@@ -192,9 +195,32 @@
             android:name=".Vetores2"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Condicao12"
-            android:theme="@style/GreenActionBar" />
-        <activity android:name=".Condicao13"></activity>
+            android:name=".Vetores3"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Vetores4"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Vetores5"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Vetores6"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Vetores7"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Vetores8"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Vetores9"
+            android:theme="@style/RedActionBar" />
+        <activity android:name=".Vetores10"
+            android:theme="@style/RedActionBar"/>
+        <activity android:name=".Vetores11"
+            android:theme="@style/RedActionBar"/>
+        <activity android:name=".Vetores12"
+            android:theme="@style/RedActionBar"/>
     </application>
 
 </manifest>

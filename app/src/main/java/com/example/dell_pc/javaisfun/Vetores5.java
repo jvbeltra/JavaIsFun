@@ -7,12 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Vetores2 extends AppCompatActivity {
+public class Vetores5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vetores2);
+        setContentView(R.layout.activity_vetores5);
     }
     @Override
     public void onBackPressed() {
@@ -29,7 +29,7 @@ public class Vetores2 extends AppCompatActivity {
                 .setMessage("Você tem certeza que quer voltar ao menu principal?")
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(Vetores2.this, MainActivity.class);
+                        Intent intent = new Intent(Vetores5.this, MainActivity.class);
                         startActivity(intent);
                         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
                     }
@@ -43,7 +43,7 @@ public class Vetores2 extends AppCompatActivity {
                 .show();
     }
     public void next(View view){
-        Intent intent = new Intent(this, Vetores3.class);
+        Intent intent = new Intent(this, Vetores6.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }

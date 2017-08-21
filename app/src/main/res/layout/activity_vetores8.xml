@@ -4,75 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Calculos6"
-    android:background="@android:color/white"
-    >
-
-
-    <ImageButton
-        android:id="@+id/imageButton70"
-        android:layout_width="28dp"
-        android:layout_height="31dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="@string/menu"
-        android:onClick="TextDialog"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.023"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.015"
-        app:srcCompat="@drawable/backgreen" />
-
-    <ImageButton
-        android:id="@+id/imageButton71"
-        android:layout_width="42dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/transparent"
-        android:onClick="proximo"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.973"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/proximoverde" />
+    tools:context="com.example.dell_pc.javaisfun.Vetores8"
+    android:background="@android:color/white">
 
     <TextView
-        android:id="@+id/textView188"
-        android:layout_width="285dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="7dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Escolha as opções abaixo na ordem correta para criar uma variável que receba como valor o resultado de uma soma entre N1 e N2:"
-        android:textAlignment="center"
-        android:textColor="@color/cinzinha"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.214" />
-
-    <TextView
-        android:id="@+id/textView189"
+        android:id="@+id/textView313"
         android:layout_width="249dp"
         android:layout_height="38dp"
         android:layout_marginBottom="7dp"
@@ -92,7 +28,7 @@
         app:layout_constraintVertical_bias="0.759" />
 
     <TextView
-        android:id="@+id/textView186"
+        android:id="@+id/textView314"
         android:layout_width="249dp"
         android:layout_height="38dp"
         android:layout_marginBottom="7dp"
@@ -111,29 +47,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.76" />
 
-    <TextView
-        android:id="@+id/textView190"
-        android:layout_width="249dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="7dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Que tal treinar um pouco?!"
-        android:textAlignment="center"
-        android:textColor="@color/aaaa"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.11" />
-
-
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/imageView49"
         android:layout_width="402dp"
         android:layout_height="157dp"
         android:layout_marginBottom="8dp"
@@ -148,32 +63,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.462"
+        app:layout_constraintVertical_bias="0.413"
         app:srcCompat="@drawable/telinha" />
 
-    <Button
-        android:id="@+id/button20"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="300dp"
-        android:layout_height="53dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@color/aaaa"
-        android:onClick="verif"
-        android:text="Verificar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.986" />
-
-
-    <com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <com.google.android.flexbox.FlexboxLayout
         android:id="@+id/flexTop"
         android:layout_width="375dp"
         android:layout_height="138dp"
@@ -188,7 +81,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.463"
+        app:layout_constraintVertical_bias="0.413"
 
         >
 
@@ -210,18 +103,18 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.796">
+        app:layout_constraintVertical_bias="0.788">
 
 
         <Button
             android:id="@+id/button25"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
 
             android:background="@android:color/holo_blue_dark"
 
-            android:text="+" />
+            android:text="float" />
 
         <Button
             android:id="@+id/button21"
@@ -231,16 +124,16 @@
             android:layout_margin="8dp"
 
             android:background="@android:color/holo_blue_dark"
-            android:text="n1" />
+            android:text="new" />
 
         <Button
             android:id="@+id/button28"
-            android:layout_width="40dp"
+            android:layout_width="55dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:background="@android:color/holo_blue_dark"
 
-            android:text="int" />
+            android:text="float" />
 
         <Button
             android:id="@+id/button24"
@@ -264,12 +157,12 @@
 
         <Button
             android:id="@+id/button19"
-            android:layout_width="60dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:background="@android:color/holo_blue_dark"
 
-            android:text="soma" />
+            android:text="vetor[]" />
 
         <Button
             android:id="@+id/button27"
@@ -278,17 +171,17 @@
             android:layout_margin="8dp"
             android:background="@android:color/holo_blue_dark"
 
-            android:text="-" />
+            android:text="int" />
 
 
         <Button
             android:id="@+id/button26"
-            android:layout_width="40dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:background="@android:color/holo_blue_dark"
 
-            android:text="%"
+            android:text="vetor"
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <Button
@@ -298,10 +191,111 @@
             android:layout_margin="8dp"
             android:background="@android:color/holo_blue_dark"
             android:onClick="moverN2"
-            android:text="n2" />
+            android:text="[5]" />
 
 
     </com.google.android.flexbox.FlexboxLayout>
 
+    <Button
+        android:id="@+id/button16"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/Avancado"
+        android:onClick="verif"
+        android:text="Verificar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986" />
 
+    <ImageButton
+        android:id="@+id/imageButton146"
+        android:layout_width="28dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/menu"
+        android:onClick="TextDialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015"
+        app:srcCompat="@drawable/backred" />
+
+    <ImageButton
+        android:id="@+id/imageButton147"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="next"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/proximored" />
+
+    <TextView
+        android:id="@+id/textView311"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Exercícios"
+        android:textAlignment="center"
+        android:textColor="@color/Avancado"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <TextView
+        android:id="@+id/textView312"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Okey então, no primeiro exercício você deve monar uma declaração de um vetor com as opções abaixo:"
+        android:textAlignment="center"
+        android:textColor="@color/cinzinha"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
 </android.support.constraint.ConstraintLayout>
