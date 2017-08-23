@@ -6,28 +6,26 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.Spinner;
 
-public class Condicao13 extends AppCompatActivity {
-    private Button verificar;
+public class Condicao15 extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
+        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_condicao13);
-        findViewById(R.id.enunciadoErrado).setVisibility(View.GONE);
+        setContentView(R.layout.activity_condicao15);
         findViewById(R.id.textCorreto).setVisibility(View.INVISIBLE);
         findViewById(R.id.wink).setVisibility(View.INVISIBLE);
-        findViewById(R.id.imageButton3).setVisibility(View.INVISIBLE);
+        findViewById(R.id.buttonNext).setVisibility(View.INVISIBLE);
         findViewById(R.id.textErrado).setVisibility(View.INVISIBLE);
+        findViewById(R.id.enunciadoErrado).setVisibility(View.GONE);
+
     }
 
     public void TextDialog(View view) {
@@ -39,7 +37,7 @@ public class Condicao13 extends AppCompatActivity {
                 .setMessage("Você tem certeza que quer voltar ao menu principal?")
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(Condicao13.this, MainActivity.class);
+                        Intent intent = new Intent(Condicao15.this, MainActivity.class);
                         startActivity(intent);
                         overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
                     }
@@ -55,41 +53,40 @@ public class Condicao13 extends AppCompatActivity {
 
 
     public void next(View view) {
-        Intent intent = new Intent(this, Condicao14.class);
+        Intent intent = new Intent(this, Condicao16.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 
 
     public void verifCorreto(View view) {
-
         findViewById(R.id.textCorreto).setVisibility(View.VISIBLE);
         findViewById(R.id.wink).setVisibility(View.VISIBLE);
-        findViewById(R.id.Enunciado).setVisibility(View.GONE);
+        findViewById(R.id.enunciado).setVisibility(View.GONE);
         findViewById(R.id.buttonErrado3).setVisibility(View.GONE);
         findViewById(R.id.buttonErrado2).setVisibility(View.GONE);
         findViewById(R.id.buttonErrado1).setVisibility(View.GONE);
         findViewById(R.id.buttonCorreto).setVisibility(View.GONE);
-        findViewById(R.id.textView349).setVisibility(View.GONE);
-        findViewById(R.id.imageButton3).setVisibility(View.VISIBLE);
-        findViewById(R.id.imageView28).setVisibility(View.GONE);
-        findViewById(R.id.textView277).setVisibility(View.GONE);
+        findViewById(R.id.buttonNext).setVisibility(View.VISIBLE);
+        findViewById(R.id.vmsPrati).setVisibility(View.GONE);
+        findViewById(R.id.atividade).setVisibility(View.GONE);
+        findViewById(R.id.space).setVisibility(View.GONE);
+
     }
 
     public void verifErrado(View view) {
         findViewById(R.id.textErrado).setVisibility(View.VISIBLE);
-        findViewById(R.id.imageButton3).setVisibility(View.VISIBLE);
-        findViewById(R.id.Enunciado).setVisibility(View.GONE);
-        findViewById(R.id.textView277).setVisibility(View.GONE);
         findViewById(R.id.buttonErrado3).setVisibility(View.GONE);
         findViewById(R.id.buttonErrado2).setVisibility(View.GONE);
         findViewById(R.id.buttonErrado1).setVisibility(View.GONE);
         findViewById(R.id.buttonCorreto).setVisibility(View.GONE);
-        findViewById(R.id.textView349).setVisibility(View.GONE);
-        findViewById(R.id.imageView28).setVisibility(View.GONE);
+        findViewById(R.id.enunciado).setVisibility(View.GONE);
+        findViewById(R.id.buttonNext).setVisibility(View.VISIBLE);
+        findViewById(R.id.vmsPrati).setVisibility(View.GONE);
+        findViewById(R.id.atividade).setVisibility(View.GONE);
+        findViewById(R.id.space).setVisibility(View.GONE);
         findViewById(R.id.enunciadoErrado).setVisibility(View.VISIBLE);
     }
 
 
 }
-

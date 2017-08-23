@@ -215,12 +215,23 @@
         <activity
             android:name=".Vetores9"
             android:theme="@style/RedActionBar" />
-        <activity android:name=".Vetores10"
-            android:theme="@style/RedActionBar"/>
-        <activity android:name=".Vetores11"
-            android:theme="@style/RedActionBar"/>
-        <activity android:name=".Vetores12"
-            android:theme="@style/RedActionBar"/>
+        <activity
+            android:name=".Vetores10"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Vetores11"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Vetores12"
+            android:theme="@style/RedActionBar" />
+        <activity android:name=".Condicao11" android:theme="@style/GreenActionBar" />
+        <activity android:name=".Condicao12" android:theme="@style/GreenActionBar" />
+        <activity android:name=".Condicao13" android:theme="@style/GreenActionBar" />
+        <activity android:name=".Condicao14" android:theme="@style/GreenActionBar" />
+        <activity android:name=".Condicao15" android:theme="@style/GreenActionBar" />
+        <activity android:name=".Condicao16" android:theme="@style/GreenActionBar" />
+        <activity android:name=".Condicao17" android:theme="@style/GreenActionBar" />
+
     </application>
 
 </manifest>

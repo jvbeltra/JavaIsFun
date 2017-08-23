@@ -11,6 +11,13 @@ import android.widget.Spinner;
 
 public class Condicao9 extends AppCompatActivity {
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+
+    }
+
     private Spinner spinner4;
     private Button confirmar;
     @Override

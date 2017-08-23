@@ -79,6 +79,15 @@
         <item> = </item>
 
     </string-array>
+
+    <string-array name="country_arrays4">
+
+        <item> &amp;&amp; </item>
+        <item> || </item>
+        <item> &amp; </item>
+        <item> | </item>
+
+    </string-array>
     <string name="title_activity_laco_de_repeticao5">LacoDeRepeticao5</string>
 
 
