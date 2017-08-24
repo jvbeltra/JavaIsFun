@@ -116,7 +116,7 @@
            android:layout_width="match_parent"
            android:layout_height="0dp"
            android:layout_weight="8"
-           android:layout_margint="5dp"
+           android:layout_margin="5dp"
            android:gravity="center"
            android:textColor="@color/cinzinha"
            android:text="Ibiramense, começou a estudar programação em 2015 quando ingressara no Instituto Federal Catarinense. Atualmente mora em Ibirama. Conhecimentos gerais em programação Java com foco no desenvolvimento Android."
