@@ -110,13 +110,33 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/transparent"
-        android:onClick="oQueEJava"
+        android:onClick="boasPraticas"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.252"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/boaspraticas"
+        app:layout_constraintHorizontal_bias="0.75" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="103dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/transparent"
+        android:onClick="oQueEJava"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251"
         app:srcCompat="@drawable/oqueejava" />
 
     <ImageButton

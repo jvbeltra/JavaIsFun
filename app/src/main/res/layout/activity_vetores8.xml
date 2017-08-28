@@ -8,6 +8,27 @@
     android:background="@android:color/white">
 
     <TextView
+        android:id="@+id/textView352"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Segure arraste e solte..."
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <TextView
         android:id="@+id/textView313"
         android:layout_width="249dp"
         android:layout_height="38dp"
@@ -63,8 +84,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.413"
-        app:srcCompat="@drawable/telinha" />
+        app:layout_constraintVertical_bias="0.454"
+        app:srcCompat="@drawable/telinhazu" />
 
     <com.google.android.flexbox.FlexboxLayout
         android:id="@+id/flexTop"
@@ -81,7 +102,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.413"
+        app:layout_constraintVertical_bias="0.451"
 
         >
 
@@ -103,7 +124,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.788">
+        app:layout_constraintVertical_bias="0.821">
 
 
         <Button
@@ -112,7 +133,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
 
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text="float" />
 
@@ -123,7 +144,7 @@
 
             android:layout_margin="8dp"
 
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
             android:text="new" />
 
         <Button
@@ -131,7 +152,7 @@
             android:layout_width="55dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text="float" />
 
@@ -140,7 +161,7 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text=";" />
 
@@ -149,7 +170,7 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text="="
 
@@ -160,7 +181,7 @@
             android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text="vetor[]" />
 
@@ -169,7 +190,7 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text="int" />
 
@@ -179,7 +200,7 @@
             android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text="vetor"
             app:layout_constraintBottom_toBottomOf="parent" />
@@ -189,8 +210,8 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
-            android:onClick="moverN2"
+            android:background="@color/botao_avancado"
+
             android:text="[5]" />
 
 
@@ -297,5 +318,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.175" />
+        app:layout_constraintVertical_bias="0.231" />
 </android.support.constraint.ConstraintLayout>

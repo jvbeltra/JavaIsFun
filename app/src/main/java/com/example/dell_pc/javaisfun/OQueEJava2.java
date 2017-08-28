@@ -46,7 +46,7 @@ public class OQueEJava2 extends AppCompatActivity {
     public void next(View view){
         Intent intent = new Intent(this, OQueEJava3.class);
 
-
+startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 

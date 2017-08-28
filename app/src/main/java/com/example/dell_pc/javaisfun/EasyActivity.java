@@ -59,6 +59,14 @@ public class EasyActivity extends AppCompatActivity {
 
     }
 
+    public void boasPraticas(View view){
+        Intent intent = new Intent(this, BoasPraticas.class);
+        startActivity(intent);
+
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
+
+    }
+
     public void variaveis(View view){
         Intent intent = new Intent(this, Variaveis.class);
         startActivity(intent);

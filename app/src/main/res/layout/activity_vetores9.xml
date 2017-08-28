@@ -107,7 +107,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.413"
-        app:srcCompat="@drawable/telinha" />
+        app:srcCompat="@drawable/telinhazu" />
 
     <com.google.android.flexbox.FlexboxLayout
         android:id="@+id/flexTop"
@@ -155,7 +155,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
 
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text="=" />
 
@@ -166,7 +166,7 @@
 
             android:layout_margin="8dp"
 
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
             android:text="]" />
 
         <Button
@@ -174,7 +174,7 @@
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text="notas" />
 
@@ -183,7 +183,7 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text=";" />
 
@@ -192,7 +192,7 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text="13"
 
@@ -203,7 +203,7 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text="[" />
 
@@ -212,7 +212,7 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text="{13}" />
 
@@ -222,7 +222,7 @@
             android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/botao_avancado"
 
             android:text="vetor"
             app:layout_constraintBottom_toBottomOf="parent" />
@@ -232,8 +232,8 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@android:color/holo_blue_dark"
-            android:onClick="moverN2"
+            android:background="@color/botao_avancado"
+
             android:text="6" />
 
 

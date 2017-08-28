@@ -11,6 +11,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/microchip"
         android:supportsRtl="true"
+        android:screenOrientation="portrait"
         android:theme="@style/AppTheme">
         <activity
             android:name=".Splash"
@@ -224,14 +225,37 @@
         <activity
             android:name=".Vetores12"
             android:theme="@style/RedActionBar" />
-        <activity android:name=".Condicao11" android:theme="@style/GreenActionBar" />
-        <activity android:name=".Condicao12" android:theme="@style/GreenActionBar" />
-        <activity android:name=".Condicao13" android:theme="@style/GreenActionBar" />
-        <activity android:name=".Condicao14" android:theme="@style/GreenActionBar" />
-        <activity android:name=".Condicao15" android:theme="@style/GreenActionBar" />
-        <activity android:name=".Condicao16" android:theme="@style/GreenActionBar" />
-        <activity android:name=".Condicao17" android:theme="@style/GreenActionBar" />
-
+        <activity
+            android:name=".Condicao11"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Condicao12"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Condicao13"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Condicao14"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Condicao15"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Condicao16"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Condicao17"
+            android:theme="@style/GreenActionBar" />
+        <activity android:name=".BoasPraticas" />
+        <activity android:name=".BoasPraticas2" />
+        <activity android:name=".BoasPraticas3" />
+        <activity android:name=".BoasPraticas4" />
+        <activity android:name=".BoasPraticas5" />
+        <activity android:name=".BoasPraticas6" />
+        <activity android:name=".BoasPraticas7" />
+        <activity android:name=".BoasPraticas8" />
+        <activity android:name=".BoasPraticas9" />
+        <activity android:name=".BoasPraticas10"></activity>
     </application>
 
 </manifest>
