@@ -53,7 +53,6 @@
         <activity android:name=".Metodos8" />
         <activity android:name=".Metodos9" />
         <activity android:name=".Metodos10" />
-        <activity android:name=".Scanner" />
         <activity
             android:name=".Calculos"
             android:theme="@style/GreenActionBar" />
@@ -92,7 +91,6 @@
             android:theme="@style/RedActionBar" />
         <activity android:name=".AboutUs" />
         <activity android:name=".AboutTheApp" />
-        <activity android:name=".Scanner2" />
         <activity android:name=".Variaveis2" />
         <activity android:name=".Variaveis3" />
         <activity android:name=".Variaveis4" />
@@ -244,8 +242,32 @@
             android:name=".Condicao16"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao17"
+            android:name=".Scanner"
             android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Scanner2"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Scanner3"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Scanner4"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Scanner5"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Scanner6"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name=".Scanner7"
+            android:theme="@style/GreenActionBar" />
+
+        <activity
+            android:name=".Scanner8"
+            android:theme="@style/GreenActionBar" />
+
+
         <activity android:name=".BoasPraticas" />
         <activity android:name=".BoasPraticas2" />
         <activity android:name=".BoasPraticas3" />

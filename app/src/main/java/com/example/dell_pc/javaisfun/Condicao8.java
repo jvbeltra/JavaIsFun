@@ -34,6 +34,7 @@ public class Condicao8 extends AppCompatActivity {
             findViewById(R.id.button6).setVisibility(View.GONE);
             findViewById(R.id.exif).setVisibility(View.GONE);
             findViewById(R.id.textView272).setVisibility(View.GONE);
+            findViewById(R.id.textView273).setVisibility(View.GONE);
         }else{
             findViewById(R.id.imageView45).setVisibility(View.GONE);
             findViewById(R.id.errado).setVisibility(View.VISIBLE);
@@ -41,6 +42,7 @@ public class Condicao8 extends AppCompatActivity {
             findViewById(R.id.exif).setVisibility(View.GONE);
             findViewById(R.id.textView272).setVisibility(View.GONE);
             findViewById(R.id.button6).setVisibility(View.GONE);
+            findViewById(R.id.textView273).setVisibility(View.GONE);
         }
     }
     public void next(View view){

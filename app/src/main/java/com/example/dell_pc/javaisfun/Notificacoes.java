@@ -69,7 +69,7 @@ public class Notificacoes extends AppCompatActivity {
         calendar.set(Calendar.HOUR_OF_DAY, h);
         calendar.set(Calendar.MINUTE, m);
         alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), 1000 * 60 * 60 * 24, pendingIntent);
-        Toast.makeText(Notificacoes.this, "Alarme definido para " + h + ":0" + m + "min", Toast.LENGTH_SHORT).show();
+        Toast.makeText(Notificacoes.this, "Alarme definido para " + h + ":" + m + "min", Toast.LENGTH_SHORT).show();
     }
 }
 

@@ -1,25 +1,33 @@
 package com.example.dell_pc.javaisfun;
 
 import android.app.AlertDialog;
+import android.app.usage.UsageEvents;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 
-public class LacoDeRepeticao4 extends AppCompatActivity {
+public class Scanner7 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_laco_de_repeticao4);
-        findViewById(R.id.imageView34).setVisibility(View.GONE);
+        setContentView(R.layout.activity_scanner7);
+        findViewById(R.id.textErrado).setVisibility(View.INVISIBLE);
+        findViewById(R.id.textErrado2).setVisibility(View.INVISIBLE);
+        findViewById(R.id.wink).setVisibility(View.INVISIBLE);
+        findViewById(R.id.textCorreto).setVisibility(View.INVISIBLE);
+        findViewById(R.id.buttonProx).setVisibility(View.INVISIBLE);
+        findViewById(R.id.incorreto).setVisibility(View.INVISIBLE);
+
     }
 
-    @Override
     public void onBackPressed() {
         super.onBackPressed();
         overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
@@ -35,7 +43,7 @@ public class LacoDeRepeticao4 extends AppCompatActivity {
                 .setMessage("Você tem certeza que quer voltar ao menu principal?")
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(LacoDeRepeticao4.this, MainActivity.class);
+                        Intent intent = new Intent(Scanner7.this, MainActivity.class);
                         startActivity(intent);
                         overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
                     }
@@ -49,14 +57,16 @@ public class LacoDeRepeticao4 extends AppCompatActivity {
                 .show();
     }
 
-    public void proximo(View view) {
-        Intent intent = new Intent(this, LacoDeRepeticao5.class);
+    public void next(View view) {
+        Intent intent = new Intent(this, Scanner7.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 
+
     private float x1, x2;
     static final int MIN_DISTANCE = 150;
+
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
@@ -74,12 +84,12 @@ public class LacoDeRepeticao4 extends AppCompatActivity {
                                 R.anim.rigth_in);
                         Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(),
                                 R.anim.rigth_out);
-                        findViewById(R.id.imageView35).setVisibility(View.VISIBLE);
 
-                        findViewById(R.id.imageView35).setAnimation(animation);
+                        findViewById(R.id.correto).setAnimation(animation);
+                        findViewById(R.id.correto).setVisibility(View.VISIBLE);
 
-                        findViewById(R.id.imageView34).setAnimation(animation1);
-                        findViewById(R.id.imageView34).setVisibility(View.GONE);
+                        findViewById(R.id.incorreto).setAnimation(animation1);
+                        findViewById(R.id.incorreto).setVisibility(View.GONE);
 
 
                     }
@@ -92,20 +102,43 @@ public class LacoDeRepeticao4 extends AppCompatActivity {
                         Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(),
                                 R.anim.left_in);
 
-                        findViewById(R.id.imageView34).setVisibility(View.VISIBLE);
-                        findViewById(R.id.imageView35).setAnimation(animation);
+
+                        findViewById(R.id.correto).setAnimation(animation);
+                        findViewById(R.id.correto).setVisibility(View.GONE);
+
+                        findViewById(R.id.incorreto).setAnimation(animation1);
+                        findViewById(R.id.incorreto).setVisibility(View.VISIBLE);
 
 
-                        findViewById(R.id.imageView34).setAnimation(animation1);
-                        findViewById(R.id.imageView35).setVisibility(View.GONE);
                     }
 
-                } else {
-                    // consider as something else - a screen tap for example
                 }
                 break;
         }
 
         return super.onTouchEvent(event);
+    }
+
+    public void selecionar(View view) {
+        ImageView incorreto = (ImageView) findViewById(R.id.incorreto);
+        ImageView correto = (ImageView) findViewById(R.id.correto);
+        if (incorreto.getVisibility() == View.VISIBLE) {
+            findViewById(R.id.titulo1).setVisibility(View.GONE);
+            findViewById(R.id.titulo2).setVisibility(View.GONE);
+            findViewById(R.id.textCorreto).setVisibility(View.VISIBLE);
+            findViewById(R.id.wink).setVisibility(View.VISIBLE);
+            findViewById(R.id.buttonProx).setVisibility(View.VISIBLE);
+            findViewById(R.id.deslizeWarn).setVisibility(View.GONE);
+            findViewById(R.id.incorreto).setVisibility(View.GONE);
+        } else if (correto.getVisibility() == View.VISIBLE) {
+            findViewById(R.id.titulo1).setVisibility(View.GONE);
+            findViewById(R.id.titulo2).setVisibility(View.GONE);
+            findViewById(R.id.textErrado).setVisibility(View.VISIBLE);
+            findViewById(R.id.textErrado2).setVisibility(View.VISIBLE);
+            findViewById(R.id.buttonProx).setVisibility(View.VISIBLE);
+            findViewById(R.id.deslizeWarn).setVisibility(View.GONE);
+            findViewById(R.id.correto).setVisibility(View.GONE);
+        }
+
     }
 }
