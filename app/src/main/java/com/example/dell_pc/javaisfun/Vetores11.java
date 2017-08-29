@@ -53,8 +53,8 @@ public class Vetores11 extends AppCompatActivity {
     }
 
     public void verificar(View view){
-        EditText editText = (EditText) findViewById(R.id.editText8);
-        EditText editText2 = (EditText) findViewById(R.id.editText4);
+        EditText editText = (EditText) findViewById(R.id.editText4);
+        EditText editText2 = (EditText) findViewById(R.id.editText8);
         EditText editText3 = (EditText) findViewById(R.id.editText7);
 
         if(editText.getText().toString().equalsIgnoreCase("vetor.length")&& editText2.getText().toString().equalsIgnoreCase("5") && editText3.getText().toString().equalsIgnoreCase("++;")){

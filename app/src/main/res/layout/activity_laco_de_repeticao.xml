@@ -10,23 +10,23 @@
 
     <TextView
         android:id="@+id/textView220"
-        android:layout_width="192dp"
-        android:layout_height="79dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed"
         android:text="Sejam bem-vindos!"
         android:textAlignment="center"
         android:textColor="@color/aaaa"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101" />
+        app:layout_constraintVertical_bias="0.139" />
 
     <ImageButton
         android:id="@+id/imageButton86"
@@ -50,21 +50,22 @@
     <TextView
         android:id="@+id/textView221"
         android:layout_width="281dp"
-        android:layout_height="219dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="E se eu quiser repetir um código? Pra não ter que reescrever ele o tempo todo? Tudo pode ser resolvido com os famosos Laços de Repetição. No primeiro ano você aprendeu o REPITA-ATÉ em Portugol, agora, terá que lidar com estruturas um pouco diferentes e até mais simples na minha opinião. Let's get it started?"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.444" />
+        app:layout_constraintVertical_bias="0.427" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -83,5 +84,20 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintHorizontal_bias="0.023"
         app:layout_constraintVertical_bias="0.015" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cycleloading"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.802" />
 
 </android.support.constraint.ConstraintLayout>

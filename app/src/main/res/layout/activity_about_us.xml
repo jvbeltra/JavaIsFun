@@ -27,11 +27,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="20dp"
             android:text="O aplicativo foi desenvolvido inteiramente por Alfredo Vieira Neto e João Vitor Beltramini, ambos estudantes do Curso Técnico em Informática Integrado ao Ensino Médio no Instituto Federal Catarinense - Câmpus Ibirama."
             android:textAlignment="center"
-            android:textColor="@color/cinzinha"
             android:textAppearance="?android:textAppearanceSmall"
-            android:padding="20dp"
+            android:textColor="@color/cinzinha"
             android:textSize="24sp" />
 
         <TextView
@@ -39,11 +40,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="20dp"
             android:text="O projeto foi concluído com apoio de um vasto material disponível na internet e com apoio do Professor Msc. Daniel dos Santos Jr. e do Professor Eduardo Stahnke,  respectivamente orientador e coorientador do projeto."
             android:textAlignment="center"
-            android:textColor="@color/cinzinha"
             android:textAppearance="?android:textAppearanceSmall"
-            android:padding="20dp"
+            android:textColor="@color/cinzinha"
             android:textSize="24sp" />
 
         <LinearLayout
@@ -67,25 +69,26 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:text="Alfredo Vieira Neto"
-                    android:layout_weight="2"
-                    android:gravity="center"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/cinzinha"
+                    android:layout_weight="2"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Alfredo Vieira Neto"
                     android:textAppearance="?android:textAppearanceMedium"
-                    />
+                    android:textColor="@color/cinzinha"
+                    android:textStyle="bold" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="8"
                     android:layout_margin="5dp"
-                    android:gravity="center"
+                    android:layout_weight="8"
+                    android:fontFamily="sans-serif-condensed"
 
-                    android:textColor="@color/cinzinha"
+                    android:gravity="center"
                     android:text="Blumenauense, começou a estudar programação em 2015 quando ingressara no Instituto Federal Catarinense. Atualmente mora em Ibirama. Conhecimentos gerais em programação Java com foco no desenvolvimento Android."
 
-                    />
+                    android:textColor="@color/cinzinha" />
             </LinearLayout>
 
         </LinearLayout>
@@ -104,24 +107,25 @@
        <TextView
            android:layout_width="match_parent"
            android:layout_height="0dp"
-           android:text="João Vitor Beltramini"
-           android:layout_weight="2"
-           android:gravity="center"
            android:layout_margin="5dp"
-           android:textStyle="bold"
-           android:textColor="@color/cinzinha"
+           android:layout_weight="2"
+           android:fontFamily="sans-serif-condensed"
+           android:gravity="center"
+           android:text="João Vitor Beltramini"
            android:textAppearance="?android:textAppearanceMedium"
-           />
+           android:textColor="@color/cinzinha"
+           android:textStyle="bold" />
+
        <TextView
            android:layout_width="match_parent"
            android:layout_height="0dp"
-           android:layout_weight="8"
            android:layout_margin="5dp"
+           android:layout_weight="8"
+           android:fontFamily="sans-serif-condensed"
            android:gravity="center"
-           android:textColor="@color/cinzinha"
            android:text="Ibiramense, começou a estudar programação em 2015 quando ingressara no Instituto Federal Catarinense. Atualmente mora em Ibirama. Conhecimentos gerais em programação Java com foco no desenvolvimento Android."
 
-           />
+           android:textColor="@color/cinzinha" />
 
    </LinearLayout>
     <ImageView

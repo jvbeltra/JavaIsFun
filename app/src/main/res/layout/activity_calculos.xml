@@ -10,23 +10,23 @@
 
     <TextView
         android:id="@+id/textView159"
-        android:layout_width="192dp"
-        android:layout_height="79dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed"
         android:text="Sejam bem-vindos!"
         android:textAlignment="center"
         android:textColor="@color/aaaa"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101" />
+        app:layout_constraintVertical_bias="0.139" />
 
     <ImageButton
         android:id="@+id/imageButton63"
@@ -50,21 +50,22 @@
     <TextView
         android:id="@+id/textView158"
         android:layout_width="281dp"
-        android:layout_height="219dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Por todo seu esforço em chegar até aqui, você terá um descanso... Brincadeira kkk Se quer aprender a programar, tem que treinar o máximo possível! E para começar o nível médio, que tal juntar os valores que aprenderam e brincar um pouco com a matemática?"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.444" />
+        app:layout_constraintVertical_bias="0.428" />
 
     <ImageButton
         android:id="@+id/imageButton"

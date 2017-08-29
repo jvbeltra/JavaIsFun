@@ -27,12 +27,12 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="177dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed"
         android:text="Introdução"
         android:textAlignment="center"
         android:textColor="@android:color/holo_blue_dark"
@@ -42,16 +42,17 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101" />
+        app:layout_constraintVertical_bias="0.147" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="281dp"
-        android:layout_height="219dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="	Variáveis são as denominações que definem e separam o tipo de um valor que será usado em um programa. Como já dito, um programa é composto por valores e lógicas matemáticas, as variáveis irão auxiliar na organização e identificação destes valores."
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -61,7 +62,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.411" />
+        app:layout_constraintVertical_bias="0.428" />
 
     <ImageButton
         android:id="@+id/imageButton2"

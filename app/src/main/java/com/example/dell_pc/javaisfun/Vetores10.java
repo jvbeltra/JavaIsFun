@@ -53,9 +53,9 @@ public class Vetores10 extends AppCompatActivity {
     }
 
     public void verificar(View view){
-        EditText editText = (EditText) findViewById(R.id.editText6);
+        EditText editText = (EditText) findViewById(R.id.editText);
         EditText editText2 = (EditText) findViewById(R.id.editText5);
-        EditText editText3 = (EditText) findViewById(R.id.editText);
+        EditText editText3 = (EditText) findViewById(R.id.editText6);
 
         if(editText.getText().toString().equalsIgnoreCase("[]")&& editText2.getText().toString().equalsIgnoreCase("5") && editText3.getText().toString().equalsIgnoreCase("vetor[i]")){
             findViewById(R.id.imageButton151).setVisibility(View.VISIBLE);

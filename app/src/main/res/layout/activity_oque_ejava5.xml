@@ -10,11 +10,12 @@
     <TextView
         android:id="@+id/textView141"
         android:layout_width="291dp"
-        android:layout_height="72dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Já instalou tudo?! Se não, instale, pois iremos precisar daqui em diante..."
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -29,11 +30,12 @@
     <TextView
         android:id="@+id/textView143"
         android:layout_width="303dp"
-        android:layout_height="188dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Além da IDE é preciso ter o JDK(Java Development Kit) instalado no seu computador, ele vai possibilitar o acesso de todas as bibliotecas Java para o desenvolvimento dos seus primeiros programas. Atualmente, a Oracle disponibiliza o Java SE Development Kit 8 no seu site."
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -85,8 +87,8 @@
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="53dp"
-        android:layout_height="51dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -96,7 +98,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.814"
-        app:srcCompat="@drawable/thumbsup"
-        app:layout_constraintHorizontal_bias="0.501" />
+        app:layout_constraintVertical_bias="0.81"
+        app:srcCompat="@drawable/thumbsup" />
 </android.support.constraint.ConstraintLayout>

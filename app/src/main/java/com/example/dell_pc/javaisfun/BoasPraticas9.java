@@ -16,7 +16,7 @@ public class BoasPraticas9 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_boas_praticas9);
-        findViewById(R.id.textView398).setVisibility(View.GONE);
+        findViewById(R.id.textView403).setVisibility(View.GONE);
     }
     @Override
     public void onBackPressed() {
@@ -80,8 +80,8 @@ public class BoasPraticas9 extends AppCompatActivity {
 
                         findViewById(R.id.textView399).setAnimation(animation);
 
-                        findViewById(R.id.textView398).setAnimation(animation1);
-                        findViewById(R.id.textView398).setVisibility(View.GONE);
+                        findViewById(R.id.textView403).setAnimation(animation1);
+                        findViewById(R.id.textView403).setVisibility(View.GONE);
 
 
                     }
@@ -95,11 +95,11 @@ public class BoasPraticas9 extends AppCompatActivity {
                         Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(),
                                 R.anim.left_in);
 
-                        findViewById(R.id.textView398).setVisibility(View.VISIBLE);
+                        findViewById(R.id.textView403).setVisibility(View.VISIBLE);
                         findViewById(R.id.textView399).setAnimation(animation);
 
 
-                        findViewById(R.id.textView398).setAnimation(animation1);
+                        findViewById(R.id.textView403).setAnimation(animation1);
                         findViewById(R.id.textView399).setVisibility(View.GONE);
                     }
 

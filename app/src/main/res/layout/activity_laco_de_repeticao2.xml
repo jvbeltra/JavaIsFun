@@ -30,30 +30,32 @@
     <TextView
         android:id="@+id/textView231"
         android:layout_width="289dp"
-        android:layout_height="139dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Existem estruturas específicas para fazer um laço de repetição, e cada uma delas vai ter algum efeito pequeno, mas significativo para encaixar na lógica do seu programa..."
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.401" />
+        app:layout_constraintVertical_bias="0.378" />
 
     <TextView
         android:id="@+id/textView232"
         android:layout_width="294dp"
-        android:layout_height="70dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Ótimo você deu o primeiro passo, agora vamos ver um pouco de sintaxe!"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -62,7 +64,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149" />
+        app:layout_constraintVertical_bias="0.157" />
 
     <ImageButton
         android:id="@+id/imageButton104"

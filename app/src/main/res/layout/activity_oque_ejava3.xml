@@ -10,21 +10,22 @@
     <TextView
         android:id="@+id/textView137"
         android:layout_width="299dp"
-        android:layout_height="272dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Uma linguagem de programação é nada mais nada menos do que a forma de conversar com a máquina. Sem ela você fica sem comunicação, e a mesma não fará o que você mandar. Por isso neste aplicativo, será detalhado o passo a passo de como aperfeiçoar esta língua, e não só isso, você aprenderá o conteúdo que precisa pra se sair bem em provas de programação..."
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.203" />
+        app:layout_constraintVertical_bias="0.222" />
 
     <ImageButton
         android:id="@+id/imageButton40"
@@ -69,19 +70,20 @@
     <TextView
         android:id="@+id/textView138"
         android:layout_width="315dp"
-        android:layout_height="153dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Pois bem... O que eu preciso para começar? Existe algo que eu preciso saber antes de começar a codificar? Preciso saber inglês para programar? Quanto tempo levará para eu aprender? "
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.851" />
+        app:layout_constraintVertical_bias="0.796" />
 </android.support.constraint.ConstraintLayout>

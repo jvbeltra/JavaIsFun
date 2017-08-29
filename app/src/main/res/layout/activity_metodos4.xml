@@ -11,7 +11,7 @@
     <TextView
         android:id="@+id/textView78"
         android:layout_width="337dp"
-        android:layout_height="65dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -19,12 +19,13 @@
         android:text="O exemplo demonstra exatamente a função dos métodos! Agora vamos à um caso mais específico, com elementos da programação..."
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.139" />
+        app:layout_constraintVertical_bias="0.122" />
 
     <ImageButton
         android:id="@+id/imageButton20"
@@ -90,10 +91,10 @@
         android:text="}"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintVertical_bias="0.454" />
 
     <TextView
@@ -115,7 +116,7 @@
     <TextView
         android:id="@+id/textView88"
         android:layout_width="266dp"
-        android:layout_height="68dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -123,16 +124,17 @@
         android:text='Ótimo, tendo isso em mente, você deve estar pensando o que é o VOID, pra que serve o "()" e quando isso será executado...'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592" />
+        app:layout_constraintVertical_bias="0.612" />
 
     <TextView
         android:id="@+id/textView89"
-        android:layout_width="264dp"
-        android:layout_height="75dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -140,9 +142,10 @@
         android:text="Por enquanto concentre-se em gravar o formato do método, sua identação, e sua função... Acha que está pronto?! Vamos para os detalhes..."
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.802" />
+        app:layout_constraintVertical_bias="0.88" />
 </android.support.constraint.ConstraintLayout>

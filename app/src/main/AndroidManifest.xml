@@ -277,7 +277,7 @@
         <activity android:name=".BoasPraticas7" />
         <activity android:name=".BoasPraticas8" />
         <activity android:name=".BoasPraticas9" />
-        <activity android:name=".BoasPraticas10"></activity>
+        <activity android:name=".BoasPraticas10"/>
     </application>
 
 </manifest>

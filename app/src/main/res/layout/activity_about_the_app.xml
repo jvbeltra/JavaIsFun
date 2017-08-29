@@ -25,74 +25,75 @@
             android:id="@+id/textView330"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-           android:layout_margin="10dp"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed"
             android:padding="10dp"
-            android:textAppearance="?android:textAppearanceSmall"
             android:text="java.isFun() foi o resultado de diversos meses de pesquisa e estudos, sendo assim um complemento ao ensino padrão dado em sala de aula ou até mesmo o pontapé inicial para quem deseja se tornar um programador Java."
             android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceSmall"
             android:textColor="@android:color/black"
-            android:textSize="24sp"
-            />
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/textView331"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
             android:text="Para dúvidas, sugestões ou comentários, segue abaixo o contato dos desenvolvedores e demais fontes de dados do projeto:"
             android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceSmall"
             android:textColor="@android:color/black"
-            android:textSize="24sp"
-            android:layout_margin="10dp"
-            android:padding="10dp"
-            android:textAppearance="?android:textAppearanceSmall" />
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/textView336"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-           android:layout_margin="10dp"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="Contato:"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-            android:textStyle="bold"
-             />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView334"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:autoLink="email"
+            android:fontFamily="sans-serif-condensed"
             android:text="alfredo.vieira.neto90@gmail.com"
             android:textAlignment="center"
             android:textColor="@android:color/black"
-            android:textSize="18sp"
-            android:autoLink="email"
-             />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView335"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="jvbeltra2011@gmail.com"
             android:autoLink="email"
+            android:fontFamily="sans-serif-condensed"
+            android:text="jvbeltra2011@gmail.com"
             android:textAlignment="center"
             android:textColor="@android:color/black"
-            android:textSize="18sp"
-             />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView338"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="Por ser de código-aberto, este aplicativo pode ter seu código utilizado para modificações assim como para estudo"
             android:textAlignment="center"
             android:textColor="@android:color/black"
-            android:textSize="24sp"
-            />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/linkGithub"
@@ -100,6 +101,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="https://github.com/jvbeltra/JavaIsFun"
             android:textColor="@android:color/holo_orange_dark"
             android:textSize="18sp" />
@@ -110,6 +112,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="http://ibirama.ifc.edu.br/"
             android:textAlignment="center"
             android:textColor="@android:color/holo_green_dark"
