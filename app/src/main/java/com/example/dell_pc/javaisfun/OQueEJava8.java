@@ -3,11 +3,14 @@ package com.example.dell_pc.javaisfun;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 public class OQueEJava8 extends AppCompatActivity {
+
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();
@@ -18,6 +21,8 @@ public class OQueEJava8 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_oque_ejava8);
+
+
     }
     public void TextDialog(View view){
         AlertDialog.Builder builder;
@@ -42,9 +47,12 @@ public class OQueEJava8 extends AppCompatActivity {
                 .show();
     }
     public void next(View view){
-        Intent intent = new Intent(this, Variaveis.class);
+        Intent intent = new Intent(this, BoasPraticas.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+
+
         finishAffinity();
+
     }
 }

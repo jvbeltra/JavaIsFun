@@ -15,26 +15,124 @@
         android:weightSum="1">
 
         <ImageView
-            android:id="@+id/imageView28"
+            android:id="@+id/imageView46"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            app:srcCompat="@drawable/aboutus"
-            android:layout_marginTop="10dp"/>
+            android:layout_height="65dp"
+
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/sobrenoss" />
 
         <TextView
             android:id="@+id/textView216"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="O aplicativo foi desenvolvido inteiramente por Alfredo Vieira Neto e João Vitor Beltramini, ambos estudantes do Curso Técnico em Informática Integrado ao Ensino Médio no Instituto Federal Catarinense - Câmpus Ibirama. O projeto foi concluído com apoio de um vasto material disponível na internet e com apoio do Professor Msc. Daniel dos Santos Jr. e do Professor Eduardo Stahnke,  respectivamente orientador e coorientador do projeto."
+            android:text="O aplicativo foi desenvolvido inteiramente por Alfredo Vieira Neto e João Vitor Beltramini, ambos estudantes do Curso Técnico em Informática Integrado ao Ensino Médio no Instituto Federal Catarinense - Câmpus Ibirama."
             android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="24sp"
+            android:textColor="@color/cinzinha"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:padding="20dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView349"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="O projeto foi concluído com apoio de um vasto material disponível na internet e com apoio do Professor Msc. Daniel dos Santos Jr. e do Professor Eduardo Stahnke,  respectivamente orientador e coorientador do projeto."
+            android:textAlignment="center"
+            android:textColor="@color/cinzinha"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:padding="20dp"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="0dp"
+                android:layout_height="142dp"
+                android:layout_margin="10dp"
+                android:layout_weight="4"
+                app:srcCompat="@drawable/alf" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="8"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="Alfredo Vieira Neto"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cinzinha"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+
+                    android:textColor="@color/cinzinha"
+                    android:text="Blumenauense, começou a estudar programação em 2015 quando ingressara no Instituto Federal Catarinense. Atualmente mora em Ibirama. Conhecimentos gerais em programação Java com foco no desenvolvimento Android."
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="25dp"
+    >
+   <LinearLayout
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_weight="8">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:text="João Vitor Beltramini"
+           android:layout_weight="2"
+           android:gravity="center"
+           android:layout_margin="5dp"
+           android:textStyle="bold"
+           android:textColor="@color/cinzinha"
+           android:textAppearance="?android:textAppearanceMedium"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="8"
+           android:layout_margin="5dp"
+           android:gravity="center"
+           android:textColor="@color/cinzinha"
+           android:text="Ibiramense, começou a estudar programação em 2015 quando ingressara no Instituto Federal Catarinense. Atualmente mora em Ibirama. Conhecimentos gerais em programação Java com foco no desenvolvimento Android."
+
            />
 
+   </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="0dp"
+        android:layout_height="142dp"
+        android:layout_margin="10dp"
+        android:layout_weight="4"
+        app:srcCompat="@drawable/djey" />
 
-
+</LinearLayout>
 
     </LinearLayout>
 

@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-public class Variaveis4 extends AppCompatActivity {
+public class  Variaveis4 extends AppCompatActivity {
     private Spinner spinner2;
     private Button btnSubmit;
     @Override

@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class OQueEJava2 extends AppCompatActivity {
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();
@@ -44,7 +45,8 @@ public class OQueEJava2 extends AppCompatActivity {
     }
     public void next(View view){
         Intent intent = new Intent(this, OQueEJava3.class);
-        startActivity(intent);
+
+startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 

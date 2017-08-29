@@ -43,9 +43,6 @@ public class Condicao extends AppCompatActivity {
         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
     }
-    public static void main(String[] args) {
-        
-    }
     public void next(View view){
         Intent intent = new Intent(this, Condicao2.class);
         startActivity(intent);

@@ -19,7 +19,9 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:onClick="back"
-            android:padding="10dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="15dp"
+            android:paddingBottom="20dp"
             app:srcCompat="@drawable/delete" />
 
         <View

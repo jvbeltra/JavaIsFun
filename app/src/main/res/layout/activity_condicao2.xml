@@ -8,24 +8,6 @@
     android:background="@android:color/white"
     >
 
-    <TextView
-        android:id="@+id/textView229"
-        android:layout_width="310dp"
-        android:layout_height="151dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Antes de tudo, vamos entender o que significa cada uma dessas estruturas citadas na página anterior:"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.172" />
-
     <ImageButton
         android:id="@+id/imageButton88"
         android:layout_width="42dp"
@@ -35,15 +17,15 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/transparent"
-        android:onClick="next"
+        android:onClick="proximo"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintHorizontal_bias="0.973"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.993"
-        app:srcCompat="@drawable/proximo" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/proximoverde" />
 
     <ImageButton
         android:id="@+id/imageButton87"
@@ -54,7 +36,6 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/transparent"
-        android:contentDescription="@string/menu"
         android:onClick="TextDialog"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.023"
@@ -62,7 +43,26 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.015"
-        app:srcCompat="@drawable/back" />
+        app:srcCompat="@drawable/backgreen" />
+
+    <TextView
+        android:id="@+id/textView229"
+        android:layout_width="365dp"
+        android:layout_height="171dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Antes de tudo, vamos entender o que significa cada uma dessas estruturas citadas na página anterior:"
+        android:textAlignment="center"
+        android:textColor="@color/cinzinha"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176" />
 
     <ImageView
         android:id="@+id/imageView22"

@@ -5,10 +5,13 @@
     <color name="colorAccent">#000000</color>
     <color name="Basico">#2196f3</color>
     <color name="Intermediario">#0d9c46</color>
-    <color name="Avancado">#ff3434</color>
+    <color name="Avancado">#da0000</color>
     <color name="Avançado">#f23059</color>
-    <color name="nsei">#5166ea</color>
+    <color name="nsei">#ffba08</color>
     <color name="aaaa">#12cb5c</color>
 
+<color name="caixa_de_texto">#EFF0F1</color>
+    <color name="botao_avancado">#bbb7b7</color>
     <color name="cinzinha">#393939</color>
+    <color name="laranjatop">#f26d57</color>
 </resources>

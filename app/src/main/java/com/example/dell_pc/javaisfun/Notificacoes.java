@@ -18,7 +18,10 @@ import java.util.Calendar;
 public class Notificacoes extends AppCompatActivity {
 
     TimePicker timePicker;
-
+    public int h;
+    public int m;
+    AlarmManager alarmManager;
+    PendingIntent pendingIntent;
 
     @Override
     public void onBackPressed() {
@@ -31,25 +34,42 @@ public class Notificacoes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notificacoes);
-
         timePicker = (TimePicker) findViewById(R.id.timePicker);
         timePicker.setIs24HourView(true);
         findViewById(R.id.setAlarmButton).setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View view) {
-                Calendar calendar = Calendar.getInstance();
-                int h = timePicker.getCurrentHour();
-                int m = timePicker.getCurrentMinute();
-                Intent intent = new Intent(getApplicationContext(), Notification_receiver.class);
-                AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-                PendingIntent pendingIntent = PendingIntent.getBroadcast(getApplicationContext(), 100, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-                calendar.set(Calendar.HOUR_OF_DAY, h);
-                calendar.set(Calendar.MINUTE, m);
-                alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY, pendingIntent);
+                h = timePicker.getCurrentHour();
+                m = timePicker.getCurrentMinute();
+                startAlarm();
+            }
+        });
+        findViewById(R.id.cancelAlarm).setOnClickListener(new View.OnClickListener() {
 
-
+            @Override
+            public void onClick(View v) {
+                cancelAlarm();
             }
         });
     }
+
+    public void cancelAlarm() {
+        if (alarmManager != null) {
+            alarmManager.cancel(pendingIntent);
+        }
+
+    }
+
+
+    public void startAlarm() {
+        Calendar calendar = Calendar.getInstance();
+        Intent intent = new Intent(getApplicationContext(), Notification_receiver.class);
+        alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+        pendingIntent = PendingIntent.getBroadcast(getApplicationContext(), 100, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        calendar.set(Calendar.HOUR_OF_DAY, h);
+        calendar.set(Calendar.MINUTE, m);
+        alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), 1000 * 60 * 60 * 24, pendingIntent);
+        Toast.makeText(Notificacoes.this, "Alarme definido para " + h + ":" + m + "min", Toast.LENGTH_SHORT).show();
+    }
 }
+

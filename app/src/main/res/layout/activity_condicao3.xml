@@ -8,8 +8,26 @@
     android:background="@android:color/white"
     >
 
+    <ImageButton
+        android:id="@+id/imageButton121"
+        android:layout_width="28dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="TextDialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015"
+        app:srcCompat="@drawable/backgreen" />
+
     <TextView
-        android:id="@+id/textView212"
+        android:id="@+id/iftitulo"
         android:layout_width="223dp"
         android:layout_height="48dp"
         android:layout_marginBottom="8dp"
@@ -29,7 +47,7 @@
         app:layout_constraintVertical_bias="0.053" />
 
     <TextView
-        android:id="@+id/textView235"
+        android:id="@+id/iftexto"
         android:layout_width="33dp"
         android:layout_height="34dp"
         android:layout_marginBottom="8dp"
@@ -49,7 +67,7 @@
         app:layout_constraintVertical_bias="0.191" />
 
     <TextView
-        android:id="@+id/textView236"
+        android:id="@+id/textIf"
         android:layout_width="314dp"
         android:layout_height="222dp"
         android:layout_marginBottom="8dp"
@@ -67,7 +85,7 @@
         app:layout_constraintVertical_bias="0.3" />
 
     <ImageView
-        android:id="@+id/imageView41"
+        android:id="@+id/exemplobasicoIf"
         android:layout_width="315dp"
         android:layout_height="147dp"
         android:layout_marginBottom="8dp"
@@ -80,7 +98,26 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.913"
+        app:layout_constraintVertical_bias="0.886"
         app:srcCompat="@drawable/exemploif1" />
+
+    <ImageButton
+        android:id="@+id/prox"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="proximo"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/proximoverde" />
 
 </android.support.constraint.ConstraintLayout>

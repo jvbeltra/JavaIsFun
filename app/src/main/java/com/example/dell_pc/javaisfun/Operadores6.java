@@ -12,6 +12,7 @@ import android.widget.Spinner;
 public class Operadores6 extends AppCompatActivity {
     private Spinner spinner3;
     private Button btnSubmit2;
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();

@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class OQueEJava7 extends AppCompatActivity {
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();
@@ -44,6 +45,8 @@ public class OQueEJava7 extends AppCompatActivity {
     public void next(View view){
         Intent intent = new Intent(this, OQueEJava8.class);
         startActivity(intent);
+
+
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 }

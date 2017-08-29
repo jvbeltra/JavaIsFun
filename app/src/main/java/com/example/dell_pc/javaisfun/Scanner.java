@@ -6,21 +6,19 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.TextView;
 
 public class Scanner extends AppCompatActivity {
-    @Override
-    public void onBackPressed() {
-        Intent intent = new Intent(this, MediumActivity.class);
-        startActivity(intent);
-        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scanner);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
 
     }
 
@@ -35,7 +33,7 @@ public class Scanner extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(Scanner.this, MainActivity.class);
                         startActivity(intent);
-                        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+                        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -47,35 +45,10 @@ public class Scanner extends AppCompatActivity {
                 .show();
     }
 
-    public void ChecarScanner(View view) {
-        EditText edit_text = (EditText) findViewById(R.id.editText2);
-        TextView textView = (TextView) findViewById(R.id.textView);
-        if (edit_text.getText().toString().equals("Scanner s = new Scanner(System.in);") || edit_text.getText().toString().equals("Scanner s= new Scanner(System.in);") || edit_text.getText().toString().equals("Scanner s=new Scanner(System.in);") || edit_text.getText().toString().equals("Scanner s=new Scanner(System.in);")) {
-            textView.setText("Correto!");
-        } else if (edit_text.getText().toString().equals("Scanner S = new Scanner(System.in);") || edit_text.getText().toString().equals("Scanner S=new Scanner(System.in);") || edit_text.getText().toString().equals("Scanner S =new Scanner(System.in);")|| edit_text.getText().toString().equals("Scanner S= new Scanner(System.in);")){
-
-            AlertDialog.Builder builder;
-
-            builder = new AlertDialog.Builder(this);
-            builder.setTitle("Aviso!")
-                    .setMessage("Uma variável deve ser sempre declarada com a primeira letra minúscula.\nTente Scanner s = new Scanner(System.in)")
-                    .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            Intent intent2 = new Intent(Scanner.this, Scanner2.class);
-                            startActivity(intent2);
-                        }
-                    })
-                    .setNegativeButton("Tentar novamente", new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            dialog.cancel();
-                        }
-                    })
-                    .setIcon(R.drawable.alert_ad)
-                    .show();
-        } else {
-            textView.setText("Errado! Tente: Scanner s = new Scanner(System.in)");
-        }
-
-
+    public void next(View view) {
+        Intent intent = new Intent(this, Scanner2.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
+
 }

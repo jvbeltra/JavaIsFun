@@ -1,8 +1,10 @@
 package com.example.dell_pc.javaisfun;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,15 +12,20 @@ import android.widget.Toast;
 
 public class EasyActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_easy);
+
+
+
     }
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+
         overridePendingTransition( R.anim.left_in, R.anim.left_out);
 
     }
@@ -47,7 +54,17 @@ public class EasyActivity extends AppCompatActivity {
     public void oQueEJava(View view){
         Intent intent = new Intent(this, OQueEJava.class);
         startActivity(intent);
+
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+
+    }
+
+    public void boasPraticas(View view){
+        Intent intent = new Intent(this, BoasPraticas.class);
+        startActivity(intent);
+
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
+
     }
 
     public void variaveis(View view){

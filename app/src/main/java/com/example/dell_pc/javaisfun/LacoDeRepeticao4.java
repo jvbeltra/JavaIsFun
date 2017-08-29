@@ -18,13 +18,15 @@ public class LacoDeRepeticao4 extends AppCompatActivity {
         setContentView(R.layout.activity_laco_de_repeticao4);
         findViewById(R.id.imageView34).setVisibility(View.GONE);
     }
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
 
     }
-    public void TextDialog(View view){
+
+    public void TextDialog(View view) {
         AlertDialog.Builder builder;
 
         builder = new AlertDialog.Builder(this);
@@ -35,7 +37,7 @@ public class LacoDeRepeticao4 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(LacoDeRepeticao4.this, MainActivity.class);
                         startActivity(intent);
-                        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+                        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -46,29 +48,28 @@ public class LacoDeRepeticao4 extends AppCompatActivity {
                 .setIcon(R.drawable.warning)
                 .show();
     }
-    public void proximo(View view){
+
+    public void proximo(View view) {
         Intent intent = new Intent(this, LacoDeRepeticao5.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
-    private float x1,x2;
+
+    private float x1, x2;
     static final int MIN_DISTANCE = 150;
+
     @Override
-    public boolean onTouchEvent(MotionEvent event)
-    {
-        switch(event.getAction())
-        {
+    public boolean onTouchEvent(MotionEvent event) {
+        switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 x1 = event.getX();
                 break;
             case MotionEvent.ACTION_UP:
                 x2 = event.getX();
                 float deltaX = x2 - x1;
-                if (Math.abs(deltaX) > MIN_DISTANCE)
-                {
+                if (Math.abs(deltaX) > MIN_DISTANCE) {
                     // Left to Right swipe action
-                    if (x2 > x1)
-                    {
+                    if (x2 > x1) {
                         Animation animation = AnimationUtils.loadAnimation(getApplicationContext(),
                                 R.anim.rigth_in);
                         Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(),
@@ -84,8 +85,7 @@ public class LacoDeRepeticao4 extends AppCompatActivity {
                     }
 
                     // Right to left swipe action
-                    else
-                    {
+                    else {
                         Animation animation = AnimationUtils.loadAnimation(getApplicationContext(),
                                 R.anim.left_out);
 
@@ -100,9 +100,7 @@ public class LacoDeRepeticao4 extends AppCompatActivity {
                         findViewById(R.id.imageView35).setVisibility(View.GONE);
                     }
 
-                }
-                else
-                {
+                } else {
                     // consider as something else - a screen tap for example
                 }
                 break;
