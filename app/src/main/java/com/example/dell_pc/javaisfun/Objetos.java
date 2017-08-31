@@ -34,6 +34,8 @@ public class Objetos extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(Objetos.this, MainActivity.class);
                         startActivity(intent);
+
+                        finishAffinity();
                         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })

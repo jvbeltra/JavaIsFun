@@ -27,6 +27,7 @@ public class Modificadores10 extends AppCompatActivity {
     public void nextexercise(View view){
         Intent intent = new Intent(this, Calculos.class);
         startActivity(intent);
+        finishAffinity();
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
         finishAffinity();
     }

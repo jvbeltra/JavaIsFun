@@ -32,6 +32,7 @@ public class Metodos9 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(Metodos9.this, MainActivity.class);
                         startActivity(intent);
+                        finishAffinity();
                         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })

@@ -31,6 +31,7 @@ public class Scanner3 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(Scanner3.this, MainActivity.class);
                         startActivity(intent);
+                        finishAffinity();
                         overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })

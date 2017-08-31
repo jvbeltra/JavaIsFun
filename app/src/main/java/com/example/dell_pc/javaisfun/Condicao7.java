@@ -40,6 +40,7 @@ public class Condicao7 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(Condicao7.this, MainActivity.class);
                         startActivity(intent);
+                        finishAffinity();
                         overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })
