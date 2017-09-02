@@ -28,6 +28,7 @@ import android.view.animation.AnimationUtils;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.TableRow;
 
 import com.google.android.flexbox.FlexboxLayout;
@@ -44,6 +45,7 @@ public int cont=0;
         setContentView(R.layout.activity_calculos6);
         findViewById(R.id.textView189).setVisibility(View.GONE);
         findViewById(R.id.textView186).setVisibility(View.GONE);
+        findViewById(R.id.imageView59).setVisibility(View.GONE);
         findViewById(R.id.imageButton71).setVisibility(View.GONE);
         findViewById(R.id.button28).setOnLongClickListener(new MyOnLongClickListener());
         findViewById(R.id.button19).setOnLongClickListener(new MyOnLongClickListener());
@@ -244,10 +246,12 @@ public int cont=0;
 
 
         }
+        ImageView imageView = (ImageView) findViewById(R.id.imageView59);
 
         if(cont>=7){
             findViewById(R.id.textView189).setVisibility(View.VISIBLE);
             findViewById(R.id.textView186).setVisibility(View.GONE);
+            imageView.setVisibility(View.VISIBLE);
             findViewById(R.id.flexDown).setVisibility(View.GONE);
 
 
@@ -257,6 +261,8 @@ public int cont=0;
 
         }else{
             findViewById(R.id.textView189).setVisibility(View.GONE);
+            imageView.setImageResource(R.drawable.sad);
+            imageView.setVisibility(View.VISIBLE);
             findViewById(R.id.textView186).setVisibility(View.VISIBLE);
             findViewById(R.id.flexDown).setVisibility(View.GONE);
         }

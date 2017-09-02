@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.DragEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.google.android.flexbox.FlexboxLayout;
 
@@ -22,6 +23,7 @@ public class Vetores9 extends AppCompatActivity {
         setContentView(R.layout.activity_vetores9);
         findViewById(R.id.textView317).setVisibility(View.GONE);
         findViewById(R.id.textView318).setVisibility(View.GONE);
+        findViewById(R.id.imageView67).setVisibility(View.GONE);
         findViewById(R.id.imageButton149).setVisibility(View.GONE);
         findViewById(R.id.button28).setOnLongClickListener(new Vetores9.MyOnLongClickListener());
         findViewById(R.id.button19).setOnLongClickListener(new Vetores9.MyOnLongClickListener());
@@ -220,12 +222,13 @@ public class Vetores9 extends AppCompatActivity {
 
 
         }
-
+        ImageView imageView = (ImageView) findViewById(R.id.imageView67);
         if(cont>=7){
             findViewById(R.id.textView317).setVisibility(View.VISIBLE);
             findViewById(R.id.textView318).setVisibility(View.GONE);
             findViewById(R.id.flexDown).setVisibility(View.GONE);
-
+            imageView.setVisibility(View.VISIBLE);
+            imageView.setImageResource(R.drawable.checkmarkred);
 
 
 
@@ -234,6 +237,8 @@ public class Vetores9 extends AppCompatActivity {
         }else{
             findViewById(R.id.textView317).setVisibility(View.GONE);
             findViewById(R.id.textView318).setVisibility(View.VISIBLE);
+            imageView.setImageResource(R.drawable.sad);
+            imageView.setVisibility(View.VISIBLE);
             findViewById(R.id.flexDown).setVisibility(View.GONE);
         }
     }

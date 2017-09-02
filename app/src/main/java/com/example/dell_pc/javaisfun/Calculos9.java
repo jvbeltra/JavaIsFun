@@ -28,6 +28,7 @@ import android.view.animation.AnimationUtils;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.TableRow;
 
 import com.google.android.flexbox.FlexboxLayout;
@@ -40,6 +41,7 @@ public class Calculos9 extends AppCompatActivity {
         setContentView(R.layout.activity_calculos9);
         findViewById(R.id.textView214).setVisibility(View.GONE);
         findViewById(R.id.textView215).setVisibility(View.GONE);
+        findViewById(R.id.imageView62).setVisibility(View.GONE);
         findViewById(R.id.imageButton83).setVisibility(View.GONE);
         findViewById(R.id.button28).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
         findViewById(R.id.button19).setOnLongClickListener(new Calculos9.MyOnLongClickListener());
@@ -233,10 +235,11 @@ public class Calculos9 extends AppCompatActivity {
 
 
         }
-
+        ImageView imageView = (ImageView) findViewById(R.id.imageView62);
         if(cont>=11){
             findViewById(R.id.textView214).setVisibility(View.VISIBLE);
             findViewById(R.id.textView215).setVisibility(View.GONE);
+            imageView.setVisibility(View.VISIBLE);
             findViewById(R.id.flexDown).setVisibility(View.GONE);
 
 
@@ -246,6 +249,8 @@ public class Calculos9 extends AppCompatActivity {
 
         }else{
             findViewById(R.id.textView214).setVisibility(View.GONE);
+            imageView.setImageResource(R.drawable.sad);
+            imageView.setVisibility(View.VISIBLE);
             findViewById(R.id.textView215).setVisibility(View.VISIBLE);
             findViewById(R.id.flexDown).setVisibility(View.GONE);
         }

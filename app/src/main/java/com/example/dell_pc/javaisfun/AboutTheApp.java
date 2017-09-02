@@ -38,7 +38,9 @@ public class AboutTheApp extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        finishAffinity();
         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
     }

@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 public class Vetores10 extends AppCompatActivity {
 
@@ -14,6 +15,7 @@ public class Vetores10 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vetores10);
+        findViewById(R.id.imageView69).setVisibility(View.GONE);
         findViewById(R.id.imageButton151).setVisibility(View.GONE);
         findViewById(R.id.textView323).setVisibility(View.GONE);
         findViewById(R.id.textView324).setVisibility(View.GONE);
@@ -57,15 +59,19 @@ public class Vetores10 extends AppCompatActivity {
         EditText editText = (EditText) findViewById(R.id.editText);
         EditText editText2 = (EditText) findViewById(R.id.editText5);
         EditText editText3 = (EditText) findViewById(R.id.editText6);
-
+        ImageView imageView = (ImageView) findViewById(R.id.imageView69);
         if(editText.getText().toString().equalsIgnoreCase("[]")&& editText2.getText().toString().equalsIgnoreCase("5") && editText3.getText().toString().equalsIgnoreCase("vetor[i]")){
             findViewById(R.id.imageButton151).setVisibility(View.VISIBLE);
             findViewById(R.id.textView323).setVisibility(View.VISIBLE);
             findViewById(R.id.textView324).setVisibility(View.GONE);
             findViewById(R.id.button36).setVisibility(View.GONE);
+            imageView.setVisibility(View.VISIBLE);
+            imageView.setImageResource(R.drawable.checkmarkred);
         }else{
             findViewById(R.id.textView323).setVisibility(View.GONE);
             findViewById(R.id.textView324).setVisibility(View.VISIBLE);
+            imageView.setImageResource(R.drawable.sad);
+            imageView.setVisibility(View.VISIBLE);
         }
     }
 }

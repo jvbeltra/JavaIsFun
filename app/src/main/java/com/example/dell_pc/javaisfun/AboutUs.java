@@ -17,7 +17,9 @@ public class AboutUs extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-         super.onBackPressed();
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        finishAffinity();
         overridePendingTransition( R.anim.left_in, R.anim.left_out);
 
     }

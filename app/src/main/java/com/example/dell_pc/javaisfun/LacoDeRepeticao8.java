@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.DragEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.google.android.flexbox.FlexboxLayout;
 
@@ -21,6 +22,7 @@ public class LacoDeRepeticao8 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_laco_de_repeticao8);
         findViewById(R.id.textView255).setVisibility(View.GONE);
+        findViewById(R.id.imageView65).setVisibility(View.GONE);
         findViewById(R.id.textView256).setVisibility(View.GONE);
         findViewById(R.id.imageButton116).setVisibility(View.GONE);
         findViewById(R.id.button28).setOnLongClickListener(new LacoDeRepeticao8.MyOnLongClickListener());
@@ -279,10 +281,11 @@ public class LacoDeRepeticao8 extends AppCompatActivity {
 
 
         }
-
+        ImageView imageView = (ImageView) findViewById(R.id.imageView65);
         if(cont>=14){
 
             findViewById(R.id.textView255).setVisibility(View.VISIBLE);
+            imageView.setVisibility(View.VISIBLE);
             findViewById(R.id.textView256).setVisibility(View.GONE);
             findViewById(R.id.flexDown).setVisibility(View.GONE);
 
@@ -295,6 +298,8 @@ public class LacoDeRepeticao8 extends AppCompatActivity {
 
             findViewById(R.id.textView255).setVisibility(View.GONE);
             findViewById(R.id.textView256).setVisibility(View.VISIBLE);
+            imageView.setImageResource(R.drawable.sad);
+            imageView.setVisibility(View.VISIBLE);
             findViewById(R.id.flexDown).setVisibility(View.GONE);
         }
     }

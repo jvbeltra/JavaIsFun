@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.DragEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.google.android.flexbox.FlexboxLayout;
 
@@ -20,7 +21,7 @@ public class LacoDeRepeticao6 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_laco_de_repeticao6);
-
+        findViewById(R.id.imageView63).setVisibility(View.GONE);
 
         findViewById(R.id.textView248).setVisibility(View.GONE);
         findViewById(R.id.textView249).setVisibility(View.GONE);
@@ -226,11 +227,13 @@ public class LacoDeRepeticao6 extends AppCompatActivity {
 
 
         }
-
+        ImageView imageView = (ImageView) findViewById(R.id.imageView63);
         if(cont>=7){
 
             findViewById(R.id.textView248).setVisibility(View.VISIBLE);
             findViewById(R.id.textView249).setVisibility(View.GONE);
+            imageView.setVisibility(View.VISIBLE);
+
             findViewById(R.id.flexDown).setVisibility(View.GONE);
 
 
@@ -241,6 +244,8 @@ public class LacoDeRepeticao6 extends AppCompatActivity {
         }else{
 
             findViewById(R.id.textView248).setVisibility(View.GONE);
+            imageView.setImageResource(R.drawable.sad);
+            imageView.setVisibility(View.VISIBLE);
             findViewById(R.id.textView249).setVisibility(View.VISIBLE);
             findViewById(R.id.flexDown).setVisibility(View.GONE);
         }
