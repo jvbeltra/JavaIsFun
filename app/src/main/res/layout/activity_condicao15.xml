@@ -7,6 +7,7 @@
     tools:context="com.example.dell_pc.javaisfun.Condicao15"
     android:background="@color/white">
 
+
     <ImageView
         android:id="@+id/wink"
         android:layout_width="wrap_content"
