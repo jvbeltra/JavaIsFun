@@ -53,6 +53,7 @@
         android:layout_marginLeft="-58dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Esta é outra estrutura bastante útil para nós. Vamos supor que você quer verificar duas coisas, mas uma depende da outra como no caso abaixo:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"

@@ -8,7 +8,6 @@
     android:background="@android:color/white"
     >
 
-
     <ImageButton
         android:id="@+id/imageButton49"
         android:layout_width="54dp"
@@ -62,23 +61,23 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteY="151dp" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView132"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_width="343dp"
+        android:layout_height="103dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Abaixo, temos um exemplo da classe pessoa declarada com seus atributos e métodos:"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/cinzinha"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView16"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.964" />
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.087"
+        app:layout_constraintBottom_toBottomOf="parent" />
 </android.support.constraint.ConstraintLayout>

@@ -76,7 +76,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="... o bagulho vai ficar PUNK!"
+        android:text="... o negócio vai ficar PUNK!"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"

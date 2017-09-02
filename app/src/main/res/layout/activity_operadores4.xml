@@ -9,40 +9,43 @@
     tools:context="com.example.dell_pc.javaisfun.Operadores4">
 
     <TextView
-        android:id="@+id/textView39"
-        android:layout_width="283dp"
-        android:layout_height="388dp"
+        android:id="@+id/textSegunda"
+        android:layout_width="257dp"
+        android:layout_height="283dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:gravity="center_horizontal"
         android:text="Mais tarde, estudaremos estruturas de decisão, onde os operadores serão utilizados, mas é importante aprender isso neste momento, para moldar a lógica para o futuro"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.717" />
+        app:layout_constraintHorizontal_bias="0.504" />
 
     <TextView
-        android:id="@+id/textView37"
-        android:layout_width="277dp"
-        android:layout_height="392dp"
+        android:id="@+id/textPrimeira"
+        android:layout_width="265dp"
+        android:layout_height="262dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:gravity="center_horizontal"
         android:text="Há ainda os operadores relacionais, que são aqueles que comparam variáveis ou números, para executar uma parte do código quando tal variável for menor que um número, por exemplo"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.733" />
+        app:layout_constraintVertical_bias="0.498" />
 
     <TextView
         android:id="@+id/textView40"
@@ -50,16 +53,18 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Operadores relacionais"
-        android:textAlignment="center"
 
-        android:textColor="@color/Avançado"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.131" />
+        app:layout_constraintVertical_bias="0.143" />
 
     <ImageButton
         android:id="@+id/imageButton16"
@@ -98,44 +103,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.993"
         app:srcCompat="@drawable/proximo" />
-
-    <ImageButton
-        android:id="@+id/imageButton33"
-        android:layout_width="54dp"
-        android:layout_height="381dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/transparent"
-        android:onClick="passarDireita"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.994"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604"
-        app:srcCompat="@drawable/avancar"
-        tools:layout_editor_absoluteY="166dp"
-        tools:layout_editor_absoluteX="347dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton34"
-        android:layout_width="56dp"
-        android:layout_height="379dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/transparent"
-        android:onClick="passarEsquerda"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59"
-        app:srcCompat="@drawable/avancaresquerda"
-        tools:layout_editor_absoluteY="164dp" />
 
 </android.support.constraint.ConstraintLayout>

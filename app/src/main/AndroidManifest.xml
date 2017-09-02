@@ -89,6 +89,19 @@
         <activity
             android:name=".Objetos"
             android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Matrizes2"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Matrizes3"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Matrizes4"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Matrizes5"
+            android:theme="@style/RedActionBar" />
+
         <activity android:name=".AboutUs" />
         <activity android:name=".AboutTheApp" />
         <activity android:name=".Variaveis2" />

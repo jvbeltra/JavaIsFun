@@ -68,8 +68,8 @@
 
     <TextView
         android:id="@+id/textView276"
-        android:layout_width="368dp"
-        android:layout_height="187dp"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="-275dp"
@@ -79,11 +79,11 @@
         android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.236" />
+        app:layout_constraintVertical_bias="0.21" />
 
     <ImageView
         android:id="@+id/sem"

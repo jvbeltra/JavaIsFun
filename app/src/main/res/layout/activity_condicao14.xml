@@ -56,6 +56,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Vamos praticar!"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -77,6 +78,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Correto! Vamos para o próximo exercício"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -98,6 +100,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text=" Em sintaxe, está correto, porém a lógica está errada, veja só: se eu desejo executar parte do código caso o código for 2, 3 ou 4, devo utilizar ||, pois há mais de uma possibilidade possível para o mesmo resultado. "
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -119,6 +122,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text='Selecione a estrutura adequada para imprimir  a mensagem "Criança" se a idade for entre 0 e 12'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -138,16 +142,17 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Não foi desta vez! :("
         android:textAlignment="center"
         android:textColor="@color/Avancado"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.123"
-        app:layout_constraintHorizontal_bias="0.0" />
+        app:layout_constraintVertical_bias="0.123" />
 
     <ImageView
         android:id="@+id/wink"
@@ -264,6 +269,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="_______"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.682"
@@ -271,8 +277,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.538"
-        tools:layout_editor_absoluteY="297dp"
-        tools:layout_editor_absoluteX="223dp" />
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="297dp" />
 
     <TextView
         android:id="@+id/space2"
@@ -282,6 +288,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="_______"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.306"

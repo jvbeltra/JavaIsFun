@@ -25,6 +25,8 @@ public class Operadores6 extends AppCompatActivity {
         setContentView(R.layout.activity_operadores6);
         findViewById(R.id.textView75).setVisibility(View.GONE);
         findViewById(R.id.textView73).setVisibility(View.GONE);
+        findViewById(R.id.sad).setVisibility(View.GONE);
+        findViewById(R.id.happy).setVisibility(View.GONE);
         verificarSpinner();
         addListenerOnSpinnerItemSelection();
 
@@ -79,10 +81,13 @@ public class Operadores6 extends AppCompatActivity {
                 if(String.valueOf(spinner3.getSelectedItem()).equalsIgnoreCase("!=")){
                     findViewById(R.id.textView75).setVisibility(View.VISIBLE);
                     findViewById(R.id.textView73).setVisibility(View.GONE);
+                    findViewById(R.id.sad).setVisibility(View.GONE);
+                    findViewById(R.id.happy).setVisibility(View.VISIBLE);
                 }else{
                     findViewById(R.id.textView73).setVisibility(View.VISIBLE);
                     findViewById(R.id.textView75).setVisibility(View.GONE);
-
+                    findViewById(R.id.sad).setVisibility(View.VISIBLE);
+                    findViewById(R.id.happy).setVisibility(View.GONE);
                 }
 
             }

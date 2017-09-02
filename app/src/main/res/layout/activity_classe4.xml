@@ -16,6 +16,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Cuidado! void é um tipo de retorno utilizado para métodos somente!"
         android:textAlignment="center"
         android:textColor="@color/Avancado"
@@ -25,8 +26,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.669"
-        tools:layout_editor_absoluteY="169dp"
-        tools:layout_editor_absoluteX="89dp" />
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="169dp" />
 
     <ImageButton
         android:id="@+id/imageButton63"
@@ -72,9 +73,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="72dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Certo! Agora, vamos verificar se ficou claro: selecione a classe que foi declarada corretamente:"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView16"
         app:layout_constraintHorizontal_bias="0.0"
@@ -145,6 +147,7 @@
 
     <Button
         android:id="@+id/verif"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -152,13 +155,15 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:onClick="verificar"
-        android:text="Button"
+        android:text="OK"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
 
     <TextView
         android:id="@+id/textCorreto"

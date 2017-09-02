@@ -50,6 +50,12 @@ public class Operadores8 extends AppCompatActivity {
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
         finishAffinity();
     }
+    public void homeBasic(View view){
+        Intent intent = new Intent(this, EasyActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
+        finishAffinity();
+    }
 
 
 }

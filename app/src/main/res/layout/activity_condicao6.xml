@@ -7,7 +7,6 @@
     tools:context="com.example.dell_pc.javaisfun.Condicao6"
     android:background="@color/white">
 
-
     <TextView
         android:id="@+id/textView270"
         android:layout_width="337dp"
@@ -29,8 +28,8 @@
 
     <TextView
         android:id="@+id/textView271"
-        android:layout_width="359dp"
-        android:layout_height="173dp"
+        android:layout_width="326dp"
+        android:layout_height="178dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -41,11 +40,13 @@
         android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.878" />
+        app:layout_constraintVertical_bias="0.878"
+        tools:layout_editor_absoluteY="335dp"
+        tools:layout_editor_absoluteX="33dp" />
 
     <ImageButton
         android:id="@+id/imageButton129"
@@ -86,8 +87,8 @@
 
     <ImageView
         android:id="@+id/imageView43"
-        android:layout_width="374dp"
-        android:layout_height="220dp"
+        android:layout_width="311dp"
+        android:layout_height="179dp"
         app:srcCompat="@drawable/exemploifelse"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
@@ -97,5 +98,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.293" />
+        app:layout_constraintVertical_bias="0.344"
+        app:layout_constraintHorizontal_bias="0.515" />
 </android.support.constraint.ConstraintLayout>

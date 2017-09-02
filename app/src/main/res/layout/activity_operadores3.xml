@@ -14,10 +14,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Exemplo:"
-        android:textAlignment="center"
 
-        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -32,17 +33,18 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Operadores de igualdade"
-        android:textAlignment="center"
 
-        android:textColor="@color/Avançado"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
         android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.087"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintVertical_bias="0.087" />
 
     <TextView
         android:id="@+id/textView36"
@@ -50,11 +52,12 @@
         android:layout_height="115dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:gravity="center_horizontal"
         android:text="É importante lembrar que quando usamos == é para sinalizar igualdade, enquanto = é utilizado para atribuir um valor"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.435"
@@ -62,8 +65,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.249"
-        tools:layout_editor_absoluteY="116dp"
-        tools:layout_editor_absoluteX="59dp" />
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="116dp" />
 
     <TextView
         android:id="@+id/textView41"
@@ -71,11 +74,12 @@
         android:layout_height="117dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:gravity="center_horizontal"
         android:text="Operadores de igualdade são aqueles que comparam duas variáveis, assim definindo qual parte do código será executada se estas forem iguais ou diferentes"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
