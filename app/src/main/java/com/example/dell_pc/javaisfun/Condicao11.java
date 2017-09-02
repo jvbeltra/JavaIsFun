@@ -19,6 +19,7 @@ public class Condicao11 extends AppCompatActivity {
 
     }
 
+
     public void explicacao(View view){
         findViewById(R.id.wink).setVisibility(View.VISIBLE);
         findViewById(R.id.explication).setVisibility(View.VISIBLE);

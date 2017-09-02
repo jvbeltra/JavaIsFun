@@ -18,6 +18,7 @@ public class Condicao9 extends AppCompatActivity {
 
     }
 
+
     private Spinner spinner4;
     private Button confirmar;
     @Override

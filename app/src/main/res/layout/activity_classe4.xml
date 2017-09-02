@@ -8,7 +8,6 @@
     android:background="@android:color/white"
     >
 
-
     <TextView
         android:id="@+id/erradoAbelha"
         android:layout_width="263dp"

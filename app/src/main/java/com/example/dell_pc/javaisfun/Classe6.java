@@ -23,6 +23,7 @@ public class Classe6 extends AppCompatActivity {
         findViewById(R.id.prox).setVisibility(View.INVISIBLE);
 
     }
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();

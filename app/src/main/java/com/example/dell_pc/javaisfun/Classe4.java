@@ -26,6 +26,7 @@ public class Classe4 extends AppCompatActivity {
         findViewById(R.id.classcachorro).setVisibility(View.INVISIBLE);
         findViewById(R.id.classpeixe).setVisibility(View.INVISIBLE);
     }
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();
