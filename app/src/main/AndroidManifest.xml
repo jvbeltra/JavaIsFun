@@ -10,8 +10,8 @@
         android:icon="@drawable/microchip"
         android:label="@string/app_name"
         android:roundIcon="@drawable/microchip"
-        android:supportsRtl="true"
         android:screenOrientation="portrait"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".Splash"
@@ -101,7 +101,6 @@
         <activity
             android:name=".Matrizes5"
             android:theme="@style/RedActionBar" />
-
         <activity android:name=".AboutUs" />
         <activity android:name=".AboutTheApp" />
         <activity android:name=".Variaveis2" />
@@ -275,12 +274,9 @@
         <activity
             android:name=".Scanner7"
             android:theme="@style/GreenActionBar" />
-
         <activity
             android:name=".Scanner8"
             android:theme="@style/GreenActionBar" />
-
-
         <activity android:name=".BoasPraticas" />
         <activity android:name=".BoasPraticas2" />
         <activity android:name=".BoasPraticas3" />
@@ -290,7 +286,12 @@
         <activity android:name=".BoasPraticas7" />
         <activity android:name=".BoasPraticas8" />
         <activity android:name=".BoasPraticas9" />
-        <activity android:name=".BoasPraticas10"/>
+        <activity android:name=".BoasPraticas10" />
+        <activity android:name=".Matrizes6"
+            android:theme="@style/RedActionBar"
+            />
+        <activity android:name=".Matrizes7"
+            android:theme="@style/RedActionBar"/>
     </application>
 
 </manifest>
