@@ -36,7 +36,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Este é o primeiro nível do JavaIsFun()! E nele, você terá uma noção do que é Java, sua influência no mundo tecnológico, e como dar o primeiro passo neste caminho para aprender a programar! "
+        android:text="Este é o primeiro nível do JavaIsFun()! Nele, você terá uma noção do que é Java, sua influência no mundo tecnológico, e como dar o primeiro passo neste caminho para aprender a programar! "
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"

@@ -24,22 +24,19 @@ public class Operadores4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_operadores4);
         findViewById(R.id.textView39).setVisibility(View.GONE);
-        findViewById(R.id.imageButton34).setVisibility(View.GONE);
+
     }
 
     public void passarDireita(View view) {
         findViewById(R.id.textView39).setVisibility(View.VISIBLE);
         findViewById(R.id.textView37).setVisibility(View.GONE);
-        findViewById(R.id.imageButton34).setVisibility(View.VISIBLE);
-        findViewById(R.id.imageButton33).setVisibility(View.GONE);
 
     }
 
     public void passarEsquerda(View view) {
         findViewById(R.id.textView39).setVisibility(View.GONE);
         findViewById(R.id.textView37).setVisibility(View.VISIBLE);
-        findViewById(R.id.imageButton34).setVisibility(View.GONE);
-        findViewById(R.id.imageButton33).setVisibility(View.VISIBLE);
+
 
     }
 

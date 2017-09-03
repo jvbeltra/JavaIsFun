@@ -102,6 +102,7 @@
        android:layout_width="0dp"
        android:layout_height="match_parent"
        android:orientation="vertical"
+
        android:layout_weight="8">
 
        <TextView
@@ -121,6 +122,7 @@
            android:layout_height="0dp"
            android:layout_margin="5dp"
            android:layout_weight="8"
+
            android:fontFamily="sans-serif-condensed"
            android:gravity="center"
            android:text="Ibiramense, começou a estudar programação em 2015 quando ingressara no Instituto Federal Catarinense. Atualmente mora em Ibirama. Conhecimentos gerais em programação Java com foco no desenvolvimento Android."

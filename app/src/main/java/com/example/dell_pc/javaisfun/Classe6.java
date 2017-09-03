@@ -18,8 +18,7 @@ public class Classe6 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_classe6);
-        findViewById(R.id.txtCorreto).setVisibility(View.INVISIBLE);
-        findViewById(R.id.txtErrado).setVisibility(View.INVISIBLE);
+
         findViewById(R.id.prox).setVisibility(View.INVISIBLE);
 
     }
@@ -43,13 +42,11 @@ public class Classe6 extends AppCompatActivity {
                 && edText4.getText().toString().equals("double")
                 && edText5.getText().toString().equals("void") &&
                 edText6.getText().toString().equals("+")) {
-            findViewById(R.id.txtCorreto).setVisibility(View.VISIBLE);
-            findViewById(R.id.txtErrado).setVisibility(View.GONE);
+
             findViewById(R.id.prox).setVisibility(View.VISIBLE);
 
         } else {
-            findViewById(R.id.txtCorreto).setVisibility(View.GONE);
-            findViewById(R.id.txtErrado).setVisibility(View.VISIBLE);
+
 
         }
     }
