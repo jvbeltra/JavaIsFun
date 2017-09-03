@@ -6,16 +6,18 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 public class Condicao14 extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
 
     }
 
+    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,8 +63,10 @@ public class Condicao14 extends AppCompatActivity {
 
 
     public void verifCorreto(View view) {
+        imageView = (ImageView) findViewById(R.id.wink);
+        imageView.setImageResource(R.drawable.happy);
+        imageView.setVisibility(View.VISIBLE);
         findViewById(R.id.textCorreto).setVisibility(View.VISIBLE);
-        findViewById(R.id.wink).setVisibility(View.VISIBLE);
         findViewById(R.id.enunciado).setVisibility(View.GONE);
         findViewById(R.id.buttonErrado3).setVisibility(View.GONE);
         findViewById(R.id.buttonErrado2).setVisibility(View.GONE);
@@ -77,6 +81,9 @@ public class Condicao14 extends AppCompatActivity {
     }
 
     public void verifErrado(View view) {
+        imageView = (ImageView) findViewById(R.id.wink);
+        imageView.setImageResource(R.drawable.sad);
+        imageView.setVisibility(View.VISIBLE);
         findViewById(R.id.textErrado).setVisibility(View.VISIBLE);
         findViewById(R.id.buttonErrado3).setVisibility(View.GONE);
         findViewById(R.id.buttonErrado2).setVisibility(View.GONE);

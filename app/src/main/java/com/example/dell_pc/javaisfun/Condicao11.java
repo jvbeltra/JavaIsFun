@@ -13,7 +13,6 @@ public class Condicao11 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_condicao11);
-        findViewById(R.id.wink).setVisibility(View.GONE);
         findViewById(R.id.explication).setVisibility(View.GONE);
         findViewById(R.id.button17).setVisibility(View.GONE);
 
@@ -21,7 +20,6 @@ public class Condicao11 extends AppCompatActivity {
 
 
     public void explicacao(View view){
-        findViewById(R.id.wink).setVisibility(View.VISIBLE);
         findViewById(R.id.explication).setVisibility(View.VISIBLE);
         findViewById(R.id.cod).setVisibility(View.GONE);
         findViewById(R.id.button16).setVisibility(View.GONE);
@@ -29,7 +27,6 @@ public class Condicao11 extends AppCompatActivity {
         findViewById(R.id.button17).setVisibility(View.VISIBLE);
     }
     public void codigo(View view){
-        findViewById(R.id.wink).setVisibility(View.GONE);
         findViewById(R.id.explication).setVisibility(View.GONE);
         findViewById(R.id.cod).setVisibility(View.VISIBLE);
         findViewById(R.id.button16).setVisibility(View.VISIBLE);

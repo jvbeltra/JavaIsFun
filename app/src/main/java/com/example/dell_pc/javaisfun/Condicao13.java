@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 public class Condicao13 extends AppCompatActivity {
@@ -27,6 +28,7 @@ public class Condicao13 extends AppCompatActivity {
         findViewById(R.id.enunciadoErrado).setVisibility(View.GONE);
         findViewById(R.id.textCorreto).setVisibility(View.INVISIBLE);
         findViewById(R.id.wink).setVisibility(View.INVISIBLE);
+        findViewById(R.id.sad).setVisibility(View.INVISIBLE);
         findViewById(R.id.imageButton3).setVisibility(View.INVISIBLE);
         findViewById(R.id.textErrado).setVisibility(View.INVISIBLE);
     }
@@ -79,6 +81,9 @@ public class Condicao13 extends AppCompatActivity {
     }
 
     public void verifErrado(View view) {
+
+
+
         findViewById(R.id.textErrado).setVisibility(View.VISIBLE);
         findViewById(R.id.imageButton3).setVisibility(View.VISIBLE);
         findViewById(R.id.Enunciado).setVisibility(View.GONE);
@@ -90,6 +95,7 @@ public class Condicao13 extends AppCompatActivity {
         findViewById(R.id.textView349).setVisibility(View.GONE);
         findViewById(R.id.imageView28).setVisibility(View.GONE);
         findViewById(R.id.enunciadoErrado).setVisibility(View.VISIBLE);
+        findViewById(R.id.sad).setVisibility(View.VISIBLE);
     }
 
 

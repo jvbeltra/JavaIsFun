@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 public class Condicao8 extends AppCompatActivity {
 
@@ -22,11 +23,14 @@ public class Condicao8 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_condicao8);
+        findViewById(R.id.imageView74).setVisibility(View.INVISIBLE);
         findViewById(R.id.imageButton131).setVisibility(View.INVISIBLE);
         findViewById(R.id.correto).setVisibility(View.INVISIBLE);
         findViewById(R.id.errado).setVisibility(View.INVISIBLE);
     }
     public void checar(View view){
+        ImageView imageView = (ImageView) findViewById(R.id.imageView74);
+
         EditText editText = (EditText) findViewById(R.id.exif);
         if(editText.getText().toString().trim().equals("else")){
             findViewById(R.id.imageView45).setVisibility(View.GONE);
@@ -36,6 +40,8 @@ public class Condicao8 extends AppCompatActivity {
             findViewById(R.id.exif).setVisibility(View.GONE);
             findViewById(R.id.textView272).setVisibility(View.GONE);
             findViewById(R.id.textView273).setVisibility(View.GONE);
+            imageView.setImageResource(R.drawable.happy);
+            imageView.setVisibility(View.VISIBLE);
         }else{
             findViewById(R.id.imageView45).setVisibility(View.GONE);
             findViewById(R.id.errado).setVisibility(View.VISIBLE);
@@ -44,6 +50,8 @@ public class Condicao8 extends AppCompatActivity {
             findViewById(R.id.textView272).setVisibility(View.GONE);
             findViewById(R.id.button6).setVisibility(View.GONE);
             findViewById(R.id.textView273).setVisibility(View.GONE);
+            imageView.setImageResource(R.drawable.sad);
+            imageView.setVisibility(View.VISIBLE);
         }
     }
     public void next(View view){
