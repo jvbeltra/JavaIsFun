@@ -3,9 +3,11 @@ package com.example.dell_pc.javaisfun;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 public class Condicao15 extends AppCompatActivity {
 
@@ -15,6 +17,7 @@ public class Condicao15 extends AppCompatActivity {
         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
     }
+    ImageView imageView;
 
 
     @Override
@@ -62,8 +65,11 @@ public class Condicao15 extends AppCompatActivity {
 
 
     public void verifCorreto(View view) {
+        imageView = (ImageView) findViewById(R.id.wink);
+        imageView.setImageResource(R.drawable.happy);
+        imageView.setVisibility(View.VISIBLE);
+
         findViewById(R.id.textCorreto).setVisibility(View.VISIBLE);
-        findViewById(R.id.wink).setVisibility(View.VISIBLE);
         findViewById(R.id.enunciado).setVisibility(View.GONE);
         findViewById(R.id.buttonErrado3).setVisibility(View.GONE);
         findViewById(R.id.buttonErrado2).setVisibility(View.GONE);
@@ -77,6 +83,9 @@ public class Condicao15 extends AppCompatActivity {
     }
 
     public void verifErrado(View view) {
+        imageView = (ImageView) findViewById(R.id.wink);
+        imageView.setImageResource(R.drawable.sad);
+        imageView.setVisibility(View.VISIBLE);
         findViewById(R.id.textErrado).setVisibility(View.VISIBLE);
         findViewById(R.id.buttonErrado3).setVisibility(View.GONE);
         findViewById(R.id.buttonErrado2).setVisibility(View.GONE);

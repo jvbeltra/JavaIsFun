@@ -26,9 +26,10 @@ public class Condicao16 extends AppCompatActivity {
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 
-    public void nextMenu(View view) {
+    public void homeBasic(View view){
         Intent intent = new Intent(this, MediumActivity.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.left_in, R.anim.left_out);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
     }
+
 }

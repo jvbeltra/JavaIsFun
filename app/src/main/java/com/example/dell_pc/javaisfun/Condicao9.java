@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 public class Condicao9 extends AppCompatActivity {
@@ -21,6 +22,7 @@ public class Condicao9 extends AppCompatActivity {
 
     private Spinner spinner4;
     private Button confirmar;
+    private ImageView imageView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,7 +73,7 @@ public class Condicao9 extends AppCompatActivity {
     }
 
     public void verificarSpinner() {
-
+        imageView = (ImageView) findViewById(R.id.wink);
         spinner4 = (Spinner) findViewById(R.id.spinner4);
         confirmar = (Button) findViewById(R.id.confirmar);
 
@@ -80,13 +82,14 @@ public class Condicao9 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(String.valueOf(spinner4.getSelectedItem()).equalsIgnoreCase("else if")){
-                    findViewById(R.id.wink).setVisibility(View.VISIBLE);
                     findViewById(R.id.correto).setVisibility(View.VISIBLE);
                     findViewById(R.id.prox).setVisibility(View.VISIBLE);
                     findViewById(R.id.confirmar).setVisibility(View.GONE);
                     findViewById(R.id.ativ).setVisibility(View.GONE);
                     findViewById(R.id.spinner4).setVisibility(View.GONE);
                     findViewById(R.id.textView275).setVisibility(View.GONE);
+                    imageView.setImageResource(R.drawable.happy);
+                    imageView.setVisibility(View.VISIBLE);
 
                 }else{
                     findViewById(R.id.titErrado).setVisibility(View.VISIBLE);
@@ -97,6 +100,8 @@ public class Condicao9 extends AppCompatActivity {
                     findViewById(R.id.spinner4).setVisibility(View.GONE);
                     findViewById(R.id.textView275).setVisibility(View.GONE);
                     findViewById(R.id.errado).setVisibility(View.VISIBLE);
+                    imageView.setImageResource(R.drawable.sad);
+                    imageView.setVisibility(View.VISIBLE);
                 }
 
             }

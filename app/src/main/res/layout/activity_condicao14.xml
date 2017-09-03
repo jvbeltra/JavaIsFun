@@ -48,8 +48,8 @@
 
     <TextView
         android:id="@+id/vmsPrati"
-        android:layout_width="362dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -62,16 +62,16 @@
         android:textColor="@color/cinzinha"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.104" />
+        app:layout_constraintVertical_bias="0.106" />
 
     <TextView
         android:id="@+id/textCorreto"
-        android:layout_width="335dp"
-        android:layout_height="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -84,16 +84,15 @@
         android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.36" />
+        app:layout_constraintVertical_bias="0.265" />
 
     <TextView
         android:id="@+id/textErrado"
-        android:layout_width="325dp"
-        android:layout_height="435dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -106,16 +105,15 @@
         android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.31" />
 
     <TextView
         android:id="@+id/enunciado"
-        android:layout_width="334dp"
-        android:layout_height="127dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -136,23 +134,23 @@
 
     <TextView
         android:id="@+id/enunciadoErrado"
-        android:layout_width="352dp"
-        android:layout_height="121dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Não foi desta vez! :("
+        android:text="Não foi desta vez.."
         android:textAlignment="center"
         android:textColor="@color/Avancado"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.123" />
+        app:layout_constraintVertical_bias="0.104" />
 
     <ImageView
         android:id="@+id/wink"
@@ -166,7 +164,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.68"
+        app:layout_constraintVertical_bias="0.721"
         app:srcCompat="@drawable/piscadinha" />
 
     <ImageButton
@@ -263,8 +261,8 @@
 
     <TextView
         android:id="@+id/space"
-        android:layout_width="34dp"
-        android:layout_height="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -282,8 +280,8 @@
 
     <TextView
         android:id="@+id/space2"
-        android:layout_width="37dp"
-        android:layout_height="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"

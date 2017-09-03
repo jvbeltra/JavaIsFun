@@ -8,10 +8,26 @@
     android:background="@android:color/white"
     >
 
+    <ImageView
+        android:id="@+id/corretoerrado"
+        android:layout_width="77dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715"
+        app:srcCompat="@drawable/happy" />
+
     <TextView
         android:id="@+id/erradoAbelha"
-        android:layout_width="263dp"
-        android:layout_height="278dp"
+        android:layout_width="352dp"
+        android:layout_height="58dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -20,14 +36,12 @@
         android:text="Cuidado! void é um tipo de retorno utilizado para métodos somente!"
         android:textAlignment="center"
         android:textColor="@color/Avancado"
-        android:textSize="30sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.669"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="169dp" />
+        app:layout_constraintVertical_bias="0.515" />
 
     <ImageButton
         android:id="@+id/imageButton63"
@@ -36,17 +50,17 @@
         android:layout_marginBottom="17dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="0dp"
         android:background="@android:color/transparent"
         android:onClick="next"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintHorizontal_bias="0.972"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/proximo"
-        app:layout_constraintTop_toBottomOf="@+id/proxP" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/imageButton64"
@@ -69,17 +83,34 @@
 
     <TextView
         android:id="@+id/textView157"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="352dp"
+        android:layout_height="87dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="47dp"
         android:fontFamily="sans-serif-condensed"
         android:text="Certo! Agora, vamos verificar se ficou claro: selecione a classe que foi declarada corretamente:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView16"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <TextView
+        android:id="@+id/textView443"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="158dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Clique nas bordas para avançar ou retornar"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -173,20 +204,20 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Correto! "
-        android:textColor="@color/Intermediario"
+        android:textColor="@color/aaaa"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.578" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/erradoGato"
-        android:layout_width="255dp"
-        android:layout_height="227dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -194,20 +225,16 @@
         android:text="Lembre-se: uma classe sempre deve ser declarada com a inicial maíscula! "
         android:textAlignment="center"
         android:textColor="@color/Avancado"
-        android:textSize="30sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.577"
-        tools:layout_editor_absoluteY="166dp"
-        tools:layout_editor_absoluteX="93dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/erradoCachorro"
-        android:layout_width="250dp"
-        android:layout_height="261dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -215,51 +242,45 @@
         android:text='Cuidado! Palavras reservadas do Java, como  "class" e "public" devem sempre ser iniciadas com letra minúscula'
         android:textAlignment="center"
         android:textColor="@color/Avancado"
-        android:textSize="30sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.669"
-        tools:layout_editor_absoluteY="186dp"
-        tools:layout_editor_absoluteX="102dp" />
+        app:layout_constraintVertical_bias="0.528" />
 
-    <ImageButton
-        android:id="@+id/proxP"
-        android:layout_width="33dp"
-        android:layout_height="322dp"
+    <Button
+        android:id="@+id/antP"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="55dp"
+        android:layout_height="313dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/transparent"
-        android:onClick="prox"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.799"
-        app:srcCompat="@drawable/forwardddd"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
-
-    <ImageButton
-        android:id="@+id/antP"
-        android:layout_width="32dp"
-        android:layout_height="324dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/transparent"
         android:onClick="ant"
-        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintVertical_bias="0.8"
-        app:srcCompat="@drawable/backkk"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintVertical_bias="0.768" />
+
+    <Button
+        android:id="@+id/proxP"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="55dp"
+        android:layout_height="313dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="prox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.768" />
 
 </android.support.constraint.ConstraintLayout>

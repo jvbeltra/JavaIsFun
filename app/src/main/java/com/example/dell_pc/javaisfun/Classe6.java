@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 public class Classe6 extends AppCompatActivity {
     int cont = 0;
@@ -18,8 +19,9 @@ public class Classe6 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_classe6);
-        findViewById(R.id.txtCorreto).setVisibility(View.INVISIBLE);
-        findViewById(R.id.txtErrado).setVisibility(View.INVISIBLE);
+        findViewById(R.id.imageView73).setVisibility(View.INVISIBLE);
+        findViewById(R.id.textCorreto).setVisibility(View.INVISIBLE);
+        findViewById(R.id.textErrado).setVisibility(View.INVISIBLE);
         findViewById(R.id.prox).setVisibility(View.INVISIBLE);
 
     }
@@ -37,20 +39,25 @@ public class Classe6 extends AppCompatActivity {
         EditText edText4 = (EditText) findViewById(R.id.edText4);
         EditText edText5 = (EditText) findViewById(R.id.edText5);
         EditText edText6 = (EditText) findViewById(R.id.edText6);
+        ImageView imageView = (ImageView) findViewById(R.id.imageView73);
+
         if (edText1.getText().toString().equals("class")
                 && edText2.getText().toString().equals("int")
                 && edText3.getText().toString().equals("String")
                 && edText4.getText().toString().equals("double")
                 && edText5.getText().toString().equals("void") &&
                 edText6.getText().toString().equals("+")) {
-            findViewById(R.id.txtCorreto).setVisibility(View.VISIBLE);
-            findViewById(R.id.txtErrado).setVisibility(View.GONE);
+            findViewById(R.id.textCorreto).setVisibility(View.VISIBLE);
+            findViewById(R.id.textErrado).setVisibility(View.GONE);
             findViewById(R.id.prox).setVisibility(View.VISIBLE);
+            imageView.setImageResource(R.drawable.happy);
+            imageView.setVisibility(View.VISIBLE);
 
         } else {
-            findViewById(R.id.txtCorreto).setVisibility(View.GONE);
-            findViewById(R.id.txtErrado).setVisibility(View.VISIBLE);
-
+            findViewById(R.id.textCorreto).setVisibility(View.GONE);
+            findViewById(R.id.textErrado).setVisibility(View.VISIBLE);
+            imageView.setImageResource(R.drawable.sad);
+            imageView.setVisibility(View.VISIBLE);
         }
     }
     public void TextDialog(View view) {
