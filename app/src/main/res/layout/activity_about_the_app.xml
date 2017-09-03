@@ -118,5 +118,17 @@
             android:textColor="@android:color/holo_green_dark"
             android:textSize="18sp" />
 
+        <TextView
+            android:id="@+id/textView447"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Icons by www.flaticon.com and www.icons8.com"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
     </LinearLayout>
 </ScrollView>
