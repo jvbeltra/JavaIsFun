@@ -30,14 +30,14 @@
 
     <TextView
         android:id="@+id/textView29"
-        android:layout_width="209dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Você completou a seção MODIFICADORES! Agora, com seu conhecimento você pode passar para o próximo nível!"
+        android:text="Você completou as atividades do nível Básico! Agora, com seu conhecimento você pode passar para o próximo nível!"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
@@ -65,7 +65,7 @@
 
     <TextView
         android:id="@+id/textView30"
-        android:layout_width="309dp"
+        android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
