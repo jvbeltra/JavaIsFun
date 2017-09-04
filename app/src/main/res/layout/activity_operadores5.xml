@@ -6,7 +6,7 @@
 
     android:background="@android:color/white"
     android:layout_height="match_parent"
-    tools:context="br.ifcibirama.dell_pc.javaisfun.br.example.dell_pc.javaisfun.Operadores5">
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Operadores5">
 
     <TextView
         android:id="@+id/textView43"

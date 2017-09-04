@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.ifcibirama.dell_pc.javaisfun.br.example.dell_pc.javaisfun.Matrizes9">
+    android:background="@color/white"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Matrizes9">
 
     <TextView
         android:id="@+id/textView458"
@@ -35,7 +36,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Você completou a seção OBJETOS! Agora, com seu conhecimento você pode passar para o próximo nível!"
+        android:text="Você completou a seção MATRIZES! Agora, com seu conhecimento você pode passar para o próximo nível!"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"

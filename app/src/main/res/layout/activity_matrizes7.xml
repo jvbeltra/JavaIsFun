@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="br.ifcibirama.dell_pc.javaisfun.br.example.dell_pc.javaisfun.Matrizes7">
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Matrizes7">
 
     <TextView
         android:id="@+id/textView452"
@@ -18,7 +18,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text='Preencha a todas as matriz com o número "5" e com as estruturas corretas:'
+        android:text='Preencha a todas as matrizes com o número "5" e com as estruturas corretas:'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"

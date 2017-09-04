@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.ifcibirama.dell_pc.javaisfun.br.example.dell_pc.javaisfun.Objetos5"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Objetos5"
     android:background="@color/white">
 
     <TextView
@@ -61,7 +61,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Aqui é onde usaremos o Scanner também, para coletar os dados e inserí-los no objeto 'Funcionario'. Veja exemplo abaixo:"
+        android:text="Aqui é onde usaremos o Scanner também, para coletar os dados e inserí-los no objeto 'Funcionario'. Veja o exemplo abaixo:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"

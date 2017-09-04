@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
 
-    tools:context="br.ifcibirama.dell_pc.javaisfun.br.example.dell_pc.javaisfun.Operadores2">
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Operadores2">
 
     <ImageButton
         android:id="@+id/imageButton12"

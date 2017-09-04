@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.ifcibirama.dell_pc.javaisfun.br.example.dell_pc.javaisfun.Objetos2"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Objetos2"
     android:background="@color/white">
 
     <ImageButton
@@ -58,7 +58,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text='Bom, você lembra quando comentamos sosbre os objetos na seção classes? Então, é aqui que a coisa começa a complicar. Imagine que você possa "reciclar" propriedades de classes relacionadas, como as classes "cachorro", "aranha", "gato", ou até mesmo as classes de uma biblioteca, como "cliente", "livro",  "emprestimo". É isso que a orienteação à objetos nos propõe.'
+        android:text='Bom, você lembra quando comentamos sobre os objetos na seção classes? Então, é aqui que a coisa começa a complicar. Imagine que você possa "reciclar" propriedades de classes relacionadas, como as classes "Cachorro", "Aranha", "Gato", ou até mesmo as classes de uma biblioteca, como "Cliente", "Livro",  "Emprestimo". É isso que a orientação à objetos nos propõe.'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="24sp"
