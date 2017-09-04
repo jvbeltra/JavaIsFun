@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.AboutTheApp"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.AboutTheApp"
     android:background="@drawable/gradient_menu">
 
 
@@ -15,13 +15,14 @@
 
         <ImageButton
             android:id="@+id/imageButton89"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:background="@android:color/transparent"
             android:onClick="back"
-            android:paddingTop="20dp"
-            android:paddingLeft="15dp"
-            android:paddingBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="fitXY"
             app:srcCompat="@drawable/delete" />
 
         <View
@@ -39,11 +40,11 @@
             android:id="@+id/textView233"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fontFamily="sans-serif"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
             android:text="Notificações"
             android:textAlignment="center"
-            android:padding="10dp"
-            android:layout_margin="10dp"
             android:textColor="@android:color/white"
             android:textSize="24sp" />
     </LinearLayout>

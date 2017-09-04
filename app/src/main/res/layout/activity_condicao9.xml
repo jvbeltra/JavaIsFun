@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Condicao9"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Condicao9"
     android:background="@color/white">
+
 
     <TextView
         android:id="@+id/correto"
-        android:layout_width="354dp"
-        android:layout_height="102dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Muito bem! Vamos para o próximo exercício"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -28,32 +30,35 @@
 
     <TextView
         android:id="@+id/errado"
-        android:layout_width="337dp"
-        android:layout_height="309dp"
+        android:layout_width="339dp"
+        android:layout_height="144dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text='Lembre-se, neste caso o "else if" deve ser utilizado porque ainda há duas opções possíveis de classificação se a idade for maior que 12.'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.747" />
+        app:layout_constraintVertical_bias="0.414"
+        tools:layout_editor_absoluteY="159dp"
+        tools:layout_editor_absoluteX="22dp" />
 
     <TextView
         android:id="@+id/titErrado"
-        android:layout_width="352dp"
-        android:layout_height="121dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="Não foi desta vez! :("
+        android:fontFamily="sans-serif-condensed"
+        android:text="Não foi desta vez..."
         android:textAlignment="center"
         android:textColor="@color/Avancado"
         android:textSize="30sp"
@@ -61,7 +66,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.313" />
+        app:layout_constraintVertical_bias="0.24" />
 
     <TextView
         android:id="@+id/textView275"
@@ -71,6 +76,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Selecione a estrutura adequada:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -120,8 +126,8 @@
 
     <ImageView
         android:id="@+id/ativ"
-        android:layout_width="371dp"
-        android:layout_height="343dp"
+        android:layout_width="345dp"
+        android:layout_height="321dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="-77dp"
         android:layout_marginRight="8dp"
@@ -132,7 +138,9 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/atividade"
-        app:layout_constraintVertical_bias="0.711" />
+        app:layout_constraintVertical_bias="0.713"
+        tools:layout_editor_absoluteY="172dp"
+        tools:layout_editor_absoluteX="7dp" />
 
     <Spinner
         android:id="@+id/spinner4"
@@ -147,11 +155,11 @@
         android:entries="@array/country_arrays3"
         android:prompt="@string/country_prompt"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintHorizontal_bias="0.028"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.66" />
+        app:layout_constraintVertical_bias="0.669" />
 
     <ImageView
         android:id="@+id/wink"
@@ -165,7 +173,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.676"
+        app:layout_constraintVertical_bias="0.739"
         app:srcCompat="@drawable/piscadinha" />
 
     <Button
@@ -177,6 +185,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:onClick="verificarSpinner"
         android:text="ok"
         android:textColor="@color/aaaa"

@@ -4,38 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Condicao7"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Condicao7"
     android:background="@color/white">
 
     <TextView
         android:id="@+id/exp2"
-        android:layout_width="355dp"
-        android:layout_height="210dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed"
         android:text='Nesse exemplo, caso o número não seja positivo ele PODE ser 0 ou negativo. Portanto, o "else if" é recomendado a ser utilizado quando há mais de duas opções possíveis para uma condição.'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.865" />
+        app:layout_constraintVertical_bias="0.847" />
 
     <TextView
         android:id="@+id/exp3"
-        android:layout_width="362dp"
-        android:layout_height="209dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed"
         android:text='Vale lembrar que o "else" também é útil para quando nenhuma das igualdades for correspondida, ou quando existe apenas uma opção diferente, como um valor boolean, em que há apenas "true" ou "false"'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -44,17 +43,17 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.846" />
+        app:layout_constraintVertical_bias="0.842" />
 
     <TextView
         android:id="@+id/enunciado"
-        android:layout_width="350dp"
-        android:layout_height="226dp"
+        android:layout_width="328dp"
+        android:layout_height="210dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed"
         android:text='Há também o "else if", que impõe outra condição que não é necessariamente cumprida caso a anterior não seja, como é o caso de usar apenas "else".       Ficou confuso? Vamos dar uma olhada no exemplo abaixo ;)'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -63,7 +62,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.169" />
+        app:layout_constraintVertical_bias="0.114" />
 
     <ImageButton
         android:id="@+id/proximo"

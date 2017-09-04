@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.example.dell_pc.javaisfun.BoasPraticas10">
+    tools:context="br.ifcibirama.dell_pc.javaisfun.BoasPraticas10">
 
     <TextView
         android:id="@+id/textView397"
@@ -15,6 +15,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="PARABÉNS!!!"
         android:textAlignment="center"
         android:textColor="@android:color/holo_blue_dark"
@@ -29,11 +30,12 @@
     <TextView
         android:id="@+id/textView400"
         android:layout_width="209dp"
-        android:layout_height="112dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Você completou a seção BOAS PRÁTICAS! Agora, com seu conhecimento você pode passar para o próximo nível!"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,7 +43,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.341" />
+        app:layout_constraintVertical_bias="0.288" />
 
     <ImageView
         android:id="@+id/imageView57"
@@ -55,12 +57,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.521"
         app:srcCompat="@drawable/piscadinha" />
 
     <TextView
         android:id="@+id/textView402"
-        android:layout_width="wrap_content"
+        android:layout_width="317dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
@@ -69,6 +70,7 @@
         android:text="Deseja ir para a próxima seção ou voltar ao Menu Básico?"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"

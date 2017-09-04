@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Calculos2"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Calculos2"
     android:background="@android:color/white"
     >
 
@@ -30,40 +30,62 @@
     <TextView
         android:id="@+id/textView160"
         android:layout_width="291dp"
-        android:layout_height="312dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="Para aprender a programar é preciso aprender a calcular. Isso não significa que você precisa saber a fórmula de bhaskara kkkk A matemática na programação é extremamente prática, e superintuitiva! Com a medida que você se aprofundar na mesma, irá se afeiçoar com ela. Se você se recordar, no primeiro ano estudou um pouco deste assunto, e como aplica-lo em fluxogramas e pseudocódigos. Agora..."
+        android:fontFamily="sans-serif-condensed"
+        android:text="Com a medida que você se aprofundar na mesma, irá se afeiçoar com ela. Se você se recordar, no primeiro ano estudou um pouco deste assunto, e como aplica-lo em fluxogramas e pseudocódigos. Agora..."
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.266" />
+        app:layout_constraintVertical_bias="0.543" />
+
+    <TextView
+        android:id="@+id/textView398"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Para aprender a programar é preciso aprender a calcular. Isso não significa que você precisa saber a fórmula de bhaskara kkkk A matemática na programação é extremamente prática, e superintuitiva!"
+        android:textAlignment="center"
+        android:textColor="@color/cinzinha"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
 
     <TextView
         android:id="@+id/textView177"
         android:layout_width="277dp"
-        android:layout_height="62dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="... o bagulho vai ficar PUNK!"
+        android:fontFamily="sans-serif-condensed"
+        android:text="... o negócio vai ficar PUNK!"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.808" />
+        app:layout_constraintVertical_bias="0.737" />
 
     <ImageButton
         android:id="@+id/imageButton73"

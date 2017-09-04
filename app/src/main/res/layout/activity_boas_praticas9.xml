@@ -5,7 +5,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.example.dell_pc.javaisfun.BoasPraticas9">
+    tools:context="br.ifcibirama.dell_pc.javaisfun.BoasPraticas9">
+
+    <TextView
+        android:id="@+id/textView403"
+        android:layout_width="333dp"
+        android:layout_height="392dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="
+6.	Quebre um comando longo em comandos menores e mais simples. \n \n 7.	Escreva um comando por linha \n \n 8.	Inicialize contadores e somadores. (Cálculos) \n \n 9.	Imprima mensagens de erro em expressões que tenham possíveis respostas não desejadas. (Condições) \n \n 10.	Solicite ao usuário os valores a serem digitados, com mensagens adequadas. (Scanner) \n \n 11.	Teste os programas exaustivamente!
+
+"
+        android:textAlignment="center"
+        android:textColor="@color/cinzinha"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <TextView
+        android:id="@+id/textView399"
+        android:layout_width="337dp"
+        android:layout_height="402dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="
+1.	Declare cada variável em uma linha para facilitar a escrita de comentários. (Variáveis)\n \n 2.	Escolha nomes significativos para as variáveis. (Variáveis) \n \n 3.	Comece o nome dos identificadores com letra MAIÚSCULA, da mesma forma, cada palavra das variáveis com nomes assim: valorCarro. (Variáveis) \n \n 4.	Coloque espaços dos dois lados dos operadores aritméticos (Operadores) \n \n 5.	Escreva parênteses, ainda que redundantes, para facilitar o entendimento de expressões aritméticas. (Cálculos)
+"
+        android:textAlignment="center"
+        android:textColor="@color/cinzinha"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493" />
 
     <ImageButton
         android:id="@+id/imageButton174"
@@ -38,62 +87,17 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed"
         android:text="Práticas finais"
         android:textAlignment="center"
         android:textColor="@android:color/holo_blue_dark"
-        android:textSize="30sp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1" />
-
-    <TextView
-        android:id="@+id/textView398"
-        android:layout_width="369dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="7dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="
-6.	Quebre um comando longo em comandos menores e mais simples. \n \n 7.	Escreva um comando por linha \n \n 8.	Inicialize contadores e somadores. (Cálculos) \n \n 9.	Imprima mensagens de erro em expressões que tenham possíveis respostas não desejadas. (Condições) \n \n 10.	Solicite ao usuário os valores a serem digitados, com mensagens adequadas. (Scanner) \n \n 11.	Teste os programas exaustivamente!
-
-"
-        android:textAlignment="center"
-        android:textColor="@color/cinzinha"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.497" />
-
-    <TextView
-        android:id="@+id/textView399"
-        android:layout_width="369dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="7dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="
-1.	Declare cada variável em uma linha para facilitar a escrita de comentários. (Variáveis)\n \n 2.	Escolha nomes significativos para as variáveis. (Variáveis) \n \n 3.	Comece o nome dos identificadores com letra MAIÚSCULA, da mesma forma, cada palavra das variáveis com nomes assim: valorCarro. (Variáveis) \n \n 4.	Coloque espaços dos dois lados dos operadores aritméticos (Operadores) \n \n 5.	Escreva parênteses, ainda que redundantes, para facilitar o entendimento de expressões aritméticas. (Cálculos)
-"
-        android:textAlignment="center"
-        android:textColor="@color/cinzinha"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.497" />
+        app:layout_constraintVertical_bias="0.075" />
 
     <ImageButton
         android:id="@+id/imageButton175"
@@ -124,6 +128,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Deslize para vizualizar o resto da lista"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="18sp"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@android:color/white"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Variaveis8">
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Variaveis8">
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="28dp"
@@ -46,60 +46,69 @@
     <TextView
         android:id="@+id/textView24"
         android:layout_width="331dp"
-        android:layout_height="58dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text='3) Escolha dentre as opções abaixo, qual é o melhor tipo para representar este valor: 4,67:'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141" />
+        app:layout_constraintVertical_bias="0.149" />
 
     <Button
         android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="90dp"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="onClickDouble"
         android:text="Double"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.755"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.317"
-        android:onClick="onClickDouble"/>
+        app:layout_constraintVertical_bias="0.317" />
 
     <Button
         android:id="@+id/button18"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="90dp"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="onClickFloat"
         android:text="Float"
+        android:textColor="@color/white"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.258"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.317"
-        android:onClick="onClickFloat"/>
+        app:layout_constraintVertical_bias="0.317" />
+
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="54dp"
-        android:layout_height="55dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -108,7 +117,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/right" />
+        app:srcCompat="@drawable/checkmarkblue" />
 
     <TextView
         android:id="@+id/textView25"
@@ -120,7 +129,7 @@
         android:layout_marginTop="8dp"
         android:text="Correto!!!"
         android:textAlignment="center"
-        android:textColor="@color/cinzinha"
+        android:textColor="@color/colorPrimary"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -132,35 +141,39 @@
     <TextView
         android:id="@+id/textView27"
         android:layout_width="260dp"
-        android:layout_height="74dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Lembre-se do porquê: Float possui menos casas decimais, enquanto Double pode carregar muitas casas após a virgula!"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.813" />
+        app:layout_constraintVertical_bias="0.901" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="319dp"
-        android:layout_height="88dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Algo de errado não está certo... kkk brincadeira, a questão é que o Float possui menos casas decimais, enquanto Double pode carregar muitas casas após a virgula!"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572" />
+        app:layout_constraintVertical_bias="0.651" />
 </android.support.constraint.ConstraintLayout>

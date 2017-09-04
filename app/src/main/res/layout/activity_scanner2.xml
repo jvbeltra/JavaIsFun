@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@android:color/white"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Scanner2"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Scanner2"
     >
 
     <TextView

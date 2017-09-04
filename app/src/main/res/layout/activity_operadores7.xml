@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@android:color/white"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Operadores7">
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Operadores7">
 
     <ImageButton
         android:id="@+id/imageButton30"
@@ -34,9 +34,10 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Vish! Lembre-se, maior ou igual sempre é sinalizado por      , nesta ordem"
         android:textAlignment="center"
-        android:textColor="@color/Avançado"
+        android:textColor="@color/Avancado"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -52,33 +53,35 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="...código..."
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604"
-        app:layout_constraintHorizontal_bias="0.812" />
+        app:layout_constraintVertical_bias="0.604" />
 
     <TextView
         android:id="@+id/textView128"
-        android:layout_width="54dp"
-        android:layout_height="40dp"
+        android:layout_width="44dp"
+        android:layout_height="28dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="____"
-        android:textColor="@color/Avançado"
+        android:textColor="?android:attr/colorEdgeEffect"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.522" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
         android:id="@+id/textView125"
@@ -95,9 +98,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/textView124"
         app:layout_constraintLeft_toLeftOf="@+id/textView124"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.543"
-        app:layout_constraintTop_toTopOf="@+id/textView124"
-        app:layout_constraintHorizontal_bias="0.755" />
+        app:layout_constraintVertical_bias="0.508"
+        app:layout_constraintTop_toTopOf="@+id/textView124" />
 
     <ImageButton
         android:id="@+id/imageButton36"
@@ -120,22 +122,23 @@
 
     <TextView
         android:id="@+id/textView123"
-        android:layout_width="391dp"
-        android:layout_height="112dp"
+        android:layout_width="327dp"
+        android:layout_height="121dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Certo, agora vamos ver se você entendeu os operadores relacionais! "
         android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/cinzinha"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136"
-        app:layout_constraintHorizontal_bias="0.478" />
+        app:layout_constraintVertical_bias="0.09" />
 
     <TextView
         android:id="@+id/textView124"
@@ -145,9 +148,10 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Selecione o modificador correto para que a variável                seja maior ou igual a 10:         "
         android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/cinzinha"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -163,15 +167,16 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="if (int numero         10){"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@android:color/darker_gray"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.523"
-        app:layout_constraintHorizontal_bias="0.41" />
+        app:layout_constraintVertical_bias="0.523" />
 
     <TextView
         android:id="@+id/textView131"
@@ -181,8 +186,9 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="}"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@android:color/darker_gray"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -311,7 +317,8 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="Parabéns!                  Siga para a próxima tela"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Correto!"
         android:textAlignment="center"
         android:textColor="@color/Intermediario"
         android:textSize="40sp"
@@ -329,8 +336,9 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text=">="
-        android:textColor="@color/Basico"
+        android:textColor="@color/cinzinha"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.311"

@@ -4,8 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Vetores8"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Vetores8"
     android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageView68"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783"
+        app:srcCompat="@drawable/checkmarkred" />
 
     <TextView
         android:id="@+id/textView352"
@@ -17,10 +32,12 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Segure arraste e solte..."
         android:textAlignment="center"
         android:textColor="@android:color/holo_red_light"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -38,15 +55,17 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Correto!"
         android:textAlignment="center"
-        android:textColor="@color/aaaa"
+        android:textColor="@color/Avancado"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759" />
+        app:layout_constraintVertical_bias="0.904" />
 
     <TextView
         android:id="@+id/textView314"
@@ -58,20 +77,22 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Errado!"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Não foi dessa vez..."
         android:textAlignment="center"
-        android:textColor="@color/Avancado"
+        android:textColor="@color/cinzinha"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76" />
+        app:layout_constraintVertical_bias="0.904"
+        app:layout_constraintHorizontal_bias="0.505" />
 
     <ImageView
         android:id="@+id/imageView49"
-        android:layout_width="402dp"
-        android:layout_height="157dp"
+        android:layout_width="330dp"
+        android:layout_height="130dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -80,17 +101,16 @@
         android:layout_marginTop="8dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.454"
+        app:layout_constraintVertical_bias="0.463"
         app:srcCompat="@drawable/telinhazu" />
 
     <com.google.android.flexbox.FlexboxLayout
         android:id="@+id/flexTop"
-        android:layout_width="375dp"
-        android:layout_height="138dp"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -102,7 +122,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.451"
+        app:layout_constraintVertical_bias="0.464"
 
         >
 
@@ -111,8 +131,8 @@
 
     <com.google.android.flexbox.FlexboxLayout
         android:id="@+id/flexDown"
-        android:layout_width="375dp"
-        android:layout_height="138dp"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -120,11 +140,12 @@
         app:alignContent="stretch"
         app:alignItems="stretch"
         app:flexWrap="wrap"
+        android:background="@color/maisclarin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.821">
+        app:layout_constraintVertical_bias="0.8">
 
 
         <Button
@@ -289,6 +310,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Exercícios"
         android:textAlignment="center"
         android:textColor="@color/Avancado"
@@ -310,7 +332,8 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Okey então, no primeiro exercício você deve monar uma declaração de um vetor com as opções abaixo:"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Okey então, no primeiro exercício você deve montar uma declaração de um vetor com as opções abaixo:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"

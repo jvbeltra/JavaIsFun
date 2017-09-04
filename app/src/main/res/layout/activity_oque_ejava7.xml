@@ -5,7 +5,7 @@
     android:background="@android:color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.OQueEJava7">
+    tools:context="br.ifcibirama.dell_pc.javaisfun.OQueEJava7">
 
     <ImageButton
         android:id="@+id/imageButton61"
@@ -29,40 +29,42 @@
     <TextView
         android:id="@+id/textView154"
         android:layout_width="311dp"
-        android:layout_height="123dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Nesta dificuldade vocês vão aprender todos os componentes básicos da Sintaxe, e como aplica-los de maneira correta, entretanto, ainda falta uma coisa para começarmos..."
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832" />
+        app:layout_constraintVertical_bias="0.786" />
 
     <TextView
         android:id="@+id/textView155"
         android:layout_width="331dp"
-        android:layout_height="291dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Você já tem quase tudo pronto! Se lembra da pergunta, preciso saber inglês para programar? Bom, não e sim kkkkkk Quanto mais você sabe da língua inglesa maior será seu rendimento na programação, não apenas em Java. Mas isso não significa que você precisa ser fluente. Como dito antes, treine. Este aplicativo irá dar a base e o conteúdo para você entender a Sintaxe Java, mas apenas treinando seus conhecimentos, você irá se desenvolver nesta arte..."
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.252" />
+        app:layout_constraintVertical_bias="0.238" />
 
     <ImageButton
         android:id="@+id/imageButton62"

@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Condicao10"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Condicao10"
     android:background="@color/white">
+
 
     <ImageButton
         android:id="@+id/imageButton136"
@@ -52,6 +53,7 @@
         android:layout_marginLeft="-58dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Esta é outra estrutura bastante útil para nós. Vamos supor que você quer verificar duas coisas, mas uma depende da outra como no caso abaixo:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"

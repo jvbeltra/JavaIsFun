@@ -5,7 +5,7 @@
     android:background="@android:color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Variaveis7">
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Variaveis7">
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="28dp"
@@ -25,40 +25,47 @@
         app:layout_constraintVertical_bias="0.015"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp" />
+
     <Button
         android:id="@+id/button"
-        android:layout_width="96dp"
-        android:layout_height="36dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="verificar"
         android:text="Verificar"
+        android:textColor="@color/white"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.526"
-        android:onClick="verificar"/>
+        app:layout_constraintVertical_bias="0.532" />
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="331dp"
-        android:layout_height="58dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text='2) Declare uma variável boolean, chamada "condicao" e passe o valor verdadeiro para a mesma:'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141" />
+        app:layout_constraintVertical_bias="0.148" />
+
     <EditText
         android:id="@+id/editText3"
         android:layout_width="316dp"
@@ -68,36 +75,36 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textNoSuggestions|textVisiblePassword"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.311"
-        tools:layout_editor_absoluteY="153dp" />
+        app:layout_constraintVertical_bias="0.355" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="322dp"
-        android:layout_height="95dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Algo de errado não está certo... kkk brincadeira, a questão é que você esqueceu do “;”, escreveu nome da variável errado, ou mesmo não digitou o “boolean”, lembre-se que eu pedi para DECLARAR, não modificar. Corrija seu erro e vamos embora!"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.764" />
+        app:layout_constraintVertical_bias="0.838" />
+
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="54dp"
-        android:layout_height="55dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -106,8 +113,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713"
-        app:srcCompat="@drawable/right" />
+        app:layout_constraintVertical_bias="0.611"
+        app:srcCompat="@drawable/checkmarkblue" />
 
     <TextView
         android:id="@+id/textView25"
@@ -119,14 +126,14 @@
         android:layout_marginTop="8dp"
         android:text="Correto!!!"
         android:textAlignment="center"
-        android:textColor="@color/cinzinha"
+        android:textColor="@color/colorPrimary"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.871" />
+        app:layout_constraintVertical_bias="0.753" />
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="42dp"

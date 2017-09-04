@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Modificadores"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Modificadores"
     android:background="@android:color/white"
     >
 
@@ -16,7 +16,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed"
         android:text="Introdução"
         android:textAlignment="center"
         android:textColor="@android:color/holo_blue_dark"
@@ -26,16 +26,17 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101" />
+        app:layout_constraintVertical_bias="0.111" />
 
     <TextView
         android:id="@+id/textView35"
         android:layout_width="287dp"
-        android:layout_height="262dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Conforme seu programa vai ficando mais complexo, é provável que você tenha que lidar com uma classificação à parte para as variáveis. Esta classificação é utilizada geralmente quando se trata de programação orientada a objetos, assunto que será tratado mais à frente, entretanto é essencial frisar estes conceitos agora para melhor entendimento."
         android:textAlignment="center"
         android:textColor="@color/cinzinha"

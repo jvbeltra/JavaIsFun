@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dell_pc.javaisfun">
+    package="br.ifcibirama.dell_pc.javaisfun">
 
     <uses-permission android:name="android.alarm.permission.SET_ALARM" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -10,11 +10,12 @@
         android:icon="@drawable/microchip"
         android:label="@string/app_name"
         android:roundIcon="@drawable/microchip"
-        android:supportsRtl="true"
         android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:debuggable="false"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Splash"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Splash"
             android:theme="@style/InicialActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,262 +23,300 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EasyActivity" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.EasyActivity" />
         <activity
-            android:name=".MediumActivity"
+            android:name="br.ifcibirama.dell_pc.javaisfun.MediumActivity"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".HardActivity"
+            android:name="br.ifcibirama.dell_pc.javaisfun.HardActivity"
             android:theme="@style/RedActionBar" />
-        <activity android:name=".OQueEJava" />
-        <activity android:name=".Variaveis" />
-        <activity android:name=".Modificadores" />
-        <activity android:name=".Operadores" />
-        <activity android:name=".Operadores2" />
-        <activity android:name=".Operadores3" />
-        <activity android:name=".Operadores4" />
-        <activity android:name=".Operadores5" />
-        <activity android:name=".Operadores6" />
-        <activity android:name=".Operadores7" />
-        <activity android:name=".Operadores8" />
-        <activity android:name=".Classe" />
-        <activity android:name=".Classe2" />
-        <activity android:name=".Classe3" />
-        <activity android:name=".Metodos" />
-        <activity android:name=".Metodos2" />
-        <activity android:name=".Metodos3" />
-        <activity android:name=".Metodos4" />
-        <activity android:name=".Metodos5" />
-        <activity android:name=".Metodos6" />
-        <activity android:name=".Metodos7" />
-        <activity android:name=".Metodos8" />
-        <activity android:name=".Metodos9" />
-        <activity android:name=".Metodos10" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.OQueEJava" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Variaveis" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Modificadores" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Operadores" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Operadores2" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Operadores3" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Operadores4" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Operadores5" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Operadores6" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Operadores7" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Operadores8" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Classe" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Classe2" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Classe3" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Metodos" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Metodos2" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Metodos3" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Metodos4" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Metodos5" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Metodos6" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Metodos7" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Metodos8" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Metodos9" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Metodos10" />
         <activity
-            android:name=".Calculos"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Calculos"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Calculos3"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Calculos3"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Calculos4"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Calculos4"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Calculos5"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Calculos5"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Calculos6"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Calculos6"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Calculos7"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Calculos7"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Calculos8"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Calculos8"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".LacoDeRepeticao"
+            android:name="br.ifcibirama.dell_pc.javaisfun.LacoDeRepeticao"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Vetores"
-            android:theme="@style/RedActionBar" />
-        <activity
-            android:name=".Matrizes"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Vetores"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Objetos"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Matrizes"
             android:theme="@style/RedActionBar" />
-        <activity android:name=".AboutUs" />
-        <activity android:name=".AboutTheApp" />
-        <activity android:name=".Variaveis2" />
-        <activity android:name=".Variaveis3" />
-        <activity android:name=".Variaveis4" />
-        <activity android:name=".Variaveis5" />
-        <activity android:name=".Variaveis6" />
-        <activity android:name=".Variaveis7" />
-        <activity android:name=".Variaveis8" />
-        <activity android:name=".Variaveis9" />
-        <activity android:name=".Variaveis10" />
-        <activity android:name=".Modificadores2" />
-        <activity android:name=".Modificadores3" />
-        <activity android:name=".Modificadores4" />
-        <activity android:name=".Modificadores5" />
-        <activity android:name=".Modificadores6" />
-        <activity android:name=".Modificadores7" />
-        <activity android:name=".Modificadores8" />
-        <activity android:name=".Modificadores9" />
-        <activity android:name=".Modificadores10" />
-        <activity android:name=".OQueEJava2" />
-        <activity android:name=".OQueEJava3" />
-        <activity android:name=".OQueEJava4" />
-        <activity android:name=".OQueEJava5" />
-        <activity android:name=".OQueEJava6" />
-        <activity android:name=".OQueEJava7" />
-        <activity android:name=".OQueEJava8" />
         <activity
-            android:name=".Calculos2"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Objetos"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Matrizes2"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Matrizes3"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Matrizes4"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Matrizes5"
+            android:theme="@style/RedActionBar" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.AboutUs" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.AboutTheApp" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Variaveis2" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Variaveis3" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Variaveis4" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Variaveis5" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Variaveis6" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Variaveis7" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Variaveis8" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Variaveis9" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Variaveis10" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Modificadores2" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Modificadores3" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Modificadores4" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Modificadores5" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Modificadores6" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Modificadores7" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Modificadores8" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Modificadores9" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Modificadores10" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.OQueEJava2" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.OQueEJava3" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.OQueEJava4" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.OQueEJava5" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.OQueEJava6" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.OQueEJava7" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.OQueEJava8" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Calculos2"
             android:theme="@style/GreenActionBar" />
-        <activity android:name=".Classe5" />
-        <activity android:name=".Classe4" />
-        <activity android:name=".Classe6" />
-        <activity android:name=".Classe7" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Classe5" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Classe4" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Classe6" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Classe7" />
         <activity
-            android:name=".Calculos9"
-            android:theme="@style/GreenActionBar" />
-        <activity
-            android:name=".Calculos10"
-            android:theme="@style/GreenActionBar" />
-        <activity
-            android:name=".LacoDeRepeticao2"
-            android:theme="@style/GreenActionBar" />
-        <activity
-            android:name=".Condicao2"
-            android:theme="@style/GreenActionBar" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".MenuGear" />
-        <activity android:name=".Repeating_activity" />
-        <activity
-            android:name=".Condicao3"
-            android:theme="@style/GreenActionBar" />
-        <activity
-            android:name=".Condicao4"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Calculos9"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao5"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Calculos10"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao6"
+            android:name="br.ifcibirama.dell_pc.javaisfun.LacoDeRepeticao2"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao7"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao2"
+            android:theme="@style/GreenActionBar" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.MainActivity" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.MenuGear" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Repeating_activity" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao3"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao8"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao4"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao9"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao5"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao10"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao6"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao7"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao8"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao9"
+            android:theme="@style/GreenActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao10"
             android:theme="@style/GreenActionBar" />
 
-        <receiver android:name=".Notification_receiver" />
+        <receiver android:name="br.ifcibirama.dell_pc.javaisfun.Notification_receiver" />
 
-        <activity android:name=".Notificacoes" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Notificacoes" />
         <activity
-            android:name=".LacoDeRepeticao3"
+            android:name="br.ifcibirama.dell_pc.javaisfun.LacoDeRepeticao3"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".LacoDeRepeticao4"
+            android:name="br.ifcibirama.dell_pc.javaisfun.LacoDeRepeticao4"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".LacoDeRepeticao5"
+            android:name="br.ifcibirama.dell_pc.javaisfun.LacoDeRepeticao5"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".LacoDeRepeticao6"
+            android:name="br.ifcibirama.dell_pc.javaisfun.LacoDeRepeticao6"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".LacoDeRepeticao7"
+            android:name="br.ifcibirama.dell_pc.javaisfun.LacoDeRepeticao7"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".LacoDeRepeticao8"
+            android:name="br.ifcibirama.dell_pc.javaisfun.LacoDeRepeticao8"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".LacoDeRepeticao9"
+            android:name="br.ifcibirama.dell_pc.javaisfun.LacoDeRepeticao9"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".LacoDeRepeticao10"
+            android:name="br.ifcibirama.dell_pc.javaisfun.LacoDeRepeticao10"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Vetores2"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Vetores2"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Vetores3"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Vetores3"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Vetores4"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Vetores4"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Vetores5"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Vetores5"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Vetores6"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Vetores6"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Vetores7"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Vetores7"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Vetores8"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Vetores8"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Vetores9"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Vetores9"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Vetores10"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Vetores10"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Vetores11"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Vetores11"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Vetores12"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Vetores12"
             android:theme="@style/RedActionBar" />
         <activity
-            android:name=".Condicao11"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao11"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao12"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao12"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao13"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao13"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao14"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao14"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao15"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao15"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Condicao16"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Condicao16"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Scanner"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Scanner"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Scanner2"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Scanner2"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Scanner3"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Scanner3"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Scanner4"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Scanner4"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Scanner5"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Scanner5"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Scanner6"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Scanner6"
             android:theme="@style/GreenActionBar" />
         <activity
-            android:name=".Scanner7"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Scanner7"
             android:theme="@style/GreenActionBar" />
-
         <activity
-            android:name=".Scanner8"
+            android:name="br.ifcibirama.dell_pc.javaisfun.Scanner8"
             android:theme="@style/GreenActionBar" />
-
-
-        <activity android:name=".BoasPraticas" />
-        <activity android:name=".BoasPraticas2" />
-        <activity android:name=".BoasPraticas3" />
-        <activity android:name=".BoasPraticas4" />
-        <activity android:name=".BoasPraticas5" />
-        <activity android:name=".BoasPraticas6" />
-        <activity android:name=".BoasPraticas7" />
-        <activity android:name=".BoasPraticas8" />
-        <activity android:name=".BoasPraticas9" />
-        <activity android:name=".BoasPraticas10"></activity>
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.BoasPraticas" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.BoasPraticas2" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.BoasPraticas3" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.BoasPraticas4" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.BoasPraticas5" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.BoasPraticas6" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.BoasPraticas7" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.BoasPraticas8" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.BoasPraticas9" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.BoasPraticas10" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Matrizes6"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Matrizes7"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Matrizes8"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Matrizes9"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Objetos2"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Objetos3"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Objetos4"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Objetos5"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name="br.ifcibirama.dell_pc.javaisfun.Objetos6"
+            android:theme="@style/RedActionBar" />
+        <activity android:name="br.ifcibirama.dell_pc.javaisfun.Objetos7"
+            android:theme="@style/RedActionBar"/>
     </application>
 
 </manifest>

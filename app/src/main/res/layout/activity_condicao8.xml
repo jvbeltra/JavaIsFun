@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Condicao8"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Condicao8"
     android:background="@color/white">
+
 
     <TextView
         android:id="@+id/textView272"
@@ -15,6 +16,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Escreva a estrutura adequada:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -28,12 +30,13 @@
 
     <TextView
         android:id="@+id/errado"
-        android:layout_width="358dp"
-        android:layout_height="279dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Cuidado! Nesse caso, o mais adequado seria utilizar o else"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -42,16 +45,17 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
+        app:layout_constraintVertical_bias="0.404" />
 
     <TextView
         android:id="@+id/correto"
-        android:layout_width="358dp"
-        android:layout_height="279dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text='Parabéns! Nesse caso, somente "else" é utilizado porque não há outra opção, já que a nota só poderia ser abaixo de 2 caso nenhuma das outras condições fosse correspondida.'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -60,7 +64,22 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
+        app:layout_constraintVertical_bias="0.367" />
+
+    <ImageView
+        android:id="@+id/imageView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756"
+        app:srcCompat="@drawable/sad" />
 
     <TextView
         android:id="@+id/textView273"
@@ -70,6 +89,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Que tal alguns exercícios? ;)"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -120,33 +140,38 @@
 
     <ImageView
         android:id="@+id/imageView45"
-        android:layout_width="372dp"
-        android:layout_height="295dp"
+        android:layout_width="345dp"
+        android:layout_height="284dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="201dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/exeif" />
+        app:srcCompat="@drawable/exeif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.256"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <EditText
         android:id="@+id/exif"
         android:layout_width="137dp"
         android:layout_height="47dp"
 
-        android:ems="10"
-        android:inputType="text|textNoSuggestions"
-        android:textColor="@color/aaaa"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="text|textNoSuggestions"
+        android:textColor="@color/aaaa"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.795" />
 
     <Button

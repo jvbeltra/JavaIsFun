@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Calculos6"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Calculos6"
     android:background="@android:color/white"
     >
 
@@ -61,6 +61,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Escolha as opções abaixo na ordem correta para criar uma variável que receba como valor o resultado de uma soma entre N1 e N2:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -69,7 +70,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.214" />
+        app:layout_constraintVertical_bias="0.231"
+        app:layout_constraintHorizontal_bias="0.508" />
 
     <TextView
         android:id="@+id/textView189"
@@ -81,6 +83,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Correto!"
         android:textAlignment="center"
         android:textColor="@color/aaaa"
@@ -89,7 +92,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759" />
+        app:layout_constraintVertical_bias="0.908"
+        app:layout_constraintHorizontal_bias="0.505" />
 
     <TextView
         android:id="@+id/textView186"
@@ -101,15 +105,17 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Errado!"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Não foi dessa vez..."
         android:textAlignment="center"
-        android:textColor="@color/Avancado"
+        android:textColor="@color/cinzinha"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76" />
+        app:layout_constraintVertical_bias="0.908" />
 
     <TextView
         android:id="@+id/textView190"
@@ -121,16 +127,18 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Segure arraste e solte..."
         android:textAlignment="center"
         android:textColor="@android:color/holo_green_light"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.139"
-        app:layout_constraintHorizontal_bias="0.497" />
+        app:layout_constraintVertical_bias="0.137" />
 
 
     <TextView
@@ -143,6 +151,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Que tal treinar um pouco?!"
         android:textAlignment="center"
         android:textColor="@color/aaaa"
@@ -151,12 +160,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.077" />
+        app:layout_constraintVertical_bias="0.073"
+        app:layout_constraintHorizontal_bias="0.503" />
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="402dp"
-        android:layout_height="157dp"
+        android:layout_width="330dp"
+        android:layout_height="130dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -165,11 +175,10 @@
         android:layout_marginTop="8dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.462"
+        app:layout_constraintVertical_bias="0.498"
         app:srcCompat="@drawable/telinha" />
 
     <Button
@@ -193,11 +202,10 @@
         app:layout_constraintVertical_bias="0.986" />
 
 
-    <com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <com.google.android.flexbox.FlexboxLayout
         android:id="@+id/flexTop"
-        android:layout_width="375dp"
-        android:layout_height="138dp"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -209,7 +217,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.463"
+        app:layout_constraintVertical_bias="0.498"
 
         >
 
@@ -218,20 +226,21 @@
 
     <com.google.android.flexbox.FlexboxLayout
         android:id="@+id/flexDown"
-        android:layout_width="375dp"
-        android:layout_height="138dp"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         app:alignContent="stretch"
         app:alignItems="stretch"
+        android:background="@color/clarin"
         app:flexWrap="wrap"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.796">
+        app:layout_constraintVertical_bias="0.807">
 
 
         <Button
@@ -323,6 +332,21 @@
 
 
     </com.google.android.flexbox.FlexboxLayout>
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783"
+        app:srcCompat="@drawable/checkmark" />
 
 
 </android.support.constraint.ConstraintLayout>

@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Condicao11"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Condicao11"
     android:background="@color/white">
+
 
     <ImageButton
         android:id="@+id/imageButton135"
@@ -46,12 +47,13 @@
 
     <TextView
         android:id="@+id/textView212"
-        android:layout_width="347dp"
-        android:layout_height="187dp"
+        android:layout_width="349dp"
+        android:layout_height="95dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Com esta estrutura, verificar duas igualdades fica bem mais simples, dê uma olhada no exemplo abaixo:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -60,17 +62,19 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153"
-        app:layout_constraintHorizontal_bias="0.523" />
+        app:layout_constraintVertical_bias="0.152"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="70dp" />
 
     <TextView
         android:id="@+id/explication"
-        android:layout_width="365dp"
-        android:layout_height="204dp"
+        android:layout_width="345dp"
+        android:layout_height="156dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Assim, as condições para tal parte do código ser executada serão verificadas de uma vez só, economizando espaço e tempo de execução "
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -79,24 +83,26 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.161"
-        app:layout_constraintHorizontal_bias="0.666" />
+        tools:layout_editor_absoluteY="200dp"
+        tools:layout_editor_absoluteX="16dp" />
 
     <ImageView
         android:id="@+id/cod"
-        android:layout_width="372dp"
-        android:layout_height="185dp"
+        android:layout_width="324dp"
+        android:layout_height="181dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="-104dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.984"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.622"
-        app:srcCompat="@drawable/ee" />
+        app:layout_constraintVertical_bias="0.578"
+        app:srcCompat="@drawable/ee"
+        tools:layout_editor_absoluteY="219dp"
+        tools:layout_editor_absoluteX="26dp" />
 
     <Button
         android:id="@+id/button16"
@@ -107,6 +113,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:onClick="explicacao"
         android:text="Explicação"
         android:textColor="@color/aaaa"
@@ -126,6 +133,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:onClick="codigo"
         android:text="Código"
         android:textColor="@color/aaaa"
@@ -136,18 +144,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.779" />
 
-    <ImageView
-        android:id="@+id/wink"
-        android:layout_width="152dp"
-        android:layout_height="154dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/piscadinha"
-        app:layout_constraintVertical_bias="0.574" />
 </android.support.constraint.ConstraintLayout>

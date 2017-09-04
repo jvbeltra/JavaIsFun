@@ -5,47 +5,47 @@
     android:layout_width="match_parent"
     android:background="@android:color/white"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Vetores"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.Vetores"
     >
 
     <TextView
         android:id="@+id/textView267"
-        android:layout_width="192dp"
-        android:layout_height="79dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed"
         android:text="Sejam bem-vindos!"
         android:textAlignment="center"
         android:textColor="@color/Avancado"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101" />
+        app:layout_constraintVertical_bias="0.12" />
 
     <TextView
         android:id="@+id/textView266"
         android:layout_width="281dp"
-        android:layout_height="219dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Agora você está lidando com coisas mais avançadas, e pra começar esta nova etapa, por que não começar com um assunto tão sutil quanto Vetores?! Deu pra ver que até o tema tá referenciando a dificuldade kkk Calma, não é tão difícil assim, bora lá?!"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.447"
-        android:text="Agora você está lidando com coisas mais avançadas, e pra começar esta nova etapa, por que não começar com um assunto tão sutil quanto Vetores?! Deu pra ver que até o tema tá referenciando a dificuldade kkk Calma, não é tão difícil assim, bora lá?!"/>
+        app:layout_constraintVertical_bias="0.369" />
 
     <ImageButton
         android:id="@+id/imageButton121"
@@ -98,5 +98,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.869" />
+        app:layout_constraintVertical_bias="0.827" />
 </android.support.constraint.ConstraintLayout>

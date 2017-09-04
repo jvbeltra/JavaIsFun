@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.HardActivity"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.HardActivity"
     android:background="@android:color/white"
     >
 
     <ImageButton
         android:id="@+id/imageButton95"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/transparent"
+        android:onClick="Matrizes"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.92"
@@ -24,36 +25,36 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.379"
-        app:srcCompat="@drawable/matrizes"
-        android:onClick="Matrizes"/>
+        app:srcCompat="@drawable/matrizes" />
 
     <ImageButton
         android:id="@+id/imageButton96"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/transparent"
+        android:onClick="Objetos"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.822"
-        app:srcCompat="@drawable/oo"
-        android:onClick="Objetos"/>
+        app:srcCompat="@drawable/oo" />
 
     <ImageButton
         android:id="@+id/imageButton97"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/transparent"
+        android:onClick="Vetores"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.082"
@@ -61,8 +62,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.379"
-        app:srcCompat="@drawable/vetores"
-        android:onClick="Vetores"/>
+        app:srcCompat="@drawable/vetores" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -85,17 +85,17 @@
 
     <ImageView
         android:id="@+id/imageView26"
-        android:layout_width="88dp"
-        android:layout_height="82dp"
-        app:srcCompat="@drawable/hardmug"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintVertical_bias="0.07999998" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07999998"
+        app:srcCompat="@drawable/hardmug" />
 
 </android.support.constraint.ConstraintLayout>
