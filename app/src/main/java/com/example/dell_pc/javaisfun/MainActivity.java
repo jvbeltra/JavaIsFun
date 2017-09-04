@@ -21,6 +21,30 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        findViewById(R.id.imageView85).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder builder;
+
+                builder = new AlertDialog.Builder(MainActivity.this);
+
+                builder.setTitle("AVISO");
+                builder.setMessage(
+                        "É possível que alguns objetos não fiquem  adequados ao tamanho da tela, podendo prejudicar parte do uso do app." +
+                                "\n" +
+                                "Isso ocorre porque os tamanhos de tela variam, exigindo uma configuração para cada tipo de tela. " +
+                                "Mas caro usuário, fique atento que isso será corrigido em versões futuras! Bom aprendizado! ;)\n"
+                )
+
+                        .setNegativeButton("Voltar", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        })
+                        .show();
+            }
+        });
+
         findViewById(R.id.textView223).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -9,61 +9,46 @@
     >
 
     <TextView
-        android:id="@+id/textView452"
+        android:id="@+id/textView472"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Orientação à Objetos"
+        android:text="Objetos"
         android:textAlignment="center"
         android:textColor="@color/Avancado"
-        android:textSize="30sp"
+        android:textSize="38sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.12" />
+        app:layout_constraintVertical_bias="0.083" />
 
     <TextView
-        android:id="@+id/textView453"
-        android:layout_width="281dp"
+        android:id="@+id/textView473"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="7dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
+        android:text='Parabéns! Você chegou no útlimo nível do "java.isFun();"! Isso quer dizer que você já tem uma ótima base em Java, e pode começar a aprender coisas mais difíceis com a enorme quantidade de conteúdo na Internet e na Biblioteca do Instituto! Mas antes disso, você precisa aprender a base de uma última coisa: orientação à objetos. Bora!?'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.369" />
-
-    <ImageButton
-        android:id="@+id/imageButton191"
-        android:layout_width="42dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/transparent"
-        android:onClick="next"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.973"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/proximored" />
+        app:layout_constraintVertical_bias="0.406" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -83,4 +68,43 @@
         app:layout_constraintHorizontal_bias="0.023"
         app:layout_constraintVertical_bias="0.015"
         android:contentDescription="@string/menu" />
+
+    <ImageView
+        android:id="@+id/imageView78"
+        android:layout_width="133dp"
+        android:layout_height="87dp"
+        app:srcCompat="@drawable/paperplanedois"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.908"
+        app:layout_constraintHorizontal_bias="0.502"
+        tools:layout_editor_absoluteY="431dp"
+        tools:layout_editor_absoluteX="123dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton197"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="next"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/proximored" />
 </android.support.constraint.ConstraintLayout>

@@ -209,7 +209,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.789"
-        app:srcCompat="@drawable/matriz"
+        app:srcCompat="@drawable/matrizexum"
         tools:layout_editor_absoluteY="376dp"
         tools:layout_editor_absoluteX="16dp" />
 

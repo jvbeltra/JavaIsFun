@@ -16,7 +16,8 @@ import android.widget.ImageView;
 import com.google.android.flexbox.FlexboxLayout;
 
 public class Matrizes6 extends AppCompatActivity {
-    public int cont=0;
+    public int cont = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,29 +25,30 @@ public class Matrizes6 extends AppCompatActivity {
         findViewById(R.id.textView448).setVisibility(View.GONE);
         findViewById(R.id.textView449).setVisibility(View.GONE);
         findViewById(R.id.imageView73).setVisibility(View.GONE);
-        findViewById(R.id.imageButton147).setVisibility(View.GONE);
+        findViewById(R.id.imageButton190).setVisibility(View.GONE);
         findViewById(R.id.button28).setOnLongClickListener(new Matrizes6.MyOnLongClickListener());
         findViewById(R.id.button19).setOnLongClickListener(new Matrizes6.MyOnLongClickListener());
         findViewById(R.id.button23).setOnLongClickListener(new Matrizes6.MyOnLongClickListener());
         findViewById(R.id.button24).setOnLongClickListener(new Matrizes6.MyOnLongClickListener());
         findViewById(R.id.button25).setOnLongClickListener(new Matrizes6.MyOnLongClickListener());
         findViewById(R.id.button26).setOnLongClickListener(new Matrizes6.MyOnLongClickListener());
-        findViewById(R.id.button27).setOnLongClickListener(new Matrizes6.MyOnLongClickListener());
         findViewById(R.id.button21).setOnLongClickListener(new Matrizes6.MyOnLongClickListener());
         findViewById(R.id.button22).setOnLongClickListener(new Matrizes6.MyOnLongClickListener());
-
+        findViewById(R.id.button29).setOnLongClickListener(new Matrizes6.MyOnLongClickListener());
 
 
         findViewById(R.id.flexTop).setOnDragListener(new Matrizes6.MyOnDragListener(1));
         findViewById(R.id.flexDown).setOnDragListener(new Matrizes6.MyOnDragListener(2));
     }
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
 
     }
-    public void TextDialog(View view){
+
+    public void TextDialog(View view) {
         AlertDialog.Builder builder;
 
         builder = new AlertDialog.Builder(this);
@@ -58,7 +60,7 @@ public class Matrizes6 extends AppCompatActivity {
                         Intent intent = new Intent(Matrizes6.this, MainActivity.class);
                         startActivity(intent);
                         finishAffinity();
-                        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+                        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -69,12 +71,14 @@ public class Matrizes6 extends AppCompatActivity {
                 .setIcon(R.drawable.warning)
                 .show();
     }
-    public void next(View view){
+
+    public void next(View view) {
         Intent intent = new Intent(this, Matrizes7.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
-    class MyOnLongClickListener implements View.OnLongClickListener{
+
+    class MyOnLongClickListener implements View.OnLongClickListener {
 
 
         @Override
@@ -89,45 +93,43 @@ public class Matrizes6 extends AppCompatActivity {
             v.setVisibility(View.INVISIBLE);
 
 
-
-
             return (true);
         }
     }
-    class MyOnDragListener implements View.OnDragListener{
+
+    class MyOnDragListener implements View.OnDragListener {
 
         private int num;
-        public MyOnDragListener(int num){
+
+        public MyOnDragListener(int num) {
             super();
             this.num = num;
         }
 
         @Override
-        public boolean onDrag(View v, DragEvent event){
+        public boolean onDrag(View v, DragEvent event) {
             int action = event.getAction();
             View view = (View) event.getLocalState();
 
-            switch (action){
+            switch (action) {
                 case DragEvent.ACTION_DRAG_STARTED:
-                    Log.i("Script", num+" - ACTION_DRAG_STARTED");
-                    if(event.getClipDescription().hasMimeType(ClipDescription.MIMETYPE_TEXT_PLAIN)){
+                    Log.i("Script", num + " - ACTION_DRAG_STARTED");
+                    if (event.getClipDescription().hasMimeType(ClipDescription.MIMETYPE_TEXT_PLAIN)) {
                         return (true);
                     }
                     return (false);
                 case DragEvent.ACTION_DRAG_ENTERED:
-                    Log.i("Script", num+" - ACTION_DRAG_ENTERED");
+                    Log.i("Script", num + " - ACTION_DRAG_ENTERED");
                     break;
                 case DragEvent.ACTION_DRAG_LOCATION:
-                    Log.i("Script", num+" - ACTION_DRAG_LOCATION");
+                    Log.i("Script", num + " - ACTION_DRAG_LOCATION");
                     break;
                 case DragEvent.ACTION_DRAG_EXITED:
-                    Log.i("Script", num+" - ACTION_DRAG_EXITED");
+                    Log.i("Script", num + " - ACTION_DRAG_EXITED");
                     break;
 
                 case DragEvent.ACTION_DROP:
-                    Log.i("Script", num+" - ACTION_DROP");
-
-
+                    Log.i("Script", num + " - ACTION_DROP");
 
 
                     ViewGroup owner = (ViewGroup) view.getParent();
@@ -139,16 +141,9 @@ public class Matrizes6 extends AppCompatActivity {
                     view.setVisibility(View.VISIBLE);
 
 
-
-
-
-
-
-
-
                     break;
                 case DragEvent.ACTION_DRAG_ENDED:
-                    Log.i("Script", num+" - ACTION_DRAG_ENDED");
+                    Log.i("Script", num + " - ACTION_DRAG_ENDED");
 
 
                     if (dropEventNotHandled(event)) {
@@ -156,7 +151,6 @@ public class Matrizes6 extends AppCompatActivity {
                         view.setVisibility(View.VISIBLE);
 
                     }
-
 
 
                     break;
@@ -175,61 +169,62 @@ public class Matrizes6 extends AppCompatActivity {
     }
 
 
-
-    public void verif(View view){
+    public void verif(View view) {
 
         findViewById(R.id.imageButton190).setVisibility(View.VISIBLE);
         findViewById(R.id.button34).setVisibility(View.GONE);
 
         FlexboxLayout flexboxLayout = (FlexboxLayout) findViewById(R.id.flexTop);
         int count = flexboxLayout.getChildCount();
-        int laco=0;
-        for(int i =0;i<count;i++){
+        int laco = 0;
+        for (int i = 0; i < count; i++) {
             View v = flexboxLayout.getChildAt(i);
             laco++;
-            if(laco==1){
-                if(v==findViewById(R.id.button28)){
+            if (laco == 1) {
+                if (v == findViewById(R.id.button28)) {
                     cont++;
                 }
-                if(v==findViewById(R.id.button25)){
+                if (v == findViewById(R.id.button25)) {
                     cont++;
                 }
-            }else if(laco==2){
-                if(v==findViewById(R.id.button19)){
+            } else if (laco == 2) {
+                if (v == findViewById(R.id.button19)) {
                     cont++;
                 }
-            }else if(laco==3){
-                if(v==findViewById(R.id.button23)){
+            } else if (laco == 3) {
+                if (v == findViewById(R.id.button23)) {
                     cont++;
                 }
-            }else if(laco==4){
-                if(v==findViewById(R.id.button21)){
+            } else if (laco == 4) {
+                if (v == findViewById(R.id.button21)) {
                     cont++;
                 }
-            }else if(laco==5){
-                if(v==findViewById(R.id.button25)){
+            } else if (laco == 5) {
+                if (v == findViewById(R.id.button25)) {
                     cont++;
                 }
-                if(v==findViewById(R.id.button28)){
+                if (v == findViewById(R.id.button28)) {
                     cont++;
                 }
-            }else if(laco==6){
-                if(v==findViewById(R.id.button22)){
+            } else if (laco == 6) {
+                if (v == findViewById(R.id.button22)) {
                     cont++;
                 }
-            }else if(laco==7){
-                if(v==findViewById(R.id.button24)){
+            } else if (laco == 7) {
+                if (v == findViewById(R.id.button29)) {
+                    cont++;
+                }
+            } else if (laco == 8) {
+                if (v == findViewById(R.id.button24)) {
                     cont++;
                 }
             }
 
 
-
-
         }
-        ImageView imageView = (ImageView) findViewById(R.id.imageView68);
+        ImageView imageView = (ImageView) findViewById(R.id.imageView73);
 
-        if(cont>=7){
+        if (cont >= 8) {
             findViewById(R.id.textView448).setVisibility(View.VISIBLE);
             findViewById(R.id.textView449).setVisibility(View.GONE);
             imageView.setVisibility(View.VISIBLE);
@@ -237,11 +232,7 @@ public class Matrizes6 extends AppCompatActivity {
             findViewById(R.id.flexDown).setVisibility(View.GONE);
 
 
-
-
-
-
-        }else{
+        } else {
             findViewById(R.id.textView448).setVisibility(View.GONE);
             findViewById(R.id.textView449).setVisibility(View.VISIBLE);
             imageView.setImageResource(R.drawable.sad);

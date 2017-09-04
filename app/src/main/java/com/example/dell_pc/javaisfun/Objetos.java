@@ -16,14 +16,16 @@ public class Objetos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_objetos);
     }
+
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(this, HardActivity.class);
         startActivity(intent);
-        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
 
     }
-    public void TextDialog(View view){
+
+    public void TextDialog(View view) {
         AlertDialog.Builder builder;
 
         builder = new AlertDialog.Builder(this);
@@ -36,7 +38,7 @@ public class Objetos extends AppCompatActivity {
                         startActivity(intent);
 
                         finishAffinity();
-                        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
+                        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -47,9 +49,11 @@ public class Objetos extends AppCompatActivity {
                 .setIcon(R.drawable.warning)
                 .show();
     }
-    public void next(View view){
+
+    public void next(View view) {
         Intent intent = new Intent(this, Objetos2.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+
     }
 }

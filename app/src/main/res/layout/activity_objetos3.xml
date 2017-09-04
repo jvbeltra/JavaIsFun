@@ -4,11 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
-    tools:context="com.example.dell_pc.javaisfun.Objetos3">
+    tools:context="com.example.dell_pc.javaisfun.Objetos3"
+    android:background="@color/white">
 
     <ImageButton
-        android:id="@+id/imageButton194"
+        android:id="@+id/imageButton200"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="next"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/proximored" />
+
+    <ImageButton
+        android:id="@+id/imageButton201"
         android:layout_width="28dp"
         android:layout_height="31dp"
         android:layout_marginBottom="8dp"
@@ -26,22 +47,86 @@
         app:layout_constraintVertical_bias="0.015"
         app:srcCompat="@drawable/backred" />
 
-    <ImageButton
-        android:id="@+id/imageButton195"
-        android:layout_width="42dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="16dp"
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="300dp"
+        android:layout_height="345dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/transparent"
-        android:onClick="next"
-        android:scaleType="fitXY"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Imagine que você foi contratado para criar um aplicativo para uma empresa. Você tem que cadastrar os milhares de funcionários da empresa. É claro que você não vai declarar milhares de strings para armazenar o nome de cada um, nem de inteiros para armazenar seus números nem de floats para armazenar seus salários."
+        android:textAlignment="center"
+        android:textColor="@color/cinzinha"
+        android:textSize="24sp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="300dp"
+        android:layout_height="345dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text='Aí que entra a vantagem da programação orientada a objetos. Podemos ver todos esses funcionários de uma mesma maneira: como a classe Funcionario.  O que a classe "Funcionario" tem em comum? Tem um nome, uma idade, uma data de contratação, um salário e outras coisas específicas da empresa.'
+        android:textAlignment="center"
+        android:textColor="@color/cinzinha"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView478"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Deslize.."
+        android:textAlignment="center"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/proximored" />
+        app:layout_constraintVertical_bias="0.873" />
+
+    <TextView
+        android:id="@+id/textView477"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Conceito"
+        android:textAlignment="center"
+        android:textColor="@color/Avancado"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
 </android.support.constraint.ConstraintLayout>

@@ -56,6 +56,8 @@ public class Notificacoes extends AppCompatActivity {
     public void cancelAlarm() {
         if (alarmManager != null) {
             alarmManager.cancel(pendingIntent);
+            Toast.makeText(Notificacoes.this, "Cancelado", Toast.LENGTH_SHORT).show();
+
         }
 
     }

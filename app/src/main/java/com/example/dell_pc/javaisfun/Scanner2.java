@@ -23,9 +23,8 @@ public class Scanner2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scanner2);
-        findViewById(R.id.explicacao).setVisibility(View.INVISIBLE);
-//        findViewById(R.id.buttonProximo).setVisibility(View.INVISIBLE);
-//        findViewById(R.id.buttonExemplo).setVisibility(View.INVISIBLE);
+        findViewById(R.id.explicacao).setVisibility(View.GONE);
+
 
     }
 
@@ -59,30 +58,7 @@ public class Scanner2 extends AppCompatActivity {
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 
-    //
-//    public void mostrarExplicacao(View view) {
-//        findViewById(R.id.introducao).setVisibility(View.GONE);
-//        findViewById(R.id.paraUtilizar).setVisibility(View.GONE);
-//        findViewById(R.id.buttonProximo).setVisibility(View.VISIBLE);
-//        findViewById(R.id.buttonExplicacao).setVisibility(View.GONE);
-//        findViewById(R.id.buttonExemplos).setVisibility(View.VISIBLE);
-//        findViewById(R.id.explicacao).setVisibility(View.VISIBLE);
-//        findViewById(R.id.declararScanner).setVisibility(View.GONE);
-//        findViewById(R.id.exemploScanner).setVisibility(View.GONE);
-//    }
-//
-//
-//    public void mostrarExemplos(View view) {
-//        findViewById(R.id.introducao).setVisibility(View.VISIBLE);
-//        findViewById(R.id.paraUtilizar).setVisibility(View.VISIBLE);
-//        findViewById(R.id.buttonExplicacao).setVisibility(View.VISIBLE);
-//        findViewById(R.id.buttonExemplos).setVisibility(View.GONE);
-//        findViewById(R.id.explicacao).setVisibility(View.GONE);
-//        findViewById(R.id.declararScanner).setVisibility(View.VISIBLE);
-//        findViewById(R.id.exemploScanner).setVisibility(View.VISIBLE);
-//        findViewById(R.id.introducao).setVisibility(View.VISIBLE);
-//
-//    }
+
 
     private float x1, x2;
     static final int MIN_DISTANCE = 150;

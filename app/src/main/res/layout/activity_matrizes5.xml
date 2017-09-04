@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Matrizes5">
+    tools:context="com.example.dell_pc.javaisfun.Matrizes5"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/textView223"
@@ -17,7 +18,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="for(int j = 0; j &lt; matriz.length; i++){"
+        android:text="for(int j = 0; j &lt; matriz.length; j++){"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"

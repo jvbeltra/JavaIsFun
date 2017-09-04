@@ -16,8 +16,7 @@ public class Objetos2 extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(this, HardActivity.class);
-        startActivity(intent);
+        super.onBackPressed();
         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
     }
@@ -32,7 +31,6 @@ public class Objetos2 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(Objetos2.this, MainActivity.class);
                         startActivity(intent);
-
                         finishAffinity();
                         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
                     }
@@ -49,5 +47,6 @@ public class Objetos2 extends AppCompatActivity {
         Intent intent = new Intent(this, Objetos3.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+
     }
 }

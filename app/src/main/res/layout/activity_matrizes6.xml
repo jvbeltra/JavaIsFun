@@ -109,7 +109,7 @@
 
     <com.google.android.flexbox.FlexboxLayout
         android:id="@+id/flexTop"
-        android:layout_width="320dp"
+        android:layout_width="330dp"
         android:layout_height="120dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
@@ -131,7 +131,7 @@
 
     <com.google.android.flexbox.FlexboxLayout
         android:id="@+id/flexDown"
-        android:layout_width="320dp"
+        android:layout_width="330dp"
         android:layout_height="120dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
@@ -150,13 +150,13 @@
 
         <Button
             android:id="@+id/button25"
-            android:layout_width="55dp"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
 
             android:background="@color/botao_avancado"
 
-            android:text="float" />
+            android:text="int" />
 
         <Button
             android:id="@+id/button21"
@@ -170,12 +170,12 @@
 
         <Button
             android:id="@+id/button28"
-            android:layout_width="55dp"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:background="@color/botao_avancado"
 
-            android:text="float" />
+            android:text="int" />
 
         <Button
             android:id="@+id/button24"
@@ -199,31 +199,22 @@
 
         <Button
             android:id="@+id/button19"
-            android:layout_width="65dp"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:background="@color/botao_avancado"
 
-            android:text="vetor[]" />
-
-        <Button
-            android:id="@+id/button27"
-            android:layout_width="40dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:background="@color/botao_avancado"
-
-            android:text="int" />
+            android:text="matriz[][]" />
 
 
         <Button
             android:id="@+id/button26"
-            android:layout_width="65dp"
+            android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:background="@color/botao_avancado"
 
-            android:text="vetor"
+            android:text="matriz"
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <Button
@@ -234,6 +225,15 @@
             android:background="@color/botao_avancado"
 
             android:text="[5]" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/botao_avancado"
+
+            android:text="[3]" />
 
 
     </com.google.android.flexbox.FlexboxLayout>
@@ -333,7 +333,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Okey então, no primeiro exercício você deve montar uma declaração de um vetor com as opções abaixo:"
+        android:text="Okay então, no primeiro exercício você deve montar uma declaração de uma matriz com 5 linhas e 3 colunas abaixo:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"

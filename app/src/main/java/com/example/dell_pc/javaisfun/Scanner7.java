@@ -19,12 +19,12 @@ public class Scanner7 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scanner7);
-        findViewById(R.id.textErrado).setVisibility(View.INVISIBLE);
-        findViewById(R.id.textErrado2).setVisibility(View.INVISIBLE);
-        findViewById(R.id.wink).setVisibility(View.INVISIBLE);
-        findViewById(R.id.textCorreto).setVisibility(View.INVISIBLE);
-        findViewById(R.id.buttonProx).setVisibility(View.INVISIBLE);
-        findViewById(R.id.incorreto).setVisibility(View.INVISIBLE);
+        findViewById(R.id.textErrado).setVisibility(View.GONE);
+        findViewById(R.id.textErrado2).setVisibility(View.GONE);
+        findViewById(R.id.wink).setVisibility(View.GONE);
+        findViewById(R.id.textCorreto).setVisibility(View.GONE);
+        findViewById(R.id.buttonProx).setVisibility(View.GONE);
+        findViewById(R.id.incorreto).setVisibility(View.GONE);
 
     }
 

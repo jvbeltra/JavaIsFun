@@ -293,16 +293,27 @@
         <activity
             android:name=".Matrizes7"
             android:theme="@style/RedActionBar" />
-        <activity android:name=".Objetos2"
-            android:theme="@style/RedActionBar"/>
-        <activity android:name=".Objetos3"
-            android:theme="@style/RedActionBar"/>
-        <activity android:name=".Objetos4"
-            android:theme="@style/RedActionBar"/>
-        <activity android:name=".Objetos5"
-            android:theme="@style/RedActionBar"/>
-        <activity android:name=".Objetos6"
-            android:theme="@style/RedActionBar"/>
+        <activity
+            android:name=".Matrizes8"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Matrizes9"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Objetos2"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Objetos3"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Objetos4"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Objetos5"
+            android:theme="@style/RedActionBar" />
+        <activity
+            android:name=".Objetos6"
+            android:theme="@style/RedActionBar" />
         <activity android:name=".Objetos7"
             android:theme="@style/RedActionBar"/>
     </application>

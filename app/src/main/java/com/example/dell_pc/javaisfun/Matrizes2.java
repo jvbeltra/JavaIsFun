@@ -16,9 +16,8 @@ public class Matrizes2 extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(this, HardActivity.class);
-        startActivity(intent);
-        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
+        super.onBackPressed();
+        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
     }
 

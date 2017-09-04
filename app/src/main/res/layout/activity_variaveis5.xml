@@ -88,7 +88,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="String aluno = null;"
+        android:text="String nomeAluno = null;"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.209"

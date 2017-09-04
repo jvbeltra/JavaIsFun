@@ -16,9 +16,8 @@ public class Matrizes4 extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(this, HardActivity.class);
-        startActivity(intent);
-        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
+        super.onBackPressed();
+        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
 
     }
 
@@ -45,7 +44,7 @@ public class Matrizes4 extends AppCompatActivity {
                 .show();
     }
     public void next(View view) {
-        Intent intent = new Intent(this, Matrizes4.class);
+        Intent intent = new Intent(this, Matrizes5 .class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
