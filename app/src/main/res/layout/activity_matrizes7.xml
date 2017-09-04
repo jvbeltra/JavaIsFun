@@ -18,7 +18,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text='Preencha a todas as matrizes com o número "5" e com as estruturas corretas:'
+        android:text='Preencha todas as matrizes com o número "5" e com as estruturas corretas:'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
         android:textSize="18sp"
