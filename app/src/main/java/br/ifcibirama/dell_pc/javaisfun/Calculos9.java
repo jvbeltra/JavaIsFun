@@ -209,16 +209,12 @@ public class Calculos9 extends AppCompatActivity {
                 if(v==findViewById(R.id.button33)){
                     cont++;
                 }
-            }else if(laco==11){
-                if(v==findViewById(R.id.button29)){
-                    cont++;
-                }
             }
 
 
         }
         ImageView imageView = (ImageView) findViewById(R.id.imageView62);
-        if(cont>=11){
+        if(cont>=10){
             findViewById(R.id.textView214).setVisibility(View.VISIBLE);
             findViewById(R.id.textView215).setVisibility(View.GONE);
             imageView.setVisibility(View.VISIBLE);

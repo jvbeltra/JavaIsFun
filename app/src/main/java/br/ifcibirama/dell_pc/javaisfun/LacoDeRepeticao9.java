@@ -35,10 +35,7 @@ public class LacoDeRepeticao9 extends AppCompatActivity {
         findViewById(R.id.button21).setOnLongClickListener(new LacoDeRepeticao9.MyOnLongClickListener());
         findViewById(R.id.button22).setOnLongClickListener(new LacoDeRepeticao9.MyOnLongClickListener());
         findViewById(R.id.button9).setOnLongClickListener(new LacoDeRepeticao9.MyOnLongClickListener());
-        findViewById(R.id.button14).setOnLongClickListener(new LacoDeRepeticao9.MyOnLongClickListener());
-        findViewById(R.id.button11).setOnLongClickListener(new LacoDeRepeticao9.MyOnLongClickListener());
-        findViewById(R.id.button13).setOnLongClickListener(new LacoDeRepeticao9.MyOnLongClickListener());
-        findViewById(R.id.button12).setOnLongClickListener(new LacoDeRepeticao9.MyOnLongClickListener());
+
 
         findViewById(R.id.flexTop).setOnDragListener(new LacoDeRepeticao9.MyOnDragListener(1));
         findViewById(R.id.flexDown).setOnDragListener(new LacoDeRepeticao9.MyOnDragListener(2));
@@ -206,13 +203,11 @@ public class LacoDeRepeticao9 extends AppCompatActivity {
                     cont++;
                 }
             }else if(laco==4){
-                if(v==findViewById(R.id.button11)){
-                    cont++;
-                }
-                if (v==findViewById(R.id.button27 )){
-                    cont++;
-                }
+
                 if (v==findViewById(R.id.button21)){
+                    cont++;
+                }
+                if(v==findViewById(R.id.button22)){
                     cont++;
                 }
             }else if(laco==5){
@@ -220,59 +215,30 @@ public class LacoDeRepeticao9 extends AppCompatActivity {
                     cont++;
                 }
             }else if(laco==6){
+
+                if (v==findViewById(R.id.button21)){
+                    cont++;
+                }
                 if(v==findViewById(R.id.button22)){
                     cont++;
                 }
             }else if(laco==7){
-                if(v==findViewById(R.id.button14)){
-                    cont++;
-                }
                 if(v==findViewById(R.id.button24)){
                     cont++;
                 }
 
             }else if(laco==8){
-                if(v==findViewById(R.id.button11)){
-                    cont++;
-                }
-                if (v==findViewById(R.id.button27 )){
-                    cont++;
-                }
-                if (v==findViewById(R.id.button21)){
-                    cont++;
-                }
-            }else if(laco==9){
                 if(v==findViewById(R.id.button26)){
                     cont++;
                 }
-            }else if(laco==10){
-                if(v==findViewById(R.id.button9)){
-                    cont++;
-                }
-            }else if(laco==11){
-                if(v==findViewById(R.id.button14)){
-                    cont++;
-                }
-                if(v==findViewById(R.id.button24)){
-                    cont++;
-                }
 
-            }else if(laco==12){
-                if(v==findViewById(R.id.button11)){
+
+            }else if(laco==9){
+                if (v==findViewById(R.id.button9 )){
                     cont++;
                 }
+            }else if (laco==10){
                 if (v==findViewById(R.id.button27 )){
-                    cont++;
-                }
-                if (v==findViewById(R.id.button21)){
-                    cont++;
-                }
-            }else if(laco==13){
-                if(v==findViewById(R.id.button13)){
-                    cont++;
-                }
-            }else if(laco==14){
-                if(v==findViewById(R.id.button12)){
                     cont++;
                 }
             }
@@ -282,7 +248,7 @@ public class LacoDeRepeticao9 extends AppCompatActivity {
 
         }
         ImageView imageView = (ImageView) findViewById(R.id.imageView66);
-        if(cont>=14){
+        if(cont>=10){
 
             findViewById(R.id.textView259).setVisibility(View.VISIBLE);
             findViewById(R.id.textView260).setVisibility(View.GONE);
