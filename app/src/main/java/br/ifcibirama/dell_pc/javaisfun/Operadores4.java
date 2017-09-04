@@ -5,7 +5,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.Spinner;
 
@@ -22,24 +25,63 @@ public class Operadores4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_operadores4);
-        findViewById(R.id.textView39).setVisibility(View.GONE);
-
+        findViewById(R.id.textSegunda).setVisibility(View.GONE);
+        findViewById(R.id.imageButton208).setVisibility(View.GONE);
     }
 
-    public void passarDireita(View view) {
-        findViewById(R.id.textView39).setVisibility(View.VISIBLE);
-        findViewById(R.id.textView37).setVisibility(View.GONE);
+    private float x1, x2;
+    static final int MIN_DISTANCE = 150;
 
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        switch (event.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                x1 = event.getX();
+                break;
+            case MotionEvent.ACTION_UP:
+                x2 = event.getX();
+                float deltaX = x2 - x1;
+                if (Math.abs(deltaX) > MIN_DISTANCE) {
+                    // Left to Right swipe action
+                    if (x2 > x1) {
+                        Animation animation = AnimationUtils.loadAnimation(getApplicationContext(),
+                                R.anim.rigth_in);
+                        Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(),
+                                R.anim.rigth_out);
+
+                        findViewById(R.id.textPrimeira).setAnimation(animation);
+                        findViewById(R.id.textPrimeira).setVisibility(View.VISIBLE);
+
+                        findViewById(R.id.textSegunda).setAnimation(animation1);
+                        findViewById(R.id.textSegunda).setVisibility(View.GONE);
+                    }
+
+                    // Right to left swipe action
+                    else {
+                        Animation animation = AnimationUtils.loadAnimation(getApplicationContext(),
+                                R.anim.left_out);
+
+                        Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(),
+                                R.anim.left_in);
+
+                        findViewById(R.id.textPrimeira).setAnimation(animation);
+                        findViewById(R.id.textPrimeira).setVisibility(View.GONE);
+
+                        findViewById(R.id.textSegunda).setAnimation(animation1);
+                        findViewById(R.id.textSegunda).setVisibility(View.VISIBLE);
+
+                        findViewById(R.id.imageButton208).setAnimation(animation1);
+                        findViewById(R.id.imageButton208).setVisibility(View.VISIBLE);
+
+
+                    }
+
+                }
+                break;
+        }
+
+        return super.onTouchEvent(event);
     }
-
-    public void passarEsquerda(View view) {
-        findViewById(R.id.textView39).setVisibility(View.GONE);
-        findViewById(R.id.textView37).setVisibility(View.VISIBLE);
-
-
-    }
-
-
 
     public void TextDialog(View view) {
         AlertDialog.Builder builder;

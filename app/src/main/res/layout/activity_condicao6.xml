@@ -15,6 +15,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Por exemplo:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -34,7 +35,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed"
         android:text='Nesse exemplo, a estrutura "else" imprime outra mensagem caso a condição não for correspondida (variável numero ser menor do que 0)'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -45,8 +46,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.878"
-        tools:layout_editor_absoluteY="335dp"
-        tools:layout_editor_absoluteX="33dp" />
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="335dp" />
 
     <ImageButton
         android:id="@+id/imageButton129"
