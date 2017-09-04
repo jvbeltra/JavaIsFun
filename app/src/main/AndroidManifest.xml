@@ -313,6 +313,7 @@
             android:name="br.ifcibirama.dell_pc.javaisfun.Objetos5"
             android:theme="@style/RedActionBar" />
         <activity
+
             android:name="br.ifcibirama.dell_pc.javaisfun.Objetos6"
             android:theme="@style/RedActionBar" />
         <activity android:name="br.ifcibirama.dell_pc.javaisfun.Objetos7"
