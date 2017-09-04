@@ -20,30 +20,6 @@ public class Operadores8 extends AppCompatActivity {
         setContentView(R.layout.activity_operadores8);
     }
 
-    public void TextDialog(View view){
-        AlertDialog.Builder builder;
-
-        builder = new AlertDialog.Builder(this);
-
-        builder.setTitle("Home")
-                .setMessage("Você tem certeza que quer voltar ao menu principal?")
-                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(Operadores8.this, MainActivity.class);
-                        startActivity(intent);
-                        finishAffinity();
-                        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
-                    }
-                })
-                .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                })
-                .setIcon(R.drawable.warning)
-                .show();
-
-    }
     public void next(View view){
         Intent intent = new Intent(this, Classe.class);
         startActivity(intent);

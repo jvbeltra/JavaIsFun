@@ -15,6 +15,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Por exemplo:"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -65,13 +66,13 @@
 
     <TextView
         android:id="@+id/textView268"
-        android:layout_width="355dp"
-        android:layout_height="205dp"
+        android:layout_width="340dp"
+        android:layout_height="218dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed"
         android:text="Ou seja, interpretando o código é possível perceber que se o número informado for maior que 0, o sistema imprime uma mensagem informando que o número é positivo"
         android:textAlignment="center"
         android:textColor="@color/cinzinha"
@@ -80,8 +81,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.754"
-        app:layout_constraintHorizontal_bias="0.538" />
+        app:layout_constraintVertical_bias="0.84" />
 
     <ImageView
         android:id="@+id/imageView42"

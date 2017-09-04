@@ -208,7 +208,7 @@
         android:layout_marginTop="8dp"
         android:text='Lembre-se! Para verificar se é diferente, usa-se "!=", nesta ordem'
         android:textAlignment="center"
-        android:textColor="@color/Avançado"
+        android:textColor="@color/Avancado"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

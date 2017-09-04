@@ -54,6 +54,7 @@ public class Classe6 extends AppCompatActivity {
         } else {
             findViewById(R.id.textCorreto).setVisibility(View.GONE);
             findViewById(R.id.textErrado).setVisibility(View.VISIBLE);
+            findViewById(R.id.prox).setVisibility(View.VISIBLE);
             imageView.setImageResource(R.drawable.sad);
             imageView.setVisibility(View.VISIBLE);
         }

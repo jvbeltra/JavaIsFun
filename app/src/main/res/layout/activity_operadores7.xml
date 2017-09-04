@@ -7,6 +7,36 @@
     android:layout_height="match_parent"
     tools:context="br.ifcibirama.dell_pc.javaisfun.Operadores7">
 
+    <ImageView
+        android:id="@+id/happy"
+        android:layout_width="66dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954"
+        app:srcCompat="@drawable/happy" />
+
+    <ImageView
+        android:id="@+id/sad"
+        android:layout_width="66dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/sad" />
+
     <ImageButton
         android:id="@+id/imageButton30"
         android:layout_width="28dp"
@@ -43,7 +73,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.871" />
+        app:layout_constraintVertical_bias="0.867" />
 
     <TextView
         android:id="@+id/textView129"
@@ -320,13 +350,14 @@
         android:fontFamily="sans-serif-condensed"
         android:text="Correto!"
         android:textAlignment="center"
-        android:textColor="@color/Intermediario"
+        android:textColor="@color/aaaa"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.816" />
+        app:layout_constraintVertical_bias="0.799" />
 
     <TextView
         android:id="@+id/maIgual"

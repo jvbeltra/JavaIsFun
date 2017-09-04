@@ -74,6 +74,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="-275dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
         android:text='Outra estrutura complementar é essa, que funciona como uma espécie de "ou". É utilizada quando duas condições levam ao mesmo código executado, como no exemplo abaixo:'
         android:textAlignment="center"
         android:textColor="@color/cinzinha"

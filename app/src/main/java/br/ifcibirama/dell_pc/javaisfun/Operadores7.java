@@ -22,10 +22,14 @@ public class Operadores7 extends AppCompatActivity {
         findViewById(R.id.textErrado).setVisibility(View.GONE);
         findViewById(R.id.textCorreto).setVisibility(View.GONE);
         findViewById(R.id.maIgual).setVisibility(View.GONE);
+        findViewById(R.id.sad).setVisibility(View.GONE);
+        findViewById(R.id.happy).setVisibility(View.GONE);
     }
 
     public void correto(View view){
         findViewById(R.id.imageButton36).setVisibility(View.VISIBLE);
+        findViewById(R.id.happy).setVisibility(View.VISIBLE);
+        findViewById(R.id.sad).setVisibility(View.GONE);
         findViewById(R.id.textCorreto).setVisibility(View.VISIBLE);
         findViewById(R.id.maIgual).setVisibility(View.GONE);
         findViewById(R.id.textErrado).setVisibility(View.GONE);
@@ -42,6 +46,8 @@ public class Operadores7 extends AppCompatActivity {
         findViewById(R.id.textCorreto).setVisibility(View.GONE);
         findViewById(R.id.imageButton36).setVisibility(View.VISIBLE);
         findViewById(R.id.textErrado).setVisibility(View.VISIBLE);
+        findViewById(R.id.sad).setVisibility(View.VISIBLE);
+        findViewById(R.id.happy).setVisibility(View.GONE);
         findViewById(R.id.maIgual).setVisibility(View.VISIBLE);
         findViewById(R.id.imageButton39).setVisibility(View.GONE);
         findViewById(R.id.imageButton41).setVisibility(View.GONE);
