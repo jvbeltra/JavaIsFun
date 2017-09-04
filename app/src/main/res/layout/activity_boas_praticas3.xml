@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context="com.example.dell_pc.javaisfun.BoasPraticas3">
+    tools:context="br.ifcibirama.dell_pc.javaisfun.br.example.dell_pc.javaisfun.BoasPraticas3">
 
 
     <TextView

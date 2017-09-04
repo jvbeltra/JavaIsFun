@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell_pc.javaisfun.Metodos4"
+    tools:context="br.ifcibirama.dell_pc.javaisfun.br.example.dell_pc.javaisfun.Metodos4"
     android:background="@android:color/white"
     >
 
