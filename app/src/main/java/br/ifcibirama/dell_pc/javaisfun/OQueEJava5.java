@@ -12,10 +12,11 @@ public class OQueEJava5 extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
-
+        Intent intent = new Intent(this, OQueEJava4.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +53,8 @@ public class OQueEJava5 extends AppCompatActivity {
 
 
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+        finishAffinity();
+
     }
     public boolean onTouchEvent(MotionEvent event){
         findViewById(R.id.imageButton51).setVisibility(View.VISIBLE);

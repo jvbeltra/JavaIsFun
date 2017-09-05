@@ -26,11 +26,13 @@ public class Scanner7 extends AppCompatActivity {
 
     }
 
+    @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Intent intent = new Intent(this, Scanner6.class);
+        startActivity(intent);
         overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
-
     }
+
 
     public void TextDialog(View view) {
         AlertDialog.Builder builder;
@@ -60,6 +62,7 @@ public class Scanner7 extends AppCompatActivity {
         Intent intent = new Intent(this, Scanner8.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+        finishAffinity();
     }
 
 

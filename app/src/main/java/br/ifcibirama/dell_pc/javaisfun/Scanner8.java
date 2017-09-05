@@ -17,11 +17,14 @@ public class Scanner8 extends AppCompatActivity {
         startActivity(intent);
         overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
     }
-    public void onBackPressed() {
-        super.onBackPressed();
-        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
 
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(this, Scanner7.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
     }
+
     public void nextexercise(View view){
         Intent intent = new Intent(this, HardActivity.class);
         startActivity(intent);

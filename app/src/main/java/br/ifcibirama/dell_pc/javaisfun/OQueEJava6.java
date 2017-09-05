@@ -12,9 +12,10 @@ public class OQueEJava6 extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Intent intent = new Intent(this, OQueEJava5.class);
+        startActivity(intent);
         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
-
+        finishAffinity();
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,8 +48,7 @@ public class OQueEJava6 extends AppCompatActivity {
     public void next(View view){
         Intent intent = new Intent(this, OQueEJava7.class);
         startActivity(intent);
-
-
+        finishAffinity();
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
     public void imageDialog1(View view){

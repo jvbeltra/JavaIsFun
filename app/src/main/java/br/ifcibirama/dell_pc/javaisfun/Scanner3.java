@@ -8,12 +8,14 @@ import android.os.Bundle;
 import android.view.View;
 
 public class Scanner3 extends AppCompatActivity {
+
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Intent intent = new Intent(this, Scanner2.class);
+        startActivity(intent);
         overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
-
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

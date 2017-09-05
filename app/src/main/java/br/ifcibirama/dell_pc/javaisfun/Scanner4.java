@@ -10,7 +10,8 @@ import android.view.View;
 public class  Scanner4 extends AppCompatActivity {
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Intent intent = new Intent(this, Scanner3.class);
+        startActivity(intent);
         overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
 
     }
@@ -48,5 +49,7 @@ public class  Scanner4 extends AppCompatActivity {
         Intent intent = new Intent(this, Scanner5.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+
+        finishAffinity();
     }
 }

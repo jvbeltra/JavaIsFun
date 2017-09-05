@@ -11,11 +11,12 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 public class Scanner2 extends AppCompatActivity {
+
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Intent intent = new Intent(this, Scanner.class);
+        startActivity(intent);
         overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
-
     }
 
     @Override

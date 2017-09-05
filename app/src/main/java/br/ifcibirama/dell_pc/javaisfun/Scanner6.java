@@ -18,6 +18,13 @@ public class Scanner6 extends AppCompatActivity {
 
 
     @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(this, Scanner5.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scanner6);
@@ -129,6 +136,7 @@ public class Scanner6 extends AppCompatActivity {
         Intent intent = new Intent(this, Scanner7.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+        finishAffinity();
     }
 }
 

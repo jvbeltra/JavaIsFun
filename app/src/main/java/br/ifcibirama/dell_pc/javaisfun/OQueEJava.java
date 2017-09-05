@@ -9,12 +9,14 @@ import android.view.View;
 
 public class OQueEJava extends AppCompatActivity {
 
+
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
-
+        Intent intent = new Intent(this, EasyActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

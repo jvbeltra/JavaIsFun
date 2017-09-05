@@ -11,9 +11,9 @@ public class OQueEJava7 extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
-
+        Intent intent = new Intent(this, OQueEJava6.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,5 +49,6 @@ public class OQueEJava7 extends AppCompatActivity {
 
 
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
+        finishAffinity();
     }
 }

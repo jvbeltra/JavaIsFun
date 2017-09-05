@@ -14,12 +14,14 @@ public class BoasPraticas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_boas_praticas);
     }
+
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
-
+        Intent intent = new Intent(this, EasyActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.rigth_in, R.anim.rigth_out);
     }
+
     public void TextDialog(View view){
         AlertDialog.Builder builder;
 
