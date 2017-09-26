@@ -11,6 +11,7 @@ public class BoasPraticas10 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_boas_praticas10);
+        setTitle("Boas Práticas");
     }
     @Override
     public void onBackPressed() {

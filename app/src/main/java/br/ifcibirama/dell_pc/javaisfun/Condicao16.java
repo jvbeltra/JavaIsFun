@@ -18,6 +18,7 @@ public class Condicao16 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_condicao16);
+        setTitle("Condições");
     }
 
     public void nextLaco(View view) {

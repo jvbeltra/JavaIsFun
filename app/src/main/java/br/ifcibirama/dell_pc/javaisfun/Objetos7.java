@@ -11,6 +11,7 @@ public class Objetos7 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_objetos7);
+        setTitle("Orientação à Objetos");
     }
     public void homeBasic(View view){
         Intent intent = new Intent(this, MainActivity.class);

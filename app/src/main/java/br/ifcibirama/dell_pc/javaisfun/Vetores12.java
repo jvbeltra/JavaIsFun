@@ -11,6 +11,7 @@ public class Vetores12 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vetores12);
+        setTitle("Vetores");
     }
     public void homeBasic(View view){
         Intent intent = new Intent(this, HardActivity.class);

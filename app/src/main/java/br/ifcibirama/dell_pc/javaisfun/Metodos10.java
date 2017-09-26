@@ -14,35 +14,16 @@ public class Metodos10 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_metodos10);
+        setTitle("Métodos");
 
     }
-    public void TextDialog(View view){
-        AlertDialog.Builder builder;
 
-        builder = new AlertDialog.Builder(this);
-
-        builder.setTitle("Home")
-                .setMessage("Você tem certeza que quer voltar ao menu principal?")
-                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(Metodos10.this, MainActivity.class);
-                        startActivity(intent);
-                        overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
-                    }
-                })
-                .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                })
-                .setIcon(R.drawable.warning)
-                .show();
-    }
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Intent intent = new Intent(this, EasyActivity.class);
+        startActivity(intent);
         overridePendingTransition( R.anim.rigth_in, R.anim.rigth_out);
-
+        finishAffinity();
 
     }
     public void homeBasic(View view){

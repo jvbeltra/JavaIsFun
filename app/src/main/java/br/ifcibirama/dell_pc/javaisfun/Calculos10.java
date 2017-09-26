@@ -11,6 +11,7 @@ public class Calculos10 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculos10);
+        setTitle("Cálculos");
     }
     public void homeBasic(View view){
         Intent intent = new Intent(this, MediumActivity.class);

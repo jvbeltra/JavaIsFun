@@ -149,7 +149,6 @@
             android:name="br.ifcibirama.dell_pc.javaisfun.Condicao2"
             android:theme="@style/GreenActionBar" />
         <activity android:name="br.ifcibirama.dell_pc.javaisfun.MainActivity" />
-        <activity android:name="br.ifcibirama.dell_pc.javaisfun.MenuGear" />
         <activity android:name="br.ifcibirama.dell_pc.javaisfun.Repeating_activity" />
         <activity
             android:name="br.ifcibirama.dell_pc.javaisfun.Condicao3"

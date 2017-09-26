@@ -18,6 +18,7 @@ public class Operadores8 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_operadores8);
+        setTitle("Operadores");
     }
 
     public void next(View view){

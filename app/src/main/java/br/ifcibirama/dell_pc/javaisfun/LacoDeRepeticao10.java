@@ -11,6 +11,7 @@ public class LacoDeRepeticao10 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_laco_de_repeticao10);
+        setTitle("Repetição");
     }
     public void homeBasic(View view){
         Intent intent = new Intent(this, MediumActivity.class);

@@ -1,12 +1,15 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+
+        <item name="android:displayOptions">useLogo|showHome</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">?android:attr/colorPrimaryDark</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
@@ -20,14 +23,14 @@
 
 
 
-    <style name="GreenActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="GreenActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/aaaa</item>
         <item name="colorPrimaryDark">@color/aaaa</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:navigationBarColor">@color/aaaa</item>
     </style>
 
-    <style name="RedActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="RedActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/Avancado</item>
         <item name="colorPrimaryDark">@color/Avancado</item>
         <item name="colorAccent">@color/colorAccent</item>

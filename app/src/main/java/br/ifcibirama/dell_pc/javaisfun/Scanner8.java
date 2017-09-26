@@ -11,6 +11,7 @@ public class Scanner8 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scanner8);
+        setTitle("Scanner");
     }
     public void homeBasic(View view){
         Intent intent = new Intent(this, MediumActivity.class);
@@ -26,7 +27,7 @@ public class Scanner8 extends AppCompatActivity {
     }
 
     public void nextexercise(View view){
-        Intent intent = new Intent(this, HardActivity.class);
+        Intent intent = new Intent(this, Vetores.class);
         startActivity(intent);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }

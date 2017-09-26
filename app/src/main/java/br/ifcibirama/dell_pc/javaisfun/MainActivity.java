@@ -7,7 +7,11 @@ import android.content.Intent;
 import android.support.multidex.MultiDex;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,29 +20,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.imageView85).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AlertDialog.Builder builder;
+        setTitle("Menu");
 
-                builder = new AlertDialog.Builder(MainActivity.this);
 
-                builder.setTitle("AVISO");
-                builder.setMessage(
-                        "É possível que alguns objetos não fiquem  adequados ao tamanho da tela, podendo prejudicar parte do uso do app." +
-                                "\n" +
-                                "Isso ocorre porque os tamanhos de tela variam, exigindo uma configuração para cada tipo de tela. " +
-                                "Mas caro usuário, fique atento que isso será corrigido em versões futuras! Bom aprendizado! ;)\n"
-                )
-
-                        .setNegativeButton("Voltar", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.cancel();
-                            }
-                        })
-                        .show();
-            }
-        });
 
         findViewById(R.id.textView223).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,18 +66,63 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
     @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
         MultiDex.install(this);
     }
 
-    public void menu(View view){
-        Intent intent = new Intent(this, MenuGear.class);
-        startActivity(intent);
-        overridePendingTransition(R.anim.left_in, R.anim.left_out);
+
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+
+
+        return super.onCreateOptionsMenu(menu);
     }
 
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()){
+            case R.id.menu_notificacoes:
+                Intent intent = new Intent(this, Notificacoes.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.left_in, R.anim.left_out);
+                finishAffinity();
+                return true;
+            case R.id.menu_warning:
+                AlertDialog.Builder builder;
+
+                builder = new AlertDialog.Builder(MainActivity.this);
+
+                builder.setTitle("AVISO");
+                builder.setMessage(
+                        "É possível que alguns objetos não fiquem  adequados ao tamanho da tela, podendo prejudicar parte do uso do app." +
+                                "\n" +
+                                "Isso ocorre porque os tamanhos de tela variam, exigindo uma configuração para cada tipo de tela. " +
+                                "Mas caro usuário, fique atento que isso será corrigido em versões futuras! Bom aprendizado! ;)\n"
+                )
+
+                        .setNegativeButton("Voltar", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        })
+                        .show();
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+
+
+    }
 
 
     public void TelaBasica(View view){
